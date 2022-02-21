@@ -14,8 +14,8 @@ import { red, blue } from '@mui/material/colors';
 
 const creekTheme = createTheme({
   palette: {
-    primary: red,
-    secondary: blue,
+    primary: blue,
+    secondary: red,
   }
 })
 
@@ -25,7 +25,7 @@ function App() {
       <div className="App">
         <AppBar position="static">
           <Toolbar>
-            <Typography variant="h5">
+            <Typography style={{fontWeight: "bold"}} variant="h5">
               Schedule Sensei
             </Typography>
           </Toolbar>
