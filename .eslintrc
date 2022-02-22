@@ -8,7 +8,8 @@
     "react/prop-types": 0,
     "indent": ["error", 2],
     "linebreak-style": 1,
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    "no-unused-vars": "off",
   },
   "parserOptions": {
     "ecmaVersion": 2021,
