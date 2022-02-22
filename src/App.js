@@ -6,6 +6,7 @@ import { AppBar,
   Button,
   CircularProgress,
   Container,
+  IconButton,
   Toolbar,
   Typography,
   Step,
@@ -15,6 +16,7 @@ import { AppBar,
 
 import { ThemeProvider, useTheme } from '@mui/material/styles'
 import { createTheme } from '@mui/material';
+import { Help, Info } from '@mui/icons-material';
 import { red, blue } from '@mui/material/colors';
 import { makeStyles } from '@mui/styles';
 
@@ -22,6 +24,8 @@ import SelectCourses from './steps/SelectCourses.js';
 import SelectOffs from './steps/SelectOffs.js';
 import SelectTeachers from './steps/SelectTeachers.js';
 import GeneratedSchedules from './steps/GeneratedSchedules.js';
+import AboutModal from './modals/AboutModal.js';
+import HelpModal from './modals/HelpModal.js';
 
 const creekTheme = createTheme({
   palette: {
@@ -65,6 +69,13 @@ function App() {
   const [loading, setLoading] = React.useState(false);
   const steps = ["Courses", "Offs", "Teachers"];
 
+  const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
+  const [isHelpModalOpen, setHelpModalOpen] = React.useState(false);
+  const handleAboutModalOpen = () => setAboutModalOpen(true);
+  const handleAboutModalClose = () => setAboutModalOpen(false);
+  const handleHelpModalOpen = () => setHelpModalOpen(true);
+  const handleHelpModalClose = () => setHelpModalOpen(false);
+
    const handleNext = () => {
      setActiveStep((prevActiveStep) => prevActiveStep + 1);
    };
@@ -93,9 +104,26 @@ function App() {
             <Typography style={{fontWeight: "bold"}} variant="h5">
               Schedule Sensei
             </Typography>
+            <IconButton color="inherit">
+              <Help onClick={handleHelpModalOpen} />
+            </IconButton>
+            <IconButton color="inherit">
+              <Info onClick={handleAboutModalOpen} />
+            </IconButton>
           </Toolbar>
         </AppBar>
         <Container maxWidth="sm">
+
+        {/* Modals */}
+        <HelpModal
+          isOpen={isHelpModalOpen}
+          handleClose={handleHelpModalClose}
+        />
+
+        <AboutModal
+          isOpen={isAboutModalOpen}
+          handleClose={handleAboutModalClose}
+        />
 
         {/* Steps container */}
         <Stepper activeStep={activeStep} alternativeLabel>
