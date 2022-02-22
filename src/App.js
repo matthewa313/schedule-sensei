@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 //import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 import { AppBar,
   Button,
@@ -12,20 +12,20 @@ import { AppBar,
   Step,
   Stepper,
   StepLabel,
-} from '@mui/material';
+} from "@mui/material";
 
-import { ThemeProvider, useTheme } from '@mui/material/styles'
-import { createTheme } from '@mui/material';
-import { Help, Info } from '@mui/icons-material';
-import { red, blue } from '@mui/material/colors';
-import { makeStyles } from '@mui/styles';
+import { ThemeProvider, useTheme } from "@mui/material/styles";
+import { createTheme } from "@mui/material";
+import { Help, Info } from "@mui/icons-material";
+import { red, blue } from "@mui/material/colors";
+import { makeStyles } from "@mui/styles";
 
-import SelectCourses from './steps/SelectCourses.js';
-import SelectOffs from './steps/SelectOffs.js';
-import SelectTeachers from './steps/SelectTeachers.js';
-import GeneratedSchedules from './steps/GeneratedSchedules.js';
-import AboutModal from './modals/AboutModal.js';
-import HelpModal from './modals/HelpModal.js';
+import SelectCourses from "./steps/SelectCourses.js";
+import SelectOffs from "./steps/SelectOffs.js";
+import SelectTeachers from "./steps/SelectTeachers.js";
+import GeneratedSchedules from "./steps/GeneratedSchedules.js";
+import AboutModal from "./modals/AboutModal.js";
+import HelpModal from "./modals/HelpModal.js";
 
 const creekTheme = createTheme({
   palette: {
@@ -35,33 +35,33 @@ const creekTheme = createTheme({
 })
 
 const useStyles = makeStyles((creekTheme) => ({
-   backButton: {
-     marginRight: useTheme().spacing(1),
-   },
- }));
+  backButton: {
+    marginRight: useTheme().spacing(1),
+  },
+}));
 
 function getContent(stepIndex) {
   switch (stepIndex) {
-    case 0:
-      return (
-          <SelectCourses/>
-        );
-      case 1:
-        return (
-          <SelectOffs/>
-        );
-      case 2:
-        return (
-          <SelectTeachers/>
-        );
-      case 3:
-        return (
-          <GeneratedSchedules/>
-        );
-      default:
-        return "na";
-    }
+  case 0:
+    return (
+      <SelectCourses/>
+    );
+  case 1:
+    return (
+      <SelectOffs/>
+    );
+  case 2:
+    return (
+      <SelectTeachers/>
+    );
+  case 3:
+    return (
+      <GeneratedSchedules/>
+    );
+  default:
+    return "na";
   }
+}
 
 function App() {
   const classes = useStyles();
@@ -76,20 +76,20 @@ function App() {
   const handleHelpModalOpen = () => setHelpModalOpen(true);
   const handleHelpModalClose = () => setHelpModalOpen(false);
 
-   const handleNext = () => {
-     setActiveStep((prevActiveStep) => prevActiveStep + 1);
-   };
+  const handleNext = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  };
 
-   const handleBack = () => {
-     setActiveStep((prevActiveStep) => prevActiveStep - 1);
-   };
+  const handleBack = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
 
-   const handleReset = () => {
-     setActiveStep(0);
-   };
+  const handleReset = () => {
+    setActiveStep(0);
+  };
 
-   // is going to the next page disabled?
-   const isNextDisabled = () => {
+  // is going to the next page disabled?
+  const isNextDisabled = () => {
     return false; // boilerplate, needs to be extended later
   };
 
@@ -112,7 +112,6 @@ function App() {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <Container maxWidth="sm">
 
         {/* Modals */}
         <HelpModal
@@ -126,13 +125,14 @@ function App() {
         />
 
         {/* Steps container */}
-        <Stepper activeStep={activeStep} alternativeLabel>
-          {steps.map((label) => (
-            <Step key={label}>
-              <StepLabel>{label}</StepLabel>
-            </Step>
-          ))}
-        </Stepper>
+        <Container maxWidth="sm">
+          <Stepper activeStep={activeStep} alternativeLabel>
+            {steps.map((label) => (
+              <Step key={label}>
+                <StepLabel>{label}</StepLabel>
+              </Step>
+            ))}
+          </Stepper>
         </Container>
 
         {/* Content container */}
@@ -151,13 +151,13 @@ function App() {
                 Start Over
               </Button>
             ) : (
-                <div className={classes.nextButtonWrapper}>
-                  <Button disabled={isNextDisabled()} onClick={handleNext} variant="contained" color="primary">
-                    {activeStep === steps.length - 1 ? "Finish" : "Next"}
-                  </Button>
-                  {loading && <CircularProgress className={classes.nextButtonProgress} size={24} />}
-                </div>
-              )
+              <div className={classes.nextButtonWrapper}>
+                <Button disabled={isNextDisabled()} onClick={handleNext} variant="contained" color="primary">
+                  {activeStep === steps.length - 1 ? "Finish" : "Next"}
+                </Button>
+                {loading && <CircularProgress className={classes.nextButtonProgress} size={24} />}
+              </div>
+            )
             }
           </div>
         </Container>
