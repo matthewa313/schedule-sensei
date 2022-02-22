@@ -20,12 +20,12 @@ import { Help, Info } from '@mui/icons-material';
 import { red, blue } from '@mui/material/colors';
 import { makeStyles } from '@mui/styles';
 
-import SelectCourses from './steps/SelectCourses.js';
-import SelectOffs from './steps/SelectOffs.js';
-import SelectTeachers from './steps/SelectTeachers.js';
-import GeneratedSchedules from './steps/GeneratedSchedules.js';
-import AboutModal from './modals/AboutModal.js';
-import HelpModal from './modals/HelpModal.js';
+import SelectCourses from './steps/SelectCourses.jsx';
+import SelectOffs from './steps/SelectOffs.jsx';
+import SelectTeachers from './steps/SelectTeachers.jsx';
+import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
+import AboutModal from './modals/AboutModal.jsx';
+import HelpModal from './modals/HelpModal.jsx';
 
 const creekTheme = createTheme({
   palette: {
@@ -43,21 +43,13 @@ const useStyles = makeStyles((creekTheme) => ({
 function getContent(stepIndex) {
   switch (stepIndex) {
   case 0:
-    return (
-      <SelectCourses/>
-    );
+    return ( <SelectCourses/> );
   case 1:
-    return (
-      <SelectOffs/>
-    );
+    return ( <SelectOffs/> );
   case 2:
-    return (
-      <SelectTeachers/>
-    );
+    return ( <SelectTeachers/> );
   case 3:
-    return (
-      <GeneratedSchedules/>
-    );
+    return ( <GeneratedSchedules/> );
   default:
     return 'na';
   }
