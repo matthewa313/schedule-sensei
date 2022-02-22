@@ -19,6 +19,7 @@ import { createTheme } from '@mui/material';
 import { Help, Info } from '@mui/icons-material';
 import { red, blue } from '@mui/material/colors';
 import { makeStyles } from '@mui/styles';
+import { styled } from '@mui/system';
 
 import SelectCourses from './steps/SelectCourses.jsx';
 import SelectOffs from './steps/SelectOffs.jsx';
@@ -35,9 +36,28 @@ const creekTheme = createTheme({
 })
 
 const useStyles = makeStyles((creekTheme) => ({
+  title: {
+    flexGrow: 1,
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
+  buttonWrapper: {
+    display: 'flex',
+    marginBottom: useTheme().spacing(4),
+  },
   backButton: {
     marginRight: useTheme().spacing(1),
   },
+  nextButtonWrapper: {
+    position: 'relative',
+  },
+  nextButtonProgress: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    marginTop: -12,
+    marginLeft: -12,
+  }
 }));
 
 function getContent(stepIndex) {
@@ -93,14 +113,14 @@ function App() {
         {/* AppBar container */}
         <AppBar position='static'>
           <Toolbar>
-            <Typography style={{fontWeight: 'bold'}} variant='h5'>
+            <IconButton onClick={handleHelpModalOpen} color='inherit'>
+              <Help />
+            </IconButton>
+            <Typography style={{fontWeight: 'bold'}} variant='h4' className={classes.title}>
               Schedule Sensei
             </Typography>
             <IconButton color='inherit'>
               <Info onClick={handleAboutModalOpen} />
-            </IconButton>
-            <IconButton onClick={handleHelpModalOpen} color='inherit'>
-              <Help />
             </IconButton>
           </Toolbar>
         </AppBar>
@@ -135,7 +155,7 @@ function App() {
         {/* Button container */}
         <Container maxWidth='sm'>
           <div className={classes.buttonWrapper}>
-            <Button className={classes.backButton} disabled={activeStep === 0} onClick={handleBack}>
+            <Button disabled={activeStep === 0} onClick={handleBack}>
               Back
             </Button>
             {activeStep === steps.length ? (
