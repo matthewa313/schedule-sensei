@@ -4,7 +4,7 @@ import {
   Typography,
 } from '@mui/material';
 
-export default function SelectOffs(props) {
+export default function SelectOffs() {
   return (
     <div className="SelectOffs">
       <Typography gutterBottom>

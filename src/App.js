@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 //import logo from './logo.svg';
-import "./App.css";
+import './App.css';
 
 import { AppBar,
   Button,
@@ -12,20 +12,20 @@ import { AppBar,
   Step,
   Stepper,
   StepLabel,
-} from "@mui/material";
+} from '@mui/material';
 
-import { ThemeProvider, useTheme } from "@mui/material/styles";
-import { createTheme } from "@mui/material";
-import { Help, Info } from "@mui/icons-material";
-import { red, blue } from "@mui/material/colors";
-import { makeStyles } from "@mui/styles";
+import { ThemeProvider, useTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material';
+import { Help, Info } from '@mui/icons-material';
+import { red, blue } from '@mui/material/colors';
+import { makeStyles } from '@mui/styles';
 
-import SelectCourses from "./steps/SelectCourses.js";
-import SelectOffs from "./steps/SelectOffs.js";
-import SelectTeachers from "./steps/SelectTeachers.js";
-import GeneratedSchedules from "./steps/GeneratedSchedules.js";
-import AboutModal from "./modals/AboutModal.js";
-import HelpModal from "./modals/HelpModal.js";
+import SelectCourses from './steps/SelectCourses.js';
+import SelectOffs from './steps/SelectOffs.js';
+import SelectTeachers from './steps/SelectTeachers.js';
+import GeneratedSchedules from './steps/GeneratedSchedules.js';
+import AboutModal from './modals/AboutModal.js';
+import HelpModal from './modals/HelpModal.js';
 
 const creekTheme = createTheme({
   palette: {
@@ -59,7 +59,7 @@ function getContent(stepIndex) {
       <GeneratedSchedules/>
     );
   default:
-    return "na";
+    return 'na';
   }
 }
 
@@ -67,7 +67,7 @@ function App() {
   const classes = useStyles();
   const [activeStep, setActiveStep] = React.useState(0);
   const [loading, setLoading] = React.useState(false);
-  const steps = ["Courses", "Offs", "Teachers"];
+  const steps = ['Courses', 'Offs', 'Teachers'];
 
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(false);
@@ -95,20 +95,20 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className='App'>
       <ThemeProvider theme={creekTheme}>
 
         {/* AppBar container */}
-        <AppBar position="static">
+        <AppBar position='static'>
           <Toolbar>
-            <Typography style={{fontWeight: "bold"}} variant="h5">
+            <Typography style={{fontWeight: 'bold'}} variant='h5'>
               Schedule Sensei
             </Typography>
-            <IconButton color="inherit">
-              <Help onClick={handleHelpModalOpen} />
-            </IconButton>
-            <IconButton color="inherit">
+            <IconButton color='inherit'>
               <Info onClick={handleAboutModalOpen} />
+            </IconButton>
+            <IconButton onClick={handleHelpModalOpen} color='inherit'>
+              <Help />
             </IconButton>
           </Toolbar>
         </AppBar>
@@ -125,7 +125,7 @@ function App() {
         />
 
         {/* Steps container */}
-        <Container maxWidth="sm">
+        <Container maxWidth='sm'>
           <Stepper activeStep={activeStep} alternativeLabel>
             {steps.map((label) => (
               <Step key={label}>
@@ -136,12 +136,12 @@ function App() {
         </Container>
 
         {/* Content container */}
-        <Container maxWidth={activeStep === steps.length ? "xl" : "sm"}>
+        <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'}>
           {getContent(activeStep)}
         </Container>
 
         {/* Button container */}
-        <Container maxWidth="sm">
+        <Container maxWidth='sm'>
           <div className={classes.buttonWrapper}>
             <Button className={classes.backButton} disabled={activeStep === 0} onClick={handleBack}>
               Back
@@ -152,8 +152,8 @@ function App() {
               </Button>
             ) : (
               <div className={classes.nextButtonWrapper}>
-                <Button disabled={isNextDisabled()} onClick={handleNext} variant="contained" color="primary">
-                  {activeStep === steps.length - 1 ? "Finish" : "Next"}
+                <Button disabled={isNextDisabled()} onClick={handleNext} variant='contained' color='primary'>
+                  {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                 </Button>
                 {loading && <CircularProgress className={classes.nextButtonProgress} size={24} />}
               </div>

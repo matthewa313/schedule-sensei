@@ -9,7 +9,7 @@ import {
   DialogTitle,
 } from '@mui/material';
 
-const AboutModal = ({isOpen, handleClose}: props) => {
+const AboutModal = ({isOpen, handleClose}) => {
   return (
     <Dialog open={isOpen} onClose={handleClose}>
       <DialogTitle>About</DialogTitle>

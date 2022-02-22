@@ -4,7 +4,7 @@ import {
   Typography,
 } from '@mui/material';
 
-export default function GeneratedSchedules(props) {
+export default function GeneratedSchedules() {
   return (
     <div className="GeneratedSchedules">
       <Typography gutterBottom>

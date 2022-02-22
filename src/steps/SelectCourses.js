@@ -4,7 +4,7 @@ import {
   Typography,
 } from '@mui/material';
 
-export default function SelectCourses(props) {
+export default function SelectCourses() {
   return (
     <div className="SelectCourses">
       <Typography gutterBottom>
