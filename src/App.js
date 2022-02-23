@@ -50,8 +50,15 @@ const useStyles = makeStyles((creekTheme) => ({
     position: 'absolute',
     top: '50%',
     left: '50%',
-    marginTop: -12,
-    marginLeft: -12,
+    marginTop: 12,
+    marginLeft: 12,
+  },
+  stepper: {
+    marginTop: useTheme().spacing(3),
+    marginBottom: useTheme().spacing(3),
+  },
+  contentContainer: {
+    marginBottom: useTheme().spacing(3),
   }
 }));
 
@@ -138,7 +145,7 @@ function App() {
 
         {/* Steps container */}
         <Container maxWidth='sm'>
-          <Stepper activeStep={activeStep} alternativeLabel>
+          <Stepper activeStep={activeStep} alternativeLabel className={classes.stepper}>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
@@ -148,7 +155,7 @@ function App() {
         </Container>
 
         {/* Content container */}
-        <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'}>
+        <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'} className={classes.contentContainer}>
           {getContent(activeStep)}
         </Container>
 
