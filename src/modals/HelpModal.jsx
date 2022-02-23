@@ -36,7 +36,7 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
 
               This tool is here to help. Use it to find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
-              Schedule Sensei best works on a computer.
+              Schedule Sensei works best on a computer.
             </DialogContentText>
           </div>
           <div className='rightColumn'>
