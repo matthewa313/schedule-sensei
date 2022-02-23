@@ -115,7 +115,7 @@ function App() {
             <IconButton onClick={handleHelpModalOpen} color='inherit'>
               <Help />
             </IconButton>
-            <Typography className='title' variant='h4'>
+            <Typography style={{fontFamily: 'Kaushan Script'}} className='title' variant='h4'>
               Schedule Sensei
             </Typography>
             <IconButton color='inherit'>

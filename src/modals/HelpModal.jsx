@@ -16,7 +16,7 @@ import bearSensei from '../sensei-art/bearsensei.jpg';
 const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
   return (
     <Dialog open={isOpen} onClose={handleClose}>
-      <DialogTitle className='modalTitle'>Welcome to the Schedule Sensei Dojo!</DialogTitle>
+      <DialogTitle style={{fontFamily: 'Kaushan Script'}} className='modalTitle' variant='h5'>Welcome to the Schedule Sensei Dojo!</DialogTitle>
       <DialogContent>
         <div style={{display: 'flex'}}>
           <div className='leftColumn' >

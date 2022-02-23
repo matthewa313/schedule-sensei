@@ -12,14 +12,14 @@ import {
 const AboutModal = ({isOpen, handleClose}) => {
   return (
     <Dialog open={isOpen} onClose={handleClose}>
-      <DialogTitle>About</DialogTitle>
+      <DialogTitle style={{fontFamily: 'Kaushan Script'}} className='modalTitle' variant='h5'>About Schedule Sensei</DialogTitle>
       <DialogContent>
         <DialogContentText>
           About, about about about, and about some more, about that, about this, about him, about her. About your mother, your father, your sister, your brother, his wife, and about all of that and more. About about about.
         </DialogContentText>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose} color="primary">
+        <Button onClick={handleClose} color='primary'>
           Ok
         </Button>
       </DialogActions>
