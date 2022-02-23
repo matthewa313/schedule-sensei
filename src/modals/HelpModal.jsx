@@ -20,7 +20,7 @@ const useStyles = makeStyles((creekTheme) => ({
   },
 }));
 
-const HelpModal = ({isOpen, handleClose}) => {
+const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
   const classes = useStyles();
 
   return (
@@ -30,13 +30,13 @@ const HelpModal = ({isOpen, handleClose}) => {
         <div style={{display: 'flex'}}>
           <div className='leftColumn' >
             <DialogContentText>
-              Creek Students,<br/><br/>
+              <b>{institutionShortName} Students,</b><br/><br/>
 
-              Making your own schedule can be hard because it is difficult to know what schedules you can get. On top of that, you want certain off periods and your favorite teachers!<br/><br/>
+              Making your own schedule can be difficult because it is hard to know what schedules you can get. On top of that, you want certain off periods and your favorite teachers!<br/><br/>
 
-              This tool is here to help. Use it to find a list of all your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
+              This tool is here to help. Use it to find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
-              For the best experience, use a computer.
+              Schedule Sensei best works on a computer.
             </DialogContentText>
           </div>
           <div className='rightColumn'>

@@ -133,6 +133,7 @@ function App() {
         <HelpModal
           isOpen={isHelpModalOpen}
           handleClose={handleHelpModalClose}
+          institutionShortName={process.env.REACT_APP_INSTITUTION_SHORT_NAME}
         />
 
         <AboutModal
