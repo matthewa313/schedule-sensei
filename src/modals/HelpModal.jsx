@@ -34,7 +34,7 @@ const HelpModal = ({isOpen, handleClose}) => {
 
               Making your own schedule can be hard because it is difficult to know what schedules you can get. On top of that, you want certain off periods and your favorite teachers!<br/><br/>
 
-              This tool is here to help. Use this website to generate a list of all your possible schedules, and filter by your preferred off periods or your favorite teachers! Then save the list to help during your self scheduling session.<br/><br/>
+              This tool is here to help. Use it to find a list of all your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
               For the best experience, use a computer.
             </DialogContentText>
