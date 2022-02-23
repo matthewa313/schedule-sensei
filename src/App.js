@@ -36,11 +36,6 @@ const creekTheme = createTheme({
 })
 
 const useStyles = makeStyles((creekTheme) => ({
-  title: {
-    flexGrow: 1,
-    textAlign: 'center',
-    fontWeight: 'bold',
-  },
   buttonWrapper: {
     display: 'flex',
     marginBottom: useTheme().spacing(4),
@@ -120,7 +115,7 @@ function App() {
             <IconButton onClick={handleHelpModalOpen} color='inherit'>
               <Help />
             </IconButton>
-            <Typography style={{fontWeight: 'bold'}} variant='h4' className={classes.title}>
+            <Typography className='title' variant='h4'>
               Schedule Sensei
             </Typography>
             <IconButton color='inherit'>

@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;500;700&display=swap');
+
 .App {
   text-align: left;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.modalTitle {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .leftColumn {
@@ -10,7 +24,7 @@
 }
 
 .rightColumn {
-  display:none;
+  display: none;
   width: 40%;
   padding: 1em;
 }

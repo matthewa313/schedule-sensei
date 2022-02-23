@@ -13,19 +13,10 @@ import {
 import { makeStyles } from '@mui/styles';
 import bearSensei from '../sensei-art/bearsensei.jpg';
 
-
-const useStyles = makeStyles((creekTheme) => ({
-  title: {
-    textAlign: 'center',
-  },
-}));
-
 const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
-  const classes = useStyles();
-
   return (
     <Dialog open={isOpen} onClose={handleClose}>
-      <DialogTitle className={classes.title}>Welcome to the Schedule Sensei Dojo!</DialogTitle>
+      <DialogTitle className='modalTitle'>Welcome to the Schedule Sensei Dojo!</DialogTitle>
       <DialogContent>
         <div style={{display: 'flex'}}>
           <div className='leftColumn' >
