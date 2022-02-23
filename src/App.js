@@ -81,6 +81,10 @@ function App() {
   const [loading, setLoading] = React.useState(false);
   const steps = ['Courses', 'Offs', 'Teachers'];
 
+  const allCourses = require('./files/creekSchedule2122.json');
+  const [newCourse, setNewCourse] = React.useState();
+  const [wantedCourses, setWantedCourses] = React.useState([]);
+
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(false);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
