@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 import {
   Button,
@@ -17,20 +18,6 @@ const useStyles = makeStyles((creekTheme) => ({
   title: {
     textAlign: 'center',
   },
-  leftColumn: {
-    float: 'left',
-    width: '60%',
-    height: '100%',
-    padding: '1em',
-    textAlign: 'justify',
-  },
-  rightColumn: {
-    float: 'right',
-    width: '40%',
-    height: '100%',
-    padding: '1em',
-    textAlign: 'justify',
-  },
 }));
 
 const HelpModal = ({isOpen, handleClose}) => {
@@ -41,7 +28,7 @@ const HelpModal = ({isOpen, handleClose}) => {
       <DialogTitle className={classes.title}>Welcome to the Schedule Sensei Dojo!</DialogTitle>
       <DialogContent>
         <div style={{display: 'flex'}}>
-          <div className={classes.leftColumn} >
+          <div className='leftColumn' >
             <DialogContentText>
               Creek Students,<br/><br/>
 
@@ -52,7 +39,7 @@ const HelpModal = ({isOpen, handleClose}) => {
               For the best experience, use a computer.
             </DialogContentText>
           </div>
-          <div className={classes.rightColumn}>
+          <div className='rightColumn'>
             <img src={bearSensei} alt='bear sensei'/>
           </div>
         </div>

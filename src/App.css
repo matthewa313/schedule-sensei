@@ -1,3 +1,22 @@
 .App {
   text-align: left;
 }
+
+.leftColumn {
+  float: left;
+  width: 100%;
+  padding: 1em;
+  text-align: justify;
+}
+
+.rightColumn {
+  display:none;
+  width: 40%;
+  padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .rightColumn  { display: block; }
+  .leftColumn { width: 60%; }
+  #leftside > button { display: none; }
+}
