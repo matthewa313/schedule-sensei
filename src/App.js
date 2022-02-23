@@ -86,7 +86,7 @@ function App() {
   const [wantedCourses, setWantedCourses] = React.useState([]);
 
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
-  const [isHelpModalOpen, setHelpModalOpen] = React.useState(false);
+  const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
   const handleAboutModalClose = () => setAboutModalOpen(false);
   const handleHelpModalOpen = () => setHelpModalOpen(true);
