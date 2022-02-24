@@ -34,3 +34,7 @@
   .leftColumn { width: 60%; }
   #leftside > button { display: none; }
 }
+
+.chip {
+  margin-bottom: 10px;
+}

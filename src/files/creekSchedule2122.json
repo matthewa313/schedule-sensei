@@ -1,7 +1,7 @@
 [
   {
     "name": "*Advanced Debate Honors (Extemp)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -16,7 +16,7 @@
   },
   {
     "name": "*Advanced Debate Honors (LD)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -31,7 +31,7 @@
   },
   {
     "name": "*Advanced Debate Honors (Interp/Oratory)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "3": [
         {
@@ -53,7 +53,7 @@
   },
   {
     "name": "*Advanced Debate Honors (PF)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "4": [
         {
@@ -68,7 +68,7 @@
   },
   {
     "name": "*AP English Language And Composition",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -207,7 +207,7 @@
   },
   {
     "name": "*AP English Literature And Composition",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -290,7 +290,7 @@
   },
   {
     "name": "*Cross Ex Debate Honors",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "8": [
         {
@@ -305,7 +305,7 @@
   },
   {
     "name": "*English 10 Honors",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -467,7 +467,7 @@
   },
   {
     "name": "*English 9 Honors",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -608,7 +608,7 @@
   },
   {
     "name": "Beginning Debate",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -641,7 +641,7 @@
   },
   {
     "name": "CP African-American Literature",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "2": [
         {
@@ -667,7 +667,7 @@
   },
   {
     "name": "CP Award Winners",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "4": [
         {
@@ -702,7 +702,7 @@
   },
   {
     "name": "CP Creative Writing",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "1": [
         {
@@ -773,7 +773,7 @@
   },
   {
     "name": "CP English 10",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -914,7 +914,7 @@
   },
   {
     "name": "CP English 11",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -1074,7 +1074,7 @@
   },
   {
     "name": "CP English 9",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -1222,7 +1222,7 @@
   },
   {
     "name": "CP Introduction to College Composition",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "3": [
         {
@@ -1248,7 +1248,7 @@
   },
   {
     "name": "CP Introduction to College Literature",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "6": [
         {
@@ -1274,7 +1274,7 @@
   },
   {
     "name": "CP Journalism",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "8": [
         {
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "CP Journalism Leadership Workshop",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "8": [
         {
@@ -1315,7 +1315,7 @@
   },
   {
     "name": "CP Multi-Cultural Literature",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "6": [
         {
@@ -1341,7 +1341,7 @@
   },
   {
     "name": "CP Narrative Art in Lit and Film",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "2": [
         {
@@ -1376,7 +1376,7 @@
   },
   {
     "name": "CP Science Fiction",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "1": [
         {
@@ -1429,7 +1429,7 @@
   },
   {
     "name": "CP Senior Seminar: Lit and Writing",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -1519,7 +1519,7 @@
   },
   {
     "name": "CP Shakespeare",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "4": [
         {
@@ -1545,7 +1545,7 @@
   },
   {
     "name": "CP Survey of Poetry",
-    "type": "1",
+    "type": "1 English",
     "s2": {
       "4": [
         {
@@ -1560,7 +1560,7 @@
   },
   {
     "name": "CP Writing on Film",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "4": [
         {
@@ -1613,7 +1613,7 @@
   },
   {
     "name": "Reading/Studying For Success",
-    "type": "1",
+    "type": "1 English",
     "s2": {
       "1": [
         {
@@ -1628,7 +1628,7 @@
   },
   {
     "name": "Writing Clinic",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "1": [
         {
@@ -1643,7 +1643,7 @@
   },
   {
     "name": "Reading Essentials 1",
-    "type": "8",
+    "type": "8 Student Support",
     "s1": {
       "2": [
         {
@@ -1658,7 +1658,7 @@
   },
   {
     "name": "Reading Essentials 3",
-    "type": "8",
+    "type": "8 Student Support",
     "s1": {
       "2": [
         {
@@ -1673,7 +1673,7 @@
   },
   {
     "name": "Reading Essentials 2",
-    "type": "8",
+    "type": "8 Student Support",
     "s2": {
       "2": [
         {
@@ -1688,7 +1688,7 @@
   },
   {
     "name": "Reading Essentials 4",
-    "type": "8",
+    "type": "8 Student Support",
     "s2": {
       "2": [
         {
@@ -1703,7 +1703,7 @@
   },
   {
     "name": "*AP Comparative Government/Politics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "6": [
         {
@@ -1756,7 +1756,7 @@
   },
   {
     "name": "*AP European History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "7": [
         {
@@ -1780,7 +1780,7 @@
   },
   {
     "name": "*AP Human Geography",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "2": [
         {
@@ -1842,7 +1842,7 @@
   },
   {
     "name": "*AP Macroeconomics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s2": {
       "1": [
         {
@@ -1893,7 +1893,7 @@
   },
   {
     "name": "*AP Microeconomics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -1960,7 +1960,7 @@
   },
   {
     "name": "*AP Seminar",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "1": [
         {
@@ -1975,7 +1975,7 @@
   },
   {
     "name": "*AP US Government And Politics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -2082,7 +2082,7 @@
   },
   {
     "name": "*AP US History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "4": [
         {
@@ -2097,7 +2097,7 @@
   },
   {
     "name": "*AP World History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "1": [
         {
@@ -2157,7 +2157,7 @@
   },
   {
     "name": "American Government",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "2": [
         {
@@ -2172,7 +2172,7 @@
   },
   {
     "name": "CP American Government",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -2351,7 +2351,7 @@
   },
   {
     "name": "CP American History Through Music",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "2": [
         {
@@ -2366,7 +2366,7 @@
   },
   {
     "name": "CP Economics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "3": [
         {
@@ -2428,7 +2428,7 @@
   },
   {
     "name": "CP History of Ancient Rome",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "3": [
         {
@@ -2472,7 +2472,7 @@
   },
   {
     "name": "CP Psychology",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -2588,7 +2588,7 @@
   },
   {
     "name": "CP Recent America 1945 to Present",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "2": [
         {
@@ -2614,7 +2614,7 @@
   },
   {
     "name": "CP Sociology",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -2676,7 +2676,7 @@
   },
   {
     "name": "CP Street Law",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -2774,7 +2774,7 @@
   },
   {
     "name": "CP United States History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "1": [
         {
@@ -3006,7 +3006,7 @@
   },
   {
     "name": "CP US History 11-12 Sem 1",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "4": [
         {
@@ -3039,7 +3039,7 @@
   },
   {
     "name": "CP US History 11-12 Sem 2",
-    "type": "2",
+    "type": "2 Social Studies",
     "s2": {
       "4": [
         {
@@ -3072,7 +3072,7 @@
   },
   {
     "name": "CP Western Philosophy and Ethics",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "3": [
         {
@@ -3107,7 +3107,7 @@
   },
   {
     "name": "CP World Geography",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "6": [
         {
@@ -3142,7 +3142,7 @@
   },
   {
     "name": "CP World History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "1": [
         {
@@ -3339,7 +3339,7 @@
   },
   {
     "name": "CP World Religions",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "3": [
         {
@@ -3374,7 +3374,7 @@
   },
   {
     "name": "CP World War 1 and 2",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "6": [
         {
@@ -3427,7 +3427,7 @@
   },
   {
     "name": "*Abstract Math/Linear Algebra Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "7": [
         {
@@ -3442,7 +3442,7 @@
   },
   {
     "name": "*Algebra 2/Trig Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3541,7 +3541,7 @@
   },
   {
     "name": "*AP Calculus AB",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3592,7 +3592,7 @@
   },
   {
     "name": "*AP Calculus BC",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3643,7 +3643,7 @@
   },
   {
     "name": "*AP Computer Science A",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3676,7 +3676,7 @@
   },
   {
     "name": "*AP Computer Science Principles",
-    "type": "3",
+    "type": "3 Mathematics",
     "s2": {
       "2": [
         {
@@ -3709,7 +3709,7 @@
   },
   {
     "name": "*AP Statistics",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3778,7 +3778,7 @@
   },
   {
     "name": "*Calculus 3 Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "4": [
         {
@@ -3802,7 +3802,7 @@
   },
   {
     "name": "*Data Structures and Algorithms",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "4": [
         {
@@ -3817,7 +3817,7 @@
   },
   {
     "name": "*Differential Equations Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "s2": {
       "4": [
         {
@@ -3841,7 +3841,7 @@
   },
   {
     "name": "*Geometry Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -3901,7 +3901,7 @@
   },
   {
     "name": "*IOS Application Development Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "s2": {
       "4": [
         {
@@ -3916,7 +3916,7 @@
   },
   {
     "name": "*Pre Calculus Honors",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4006,7 +4006,7 @@
   },
   {
     "name": "Business Calculus",
-    "type": "3",
+    "type": "3 Mathematics",
     "s2": {
       "2": [
         {
@@ -4021,7 +4021,7 @@
   },
   {
     "name": "Calculus 1",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4045,7 +4045,7 @@
   },
   {
     "name": "College Algebra",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "2": [
         {
@@ -4107,7 +4107,7 @@
   },
   {
     "name": "College Trigonometry",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "3": [
         {
@@ -4151,7 +4151,7 @@
   },
   {
     "name": "Computer Science Foundations",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "2": [
         {
@@ -4204,7 +4204,7 @@
   },
   {
     "name": "CP Accelerated Algebra 1",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4310,7 +4310,7 @@
   },
   {
     "name": "CP Accelerated Algebra 2",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4423,7 +4423,7 @@
   },
   {
     "name": "CP Accelerated Geometry",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4543,7 +4543,7 @@
   },
   {
     "name": "CP Algebra 1",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4626,7 +4626,7 @@
   },
   {
     "name": "CP Algebra 2",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4716,7 +4716,7 @@
   },
   {
     "name": "CP Geometry",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4822,7 +4822,7 @@
   },
   {
     "name": "Integrated Algebra/Geometry 1",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "3": [
         {
@@ -4860,7 +4860,7 @@
   },
   {
     "name": "Precalculus/Trigonometry",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -4936,7 +4936,7 @@
   },
   {
     "name": "Probability And Statistics",
-    "type": "3",
+    "type": "3 Mathematics",
     "s1": {
       "2": [
         {
@@ -4980,7 +4980,7 @@
   },
   {
     "name": "Statistical Analysis",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -5031,7 +5031,7 @@
   },
   {
     "name": "*AP Biology",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1-2": [
         {
@@ -5064,7 +5064,7 @@
   },
   {
     "name": "*AP Chemistry",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5088,7 +5088,7 @@
   },
   {
     "name": "*AP Environmental Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5157,7 +5157,7 @@
   },
   {
     "name": "*AP Physics C",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1-2": [
         {
@@ -5181,7 +5181,7 @@
   },
   {
     "name": "*Biology Honors",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5266,7 +5266,7 @@
   },
   {
     "name": "*Chemistry Honors",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5358,7 +5358,7 @@
   },
   {
     "name": "*Physical Science Honors",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5432,7 +5432,7 @@
   },
   {
     "name": "*Physics Honors",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5474,7 +5474,7 @@
   },
   {
     "name": "*Physics/Engineering Honors",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "6": [
         {
@@ -5489,7 +5489,7 @@
   },
   {
     "name": "*Engineering Physics Honors",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "7": [
         {
@@ -5504,7 +5504,7 @@
   },
   {
     "name": "Astronomy",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "2": [
         {
@@ -5530,7 +5530,7 @@
   },
   {
     "name": "Biology",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "5": [
         {
@@ -5563,7 +5563,7 @@
   },
   {
     "name": "Chemistry",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "1": [
         {
@@ -5596,7 +5596,7 @@
   },
   {
     "name": "CP Anatomy and Physiology",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5647,7 +5647,7 @@
   },
   {
     "name": "CP Biology",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5816,7 +5816,7 @@
   },
   {
     "name": "CP Chemistry",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -5976,7 +5976,7 @@
   },
   {
     "name": "CP Environmental Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "4": [
         {
@@ -6009,7 +6009,7 @@
   },
   {
     "name": "CP Horticulture",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "6": [
         {
@@ -6053,7 +6053,7 @@
   },
   {
     "name": "CP Marine Biology",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "2": [
         {
@@ -6097,7 +6097,7 @@
   },
   {
     "name": "CP Physical Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -6273,7 +6273,7 @@
   },
   {
     "name": "CP Physics",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -6324,7 +6324,7 @@
   },
   {
     "name": "CP Physics Engineering",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "3": [
         {
@@ -6339,7 +6339,7 @@
   },
   {
     "name": "CP Engineering Physics",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "4": [
         {
@@ -6354,7 +6354,7 @@
   },
   {
     "name": "Environmental Science 1",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "1": [
         {
@@ -6378,7 +6378,7 @@
   },
   {
     "name": "Environmental Science 2",
-    "type": "4",
+    "type": "4 Science",
     "s2": {
       "1": [
         {
@@ -6402,7 +6402,7 @@
   },
   {
     "name": "Physical Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -6426,7 +6426,7 @@
   },
   {
     "name": "PHYSICS",
-    "type": "4",
+    "type": "4 Science",
     "s2": {
       "1": [
         {
@@ -6459,7 +6459,7 @@
   },
   {
     "name": "*AP Chinese Language and Culture",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6474,7 +6474,7 @@
   },
   {
     "name": "*AP French Language and Culture",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "6": [
         {
@@ -6489,7 +6489,7 @@
   },
   {
     "name": "*AP German Language and Culture",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6504,7 +6504,7 @@
   },
   {
     "name": "*AP Latin",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6519,7 +6519,7 @@
   },
   {
     "name": "*AP Spanish Language and Culture",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6552,7 +6552,7 @@
   },
   {
     "name": "*AP Spanish Literature and Culture",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6567,7 +6567,7 @@
   },
   {
     "name": "*Chinese 3/4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -6582,7 +6582,7 @@
   },
   {
     "name": "*French 3/4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "7": [
         {
@@ -6597,7 +6597,7 @@
   },
   {
     "name": "*French Literature 6 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "6": [
         {
@@ -6612,7 +6612,7 @@
   },
   {
     "name": "*German 3/4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "6": [
         {
@@ -6636,7 +6636,7 @@
   },
   {
     "name": "*Latin 3/4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "6": [
         {
@@ -6651,7 +6651,7 @@
   },
   {
     "name": "*Spanish 3/4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6675,7 +6675,7 @@
   },
   {
     "name": "*Spanish 4 Honors",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -6744,7 +6744,7 @@
   },
   {
     "name": "CP American Sign Language",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "5": [
         {
@@ -6768,7 +6768,7 @@
   },
   {
     "name": "CP American Sign Language 2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "4": [
         {
@@ -6792,7 +6792,7 @@
   },
   {
     "name": "CP American Sign Language 3",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6807,7 +6807,7 @@
   },
   {
     "name": "CP Chinese 1",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "3": [
         {
@@ -6831,7 +6831,7 @@
   },
   {
     "name": "CP Chinese 2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "7": [
         {
@@ -6846,7 +6846,7 @@
   },
   {
     "name": "CP French 1",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -6879,7 +6879,7 @@
   },
   {
     "name": "CP French 2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "2": [
         {
@@ -6912,7 +6912,7 @@
   },
   {
     "name": "CP French 3",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "3": [
         {
@@ -6936,7 +6936,7 @@
   },
   {
     "name": "CP French 4",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -6951,7 +6951,7 @@
   },
   {
     "name": "CP German 1",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -6975,7 +6975,7 @@
   },
   {
     "name": "CP German2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "7": [
         {
@@ -6990,7 +6990,7 @@
   },
   {
     "name": "CP Latin 1",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -7014,7 +7014,7 @@
   },
   {
     "name": "CP Latin 2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "7": [
         {
@@ -7029,7 +7029,7 @@
   },
   {
     "name": "CP Spanish 1",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -7135,7 +7135,7 @@
   },
   {
     "name": "CP Spanish 2",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -7276,7 +7276,7 @@
   },
   {
     "name": "CP Spanish 3",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "1": [
         {
@@ -7410,7 +7410,7 @@
   },
   {
     "name": "CP Spanish 3 for Spanish Speakers",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "3": [
         {
@@ -7425,7 +7425,7 @@
   },
   {
     "name": "CP Spanish 5 Conversation/Comp",
-    "type": "5",
+    "type": "5 World Language",
     "year": {
       "4": [
         {
@@ -7449,7 +7449,7 @@
   },
   {
     "name": "Broadcast Media",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "7": [
         {
@@ -7475,7 +7475,7 @@
   },
   {
     "name": "Child and Adolescent Development",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -7490,7 +7490,7 @@
   },
   {
     "name": "Culinary Arts I",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "2": [
         {
@@ -7543,7 +7543,7 @@
   },
   {
     "name": "Design Seminar",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "1": [
         {
@@ -7558,7 +7558,7 @@
   },
   {
     "name": "Interior Design 1: Residential",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "3": [
         {
@@ -7582,7 +7582,7 @@
   },
   {
     "name": "Interpersonal Relationships",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "7": [
         {
@@ -7606,7 +7606,7 @@
   },
   {
     "name": "Intro To Business",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "2": [
         {
@@ -7686,7 +7686,7 @@
   },
   {
     "name": "Introduction to PC Applications",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "6": [
         {
@@ -7712,7 +7712,7 @@
   },
   {
     "name": "Marketing 1",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "1": [
         {
@@ -7763,7 +7763,7 @@
   },
   {
     "name": "Marketing 2",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "1": [
         {
@@ -7805,7 +7805,7 @@
   },
   {
     "name": "Marketing Coop",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "9": [
         {
@@ -7841,7 +7841,7 @@
   },
   {
     "name": "Personal Finance",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -7930,7 +7930,7 @@
   },
   {
     "name": "*AP Art History",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -7954,7 +7954,7 @@
   },
   {
     "name": "*AP Music Theory",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "1": [
         {
@@ -7969,7 +7969,7 @@
   },
   {
     "name": "*AP Studio Art",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -7984,7 +7984,7 @@
   },
   {
     "name": "*AP Studio Art 2D",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -8008,7 +8008,7 @@
   },
   {
     "name": "A Cappella Choir",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -8023,7 +8023,7 @@
   },
   {
     "name": "Adv Drawing/Design",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "4": [
         {
@@ -8038,7 +8038,7 @@
   },
   {
     "name": "Adv Photography Workshop",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -8062,7 +8062,7 @@
   },
   {
     "name": "Adv Video Production",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "7": [
         {
@@ -8077,7 +8077,7 @@
   },
   {
     "name": "Advanced Acting",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "7": [
         {
@@ -8092,7 +8092,7 @@
   },
   {
     "name": "Advanced Ceramics",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "7": [
         {
@@ -8118,7 +8118,7 @@
   },
   {
     "name": "Advanced Painting",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "1": [
         {
@@ -8140,7 +8140,7 @@
   },
   {
     "name": "Artisans Workshop",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "3": [
         {
@@ -8166,7 +8166,7 @@
   },
   {
     "name": "Beginning Acting",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "4": [
         {
@@ -8201,7 +8201,7 @@
   },
   {
     "name": "Broadcast Journalism/TV Prod",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "6": [
         {
@@ -8216,7 +8216,7 @@
   },
   {
     "name": "Broadcast Journalism/TV Prod 2",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "6": [
         {
@@ -8231,7 +8231,7 @@
   },
   {
     "name": "Ceramics 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -8293,7 +8293,7 @@
   },
   {
     "name": "Ceramics 2",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "7": [
         {
@@ -8337,7 +8337,7 @@
   },
   {
     "name": "Chamber Orchestra",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -8352,7 +8352,7 @@
   },
   {
     "name": "Choralaires",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -8367,7 +8367,7 @@
   },
   {
     "name": "Concert Band",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "1": [
         {
@@ -8389,7 +8389,7 @@
   },
   {
     "name": "Concert Orchestra",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "4": [
         {
@@ -8411,7 +8411,7 @@
   },
   {
     "name": "Creek 21",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "4": [
         {
@@ -8426,7 +8426,7 @@
   },
   {
     "name": "Directing",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "7": [
         {
@@ -8441,7 +8441,7 @@
   },
   {
     "name": "Drawing/Design 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -8539,7 +8539,7 @@
   },
   {
     "name": "Drawing/Design 2",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "4": [
         {
@@ -8601,7 +8601,7 @@
   },
   {
     "name": "Intermediate Acting",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "1": [
         {
@@ -8616,7 +8616,7 @@
   },
   {
     "name": "Jazz Band 1",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "7": [
         {
@@ -8631,7 +8631,7 @@
   },
   {
     "name": "Jazz Band 2",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "6": [
         {
@@ -8646,7 +8646,7 @@
   },
   {
     "name": "Jewelry/Metal 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -8726,7 +8726,7 @@
   },
   {
     "name": "Jewelry/Metal 2",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "1": [
         {
@@ -8750,7 +8750,7 @@
   },
   {
     "name": "Jewelry/Metal Workshop",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -8794,7 +8794,7 @@
   },
   {
     "name": "Live Figure Drawing",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "4": [
         {
@@ -8809,7 +8809,7 @@
   },
   {
     "name": "MAL Fine Arts",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "6": [
         {
@@ -8824,7 +8824,7 @@
   },
   {
     "name": "Meistersingers",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "6": [
         {
@@ -8839,7 +8839,7 @@
   },
   {
     "name": "Painting",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -8874,7 +8874,7 @@
   },
   {
     "name": "Photography 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "2": [
         {
@@ -8936,7 +8936,7 @@
   },
   {
     "name": "Photography 2",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "2": [
         {
@@ -8960,7 +8960,7 @@
   },
   {
     "name": "Piano",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -8984,7 +8984,7 @@
   },
   {
     "name": "Robotics & Automated Systems",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "5": [
         {
@@ -9008,7 +9008,7 @@
   },
   {
     "name": "Statesmen",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -9023,7 +9023,7 @@
   },
   {
     "name": "Symphonic Band 1",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "2": [
         {
@@ -9038,7 +9038,7 @@
   },
   {
     "name": "Symphonic Band 2",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "4": [
         {
@@ -9060,7 +9060,7 @@
   },
   {
     "name": "Symphonic Orchestra",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "6": [
         {
@@ -9075,7 +9075,7 @@
   },
   {
     "name": "Technical Theatre 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "8": [
         {
@@ -9090,7 +9090,7 @@
   },
   {
     "name": "Technical Theatre 2",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "8": [
         {
@@ -9105,7 +9105,7 @@
   },
   {
     "name": "Troubadours",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -9120,7 +9120,7 @@
   },
   {
     "name": "Union Street Jazz Choir",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "8": [
         {
@@ -9135,7 +9135,7 @@
   },
   {
     "name": "Video Production 1",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -9179,7 +9179,7 @@
   },
   {
     "name": "Video Production 2",
-    "type": "6",
+    "type": "6 Electives",
     "s2": {
       "2": [
         {
@@ -9203,7 +9203,7 @@
   },
   {
     "name": "Wind Ensemble",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -9218,7 +9218,7 @@
   },
   {
     "name": "Yearbook",
-    "type": "6",
+    "type": "6 Electives",
     "year": {
       "3": [
         {
@@ -9233,7 +9233,7 @@
   },
   {
     "name": "Advanced Fitness",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -9313,7 +9313,7 @@
   },
   {
     "name": "Adventure Challenge Course",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "4": [
         {
@@ -9393,7 +9393,7 @@
   },
   {
     "name": "Adventure Leader",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -9559,7 +9559,7 @@
   },
   {
     "name": "Adventure Leader Training",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "8": [
         {
@@ -9585,7 +9585,7 @@
   },
   {
     "name": "Adventure Outdoor Ed",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "2": [
         {
@@ -9629,7 +9629,7 @@
   },
   {
     "name": "Adventure Water Sports",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "8": [
         {
@@ -9655,7 +9655,7 @@
   },
   {
     "name": "Aerobics",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -9681,7 +9681,7 @@
   },
   {
     "name": "Dance",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "3": [
         {
@@ -9743,7 +9743,7 @@
   },
   {
     "name": "Health",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -9944,7 +9944,7 @@
   },
   {
     "name": "Health - CCHS Online",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "5": [
         {
@@ -9970,7 +9970,7 @@
   },
   {
     "name": "Individual Sports",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -10077,7 +10077,7 @@
   },
   {
     "name": "Peer Mentor P.E.",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "7": [
         {
@@ -10103,7 +10103,7 @@
   },
   {
     "name": "Personal Fitness - CCHS Online",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "5": [
         {
@@ -10138,7 +10138,7 @@
   },
   {
     "name": "Swimming Fitness",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "7": [
         {
@@ -10164,7 +10164,7 @@
   },
   {
     "name": "Team Sports",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "1": [
         {
@@ -10316,7 +10316,7 @@
   },
   {
     "name": "Weight Training 1",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "3": [
         {
@@ -10387,7 +10387,7 @@
   },
   {
     "name": "Weight Training 2",
-    "type": "7",
+    "type": "7 Physical Education",
     "s2": {
       "6": [
         {
@@ -10402,7 +10402,7 @@
   },
   {
     "name": "Yoga",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "2": [
         {
@@ -10473,7 +10473,7 @@
   },
   {
     "name": "Elements of CP English 10 (REACH)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10488,7 +10488,7 @@
   },
   {
     "name": "Elements of CP English 10",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "8": [
         {
@@ -10503,7 +10503,7 @@
   },
   {
     "name": "Elements of CP English 11 (REACH)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10518,7 +10518,7 @@
   },
   {
     "name": "Elements of CP English 11",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "4": [
         {
@@ -10533,7 +10533,7 @@
   },
   {
     "name": "Elements of CP English 12",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10548,7 +10548,7 @@
   },
   {
     "name": "Elements of CP English 9",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -10563,7 +10563,7 @@
   },
   {
     "name": "Elements of CP English 9 (REACH)",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10578,7 +10578,7 @@
   },
   {
     "name": "Elements Of Lit/Film (REACH)",
-    "type": "1",
+    "type": "1 English",
     "s2": {
       "2": [
         {
@@ -10593,7 +10593,7 @@
   },
   {
     "name": "Elements Of Multi Cultural Lit (REACH)",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "2": [
         {
@@ -10608,7 +10608,7 @@
   },
   {
     "name": "ILC English",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10630,7 +10630,7 @@
   },
   {
     "name": "Practical English",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "2": [
         {
@@ -10654,7 +10654,7 @@
   },
   {
     "name": "American Government (Teamed)",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -10669,7 +10669,7 @@
   },
   {
     "name": "Elements of American Government",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -10695,7 +10695,7 @@
   },
   {
     "name": "Elements of Economics 1",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "4": [
         {
@@ -10710,7 +10710,7 @@
   },
   {
     "name": "Elements of Economics 2",
-    "type": "2",
+    "type": "2 Social Studies",
     "s2": {
       "4": [
         {
@@ -10725,7 +10725,7 @@
   },
   {
     "name": "Elements of Psychology (REACH)",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "3": [
         {
@@ -10740,7 +10740,7 @@
   },
   {
     "name": "Elements of Sociology 1 (REACH)",
-    "type": "2",
+    "type": "2 Social Studies",
     "s1": {
       "1": [
         {
@@ -10755,7 +10755,7 @@
   },
   {
     "name": "Elements of Sociology 1",
-    "type": "2",
+    "type": "2 Social Studies",
     "s2": {
       "1": [
         {
@@ -10770,7 +10770,7 @@
   },
   {
     "name": "Elements of Sociology 2 (REACH)",
-    "type": "2",
+    "type": "2 Social Studies",
     "s2": {
       "1": [
         {
@@ -10785,7 +10785,7 @@
   },
   {
     "name": "Elements Of US History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "3": [
         {
@@ -10809,7 +10809,7 @@
   },
   {
     "name": "Elements of US History (REACH)",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "3": [
         {
@@ -10824,7 +10824,7 @@
   },
   {
     "name": "Elements of World History",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "7": [
         {
@@ -10839,7 +10839,7 @@
   },
   {
     "name": "ILC Social Studies",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "8": [
         {
@@ -10861,7 +10861,7 @@
   },
   {
     "name": "Practical Social Studies",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "4": [
         {
@@ -10885,7 +10885,7 @@
   },
   {
     "name": "US History (Teamed)",
-    "type": "2",
+    "type": "2 Social Studies",
     "year": {
       "2": [
         {
@@ -10909,7 +10909,7 @@
   },
   {
     "name": "CP Algebra 1 (Teamed)",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "3": [
         {
@@ -10942,7 +10942,7 @@
   },
   {
     "name": "CP Geometry (Teamed)",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "2": [
         {
@@ -10966,7 +10966,7 @@
   },
   {
     "name": "Elements Integrated Algebra/Geomtry",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "2": [
         {
@@ -10981,7 +10981,7 @@
   },
   {
     "name": "Elements of CP Algebra 1",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "1": [
         {
@@ -11005,7 +11005,7 @@
   },
   {
     "name": "Elements of CP Geometry",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "7": [
         {
@@ -11020,7 +11020,7 @@
   },
   {
     "name": "ILC Math",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "3": [
         {
@@ -11042,7 +11042,7 @@
   },
   {
     "name": "Practical Math",
-    "type": "3",
+    "type": "3 Mathematics",
     "year": {
       "2": [
         {
@@ -11073,7 +11073,7 @@
   },
   {
     "name": "Biology (Teamed)",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "5": [
         {
@@ -11097,7 +11097,7 @@
   },
   {
     "name": "Chemistry (Teamed)",
-    "type": "4",
+    "type": "4 Science",
     "s1": {
       "3": [
         {
@@ -11112,7 +11112,7 @@
   },
   {
     "name": "ILC Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "6": [
         {
@@ -11134,7 +11134,7 @@
   },
   {
     "name": "Physical Science (Teamed)",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "1": [
         {
@@ -11158,7 +11158,7 @@
   },
   {
     "name": "PHYSICS (Teamed)",
-    "type": "4",
+    "type": "4 Science",
     "s2": {
       "3": [
         {
@@ -11173,7 +11173,7 @@
   },
   {
     "name": "Practical Science",
-    "type": "4",
+    "type": "4 Science",
     "year": {
       "4": [
         {
@@ -11197,7 +11197,7 @@
   },
   {
     "name": "Life Skills Fine Arts",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "4": [
         {
@@ -11223,7 +11223,7 @@
   },
   {
     "name": "Practical Fine Art",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "6": [
         {
@@ -11238,7 +11238,7 @@
   },
   {
     "name": "Practical Technology",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "1": [
         {
@@ -11264,7 +11264,7 @@
   },
   {
     "name": "Elements of Health (REACH)",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "8": [
         {
@@ -11279,7 +11279,7 @@
   },
   {
     "name": "Elements of Physical Education (REACH)",
-    "type": "7",
+    "type": "7 Physical Education",
     "s2": {
       "7": [
         {
@@ -11294,7 +11294,7 @@
   },
   {
     "name": "ILC Health",
-    "type": "7",
+    "type": "7 Physical Education",
     "s1": {
       "5": [
         {
@@ -11309,7 +11309,7 @@
   },
   {
     "name": "Practical Health",
-    "type": "7",
+    "type": "7 Physical Education",
     "s2": {
       "6": [
         {
@@ -11331,7 +11331,7 @@
   },
   {
     "name": "Academic Support Lab (REACH)",
-    "type": "8",
+    "type": "8 Student Support",
     "s1": {
       "1": [
         {
@@ -11411,7 +11411,7 @@
   },
   {
     "name": "Academic Support Lab",
-    "type": "8",
+    "type": "8 Student Support",
     "s1": {
       "5": [
         {
@@ -11473,7 +11473,7 @@
   },
   {
     "name": "Careers",
-    "type": "6",
+    "type": "6 Electives",
     "s1": {
       "6": [
         {
@@ -11499,7 +11499,7 @@
   },
   {
     "name": "Practical Work Applications",
-    "type": "8",
+    "type": "8 Student Support",
     "s1": {
       "1": [
         {
@@ -11557,7 +11557,7 @@
   },
   {
     "name": "Avid 10",
-    "type": "8",
+    "type": "8 Student Support",
     "year": {
       "2": [
         {
@@ -11572,7 +11572,7 @@
   },
   {
     "name": "Avid 11",
-    "type": "8",
+    "type": "8 Student Support",
     "year": {
       "6": [
         {
@@ -11587,7 +11587,7 @@
   },
   {
     "name": "Avid 12",
-    "type": "8",
+    "type": "8 Student Support",
     "year": {
       "7": [
         {
@@ -11602,7 +11602,7 @@
   },
   {
     "name": "Avid 9",
-    "type": "8",
+    "type": "8 Student Support",
     "year": {
       "1": [
         {
@@ -11626,7 +11626,7 @@
   },
   {
     "name": "Creative Writing",
-    "type": "1",
+    "type": "1 English",
     "s1": {
       "1": [
         {
@@ -11652,7 +11652,7 @@
   },
   {
     "name": "English 10",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {
@@ -11685,7 +11685,7 @@
   },
   {
     "name": "English 11",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "3": [
         {
@@ -11718,7 +11718,7 @@
   },
   {
     "name": "English 9",
-    "type": "1",
+    "type": "1 English",
     "year": {
       "1": [
         {

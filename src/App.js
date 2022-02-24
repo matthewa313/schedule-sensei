@@ -30,8 +30,12 @@ import HelpModal from './modals/HelpModal.jsx';
 
 const creekTheme = createTheme({
   palette: {
-    primary: blue,
-    secondary: red,
+    primary: {
+      main: '#2979ff',
+    },
+    secondary: {
+      main: '#f44336'
+    },
   }
 })
 
@@ -62,21 +66,6 @@ const useStyles = makeStyles((creekTheme) => ({
   }
 }));
 
-function getContent(stepIndex) {
-  switch (stepIndex) {
-  case 0:
-    return ( <SelectCourses/> );
-  case 1:
-    return ( <SelectOffs/> );
-  case 2:
-    return ( <SelectTeachers/> );
-  case 3:
-    return ( <GeneratedSchedules/> );
-  default:
-    return 'na';
-  }
-}
-
 function App() {
   const classes = useStyles();
   const [activeStep, setActiveStep] = React.useState(0);
@@ -85,7 +74,7 @@ function App() {
 
   const allCourses = require('./files/creekSchedule2122.json');
   const [newCourse, setNewCourse] = React.useState();
-  const [wantedCourses, setWantedCourses] = React.useState([]);
+  const [selectedCourses, setSelectedCourses] = React.useState([]);
 
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
@@ -106,10 +95,39 @@ function App() {
     setActiveStep(0);
   };
 
+  const handleChangeCourse = (event, value) => {
+    setNewCourse(value);
+  };
+
+  const handleSelectCourse = () => {
+    if (newCourse != null && !selectedCourses.some((course) => course.name === newCourse.name)) {
+      setSelectedCourses(selectedCourses.concat(newCourse));
+    }
+  };
+
+  const handleDeleteCourse = (removeCourse) => {
+    setSelectedCourses(selectedCourses.filter((course) => course.name !== removeCourse.name));
+  };
+
   // is going to the next page disabled?
   const isNextDisabled = () => {
     return false; // boilerplate, needs to be extended later
   };
+
+  const getContent = (stepIndex) => {
+    switch (stepIndex) {
+    case 0:
+      return ( <SelectCourses courseOptions={allCourses} selectedCourses={selectedCourses} onChange= {handleChangeCourse} onSelect={handleSelectCourse} onDelete={handleDeleteCourse} /> );
+    case 1:
+      return ( <SelectOffs/> );
+    case 2:
+      return ( <SelectTeachers/> );
+    case 3:
+      return ( <GeneratedSchedules/> );
+    default:
+      return 'na';
+    }
+  }
 
 
   return (
@@ -148,7 +166,7 @@ function App() {
           <Stepper activeStep={activeStep} alternativeLabel className={classes.stepper}>
             {steps.map((label) => (
               <Step key={label}>
-                <StepLabel>{label}</StepLabel>
+                <StepLabel color='secondary'>{label}</StepLabel>
               </Step>
             ))}
           </Stepper>
