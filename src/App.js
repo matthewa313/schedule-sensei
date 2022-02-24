@@ -72,9 +72,16 @@ function App() {
   const [loading, setLoading] = React.useState(false);
   const steps = ['Courses', 'Offs', 'Teachers'];
 
+  // Specific to school/school year
   const allCourses = require('./files/creekSchedule2122.json');
+  const numberOfPeriods = 8;
+  const requiredOffOverrideOptions = ['4th, 5th, or 6th', '4th or 6th (Recommended for Fr/So)', '5th only (Recommended for Jr/Sr)']
+
   const [newCourse, setNewCourse] = React.useState();
   const [selectedCourses, setSelectedCourses] = React.useState([]);
+
+  const [selectedOffs, setSelectedOffs] = React.useState(Array(numberOfPeriods).fill(false));
+  const [requiredOffOverride, setRequiredOffOverride] = React.useState([true, false, false]);
 
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
@@ -109,6 +116,21 @@ function App() {
     setSelectedCourses(selectedCourses.filter((course) => course.name !== removeCourse.name));
   };
 
+  const selectsOff = (period) => selectedOffs[period - 1];
+
+  const handleChangeOffs = (event) => {
+    let offs = [...selectedOffs];
+    offs[event.target.name] = event.target.checked;
+    setSelectedOffs(offs);
+  };
+
+  const handleChangeOffOverride = (event) => {
+    let overrides = Array(3).fill(false);
+    overrides[event.target.name] = event.target.checked;
+    setRequiredOffOverride(overrides);
+    console.log(requiredOffOverride);
+  };
+
   // is going to the next page disabled?
   const isNextDisabled = () => {
     return false; // boilerplate, needs to be extended later
@@ -117,9 +139,21 @@ function App() {
   const getContent = (stepIndex) => {
     switch (stepIndex) {
     case 0:
-      return ( <SelectCourses courseOptions={allCourses} selectedCourses={selectedCourses} onChange= {handleChangeCourse} onSelect={handleSelectCourse} onDelete={handleDeleteCourse} /> );
+      return ( <SelectCourses
+        courseOptions={allCourses}
+        selectedCourses={selectedCourses}
+        onChange={handleChangeCourse}
+        onSelect={handleSelectCourse}
+        onDelete={handleDeleteCourse}
+      /> );
     case 1:
-      return ( <SelectOffs/> );
+      return ( <SelectOffs
+        periods={selectedOffs}
+        onChange={handleChangeOffs}
+        requiredOffOverride={requiredOffOverride}
+        requiredOffOverrideOptions={requiredOffOverrideOptions}
+        onChangeOverride={handleChangeOffOverride}
+      /> );
     case 2:
       return ( <SelectTeachers/> );
     case 3:
