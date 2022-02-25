@@ -14,11 +14,10 @@ import { AppBar,
   StepLabel,
 } from '@mui/material';
 
-import { ThemeProvider, useTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
 import { Help, Info } from '@mui/icons-material';
 import { red, blue } from '@mui/material/colors';
-import { makeStyles } from '@mui/styles';
 import { styled } from '@mui/system';
 
 import SelectCourses from './steps/SelectCourses.jsx';
@@ -39,35 +38,7 @@ const creekTheme = createTheme({
   }
 })
 
-const useStyles = makeStyles((creekTheme) => ({
-  buttonWrapper: {
-    display: 'flex',
-    marginBottom: useTheme().spacing(4),
-  },
-  backButton: {
-    marginRight: useTheme().spacing(1),
-  },
-  nextButtonWrapper: {
-    position: 'relative',
-  },
-  nextButtonProgress: {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    marginTop: 12,
-    marginLeft: 12,
-  },
-  stepper: {
-    marginTop: useTheme().spacing(3),
-    marginBottom: useTheme().spacing(3),
-  },
-  contentContainer: {
-    marginBottom: useTheme().spacing(3),
-  }
-}));
-
 function App() {
-  const classes = useStyles();
   const [activeStep, setActiveStep] = React.useState(0);
   const [loading, setLoading] = React.useState(false);
   const steps = ['Courses', 'Offs', 'Teachers'];
@@ -188,8 +159,8 @@ function App() {
             <Typography style={{fontFamily: 'Kaushan Script'}} className='title' variant='h4'>
               Schedule Sensei
             </Typography>
-            <IconButton color='inherit'>
-              <Info onClick={handleAboutModalOpen} />
+            <IconButton onClick={handleAboutModalOpen} color='inherit'>
+              <Info />
             </IconButton>
           </Toolbar>
         </AppBar>
@@ -208,7 +179,7 @@ function App() {
 
         {/* Steps container */}
         <Container maxWidth='sm'>
-          <Stepper activeStep={activeStep} alternativeLabel className={classes.stepper}>
+          <Stepper activeStep={activeStep} alternativeLabel className='stepper'>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
@@ -218,13 +189,13 @@ function App() {
         </Container>
 
         {/* Content container */}
-        <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'} className={classes.contentContainer}>
+        <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'} className='contentContainer'>
           {getContent(activeStep)}
         </Container>
 
         {/* Button container */}
         <Container maxWidth='sm'>
-          <div className={classes.buttonWrapper}>
+          <div className='progressButtonsWrapper'>
             <Button disabled={activeStep === 0} onClick={handleBack}>
               Back
             </Button>
@@ -233,11 +204,11 @@ function App() {
                 Start Over
               </Button>
             ) : (
-              <div className={classes.nextButtonWrapper}>
+              <div className='nextButtonWrapper'>
                 <Button disabled={isNextDisabled()} onClick={handleNext} variant='contained' color='primary'>
                   {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                 </Button>
-                {loading && <CircularProgress className={classes.nextButtonProgress} size={24} />}
+                {loading && <CircularProgress className='nextButtonProgress' size={24} />}
               </div>
             )
             }

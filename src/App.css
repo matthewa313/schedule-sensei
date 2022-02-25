@@ -1,5 +1,8 @@
+/* || Imports */
+/* We import (1) Roboto regular at 300-700 weights for the @mui package and (2) import Kaushan Script for important headers. */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;500;700&display=swap');
 
+/* || Main app styles */
 .App {
   text-align: left;
 }
@@ -11,6 +14,37 @@
   font-family: 'Kaushan Script';
 }
 
+.progressButtonsWrapper {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.backButton {
+  margin-right: 8px;
+}
+
+.nextButtonWrapper {
+  position: relative;
+}
+
+.nextButtonProgress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 12;
+  margin-bottom: 12;
+}
+
+.stepper {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contentContainer {
+  margin-bottom: 16px;
+}
+
+/* || Modal styles */
 .modalTitle {
   text-align: center;
   font-family: 'Kaushan Script', cursive;
@@ -35,18 +69,43 @@
   #leftside > button { display: none; }
 }
 
-.periodsFormControl {
-  margin-top: 16px;
+/* || SelectCourses Styles */
+.addCourseInterface {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.autocompleteBar {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.courseChipsStack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.courseChip {
+  margin-bottom: 10px;
+}
+
+/* || SelectOffs Styles */
+.periodsForm {
+  margin-top: 8px;
   margin-bottom: 16px;
 }
 
-/* We want the periods form group to be centered, but curently it is not centered perfectly... we need better CSS to accomplish that. */
 .periodsFormGroup {
-  margin-left: 10%;
-  margin-right: 10%;
+  /* We want the periods form group to be centered, but curently it is not centered perfectly... we need better CSS to accomplish that. */
+  margin-left: 11.21%;
+  margin-right: 11.21%;
 }
 
 .requiredOffOverideForm {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 11.21%;
+  margin-right: 11.21%;
 }

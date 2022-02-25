@@ -7,36 +7,11 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import { useTheme } from '@mui/material/styles';
 import { Autocomplete } from '@mui/material';
 
 import '../App.css';
 
-const useStyles = makeStyles((theme) => ({
-  addCourseButton: {
-    display: 'flex',
-    alignItems: 'flex-end',
-    marginTop: useTheme().spacing(2),
-    marginBottom: useTheme().spacing(2),
-  },
-  autocomplete: {
-    flex: 1,
-    marginRight: useTheme().spacing(1),
-  },
-  courseChipsStack: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'flex-start',
-    padding: '10px',
-    marginBottom: useTheme().spacing(2),
-  },
-  courseChip: {
-    marginBottom: '10px',
-  }
-}));
 export default function SelectCourses(props) {
-  const classes = useStyles();
   const [random, setRandom] = React.useState();
   const selectAndRefresh = () => {
     props.onSelect();
@@ -48,9 +23,9 @@ export default function SelectCourses(props) {
       <Typography gutterBottom>
         Select your courses using the drop down below.
       </Typography>
-      <div className={classes.addCourseButton}>
+      <div className='addCourseInterface'>
         <Autocomplete
-          className = {classes.autocomplete}
+          className = 'autocompleteBar'
           key = {random}
           id = 'year'
           options = {
@@ -72,7 +47,8 @@ export default function SelectCourses(props) {
         />
         <Button variant='contained' color='primary' onClick={selectAndRefresh}>Add</Button>
       </div>
-      <div className={classes.courseChipsStack}>
+      {/* We need to add some spacing between course chips. */}
+      <div className='courseChipsStack'>
         {props.selectedCourses.map((course) => (
           <Chip
             className='courseChip'

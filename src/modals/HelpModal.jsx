@@ -10,7 +10,6 @@ import {
   DialogTitle,
 } from '@mui/material';
 
-import { makeStyles } from '@mui/styles';
 import bearSensei from '../sensei-art/bearsensei.jpg';
 
 const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
