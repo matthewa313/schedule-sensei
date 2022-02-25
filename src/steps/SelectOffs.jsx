@@ -9,8 +9,6 @@ import {
   Radio,
   Typography,
 } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import { useTheme } from '@mui/material/styles';
 
 import '../App.css';
 
@@ -22,7 +20,7 @@ export default function SelectOffs(props) {
       </Typography>
       <div className='periodsForm'>
         <FormControl>
-          <FormGroup row='true' className='periodsFormGroup'>
+          <FormGroup row={true} className='periodsFormGroup'>
             {props.periods.map((checked, index) => (
               <FormControlLabel
                 key={index}

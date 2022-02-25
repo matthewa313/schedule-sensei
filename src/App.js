@@ -43,9 +43,9 @@ function App() {
   const [loading, setLoading] = React.useState(false);
   const steps = ['Courses', 'Offs', 'Teachers'];
 
-  // Specific to school/school year
+  /* Specific to school/school year */
   const allCourses = require('./files/creekSchedule2122.json');
-  const numberOfPeriods = 8;
+  const numPeriods = 8;
   const requiredOffOverrideOptions = [
     ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
     ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
@@ -53,18 +53,24 @@ function App() {
     ['No lunch periods', [] ],
   ]
   const numOverrideOptions = requiredOffOverrideOptions.length;
+  /* End of specific to school/school year */
 
+  // variables to be passed to SelectCourses.jsx
   const [newCourse, setNewCourse] = React.useState();
   const [selectedCourses, setSelectedCourses] = React.useState([]);
 
-  const [selectedOffs, setSelectedOffs] = React.useState(Array(numberOfPeriods).fill(false));
+  // variables to be passed to SelectOffs.jsx
+  const [selectedOffs, setSelectedOffs] = React.useState(Array(numPeriods).fill(false));
   const [requiredOffOverride, setRequiredOffOverride] = React.useState(
     Array(1).fill(true).concat(
       Array(numOverrideOptions-1).fill(false)
     )
-  );
-  {/* Automatically set the first element of the required off over array to true */}
+  ); // Automatically set first element of the requiredOffOverride array to true
 
+  // variables to be passed to SelectTeachers.jsx
+  const [availableTeachers, setAvailableTeachers] = React.useState('');
+
+  // Modal variables
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
@@ -72,7 +78,15 @@ function App() {
   const handleHelpModalOpen = () => setHelpModalOpen(true);
   const handleHelpModalClose = () => setHelpModalOpen(false);
 
+  // Stepper handlers
   const handleNext = () => {
+    if (activeStep === 0) {
+      // nothing?
+    } else if (activeStep === 1) {
+      determineTeachersList();
+    } else if (activeStep === 2) {
+      // generate schedule
+    }
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
 
@@ -84,6 +98,11 @@ function App() {
     setActiveStep(0);
   };
 
+  const isNextDisabled = () => {
+    return false; // boilerplate, needs to be extended later
+  };
+
+  // Course handlers
   const handleChangeCourse = (event, value) => {
     setNewCourse(value);
   };
@@ -98,7 +117,8 @@ function App() {
     setSelectedCourses(selectedCourses.filter((course) => course.name !== removeCourse.name));
   };
 
-  const selectsOff = (period) => selectedOffs[period - 1];
+  // Offs handlers
+  const selectsOff = (period) => selectedOffs[period - 1]; // will be used in teacher handling only
 
   const handleChangeOffs = (event) => {
     let offs = [...selectedOffs];
@@ -113,11 +133,58 @@ function App() {
     console.log(requiredOffOverride);
   };
 
-  // is going to the next page disabled?
-  const isNextDisabled = () => {
-    return false; // boilerplate, needs to be extended later
+  // Teachers handlers
+  const checkOffsConflictsInTeachersList = true;
+  const teacherSelectionDefault = true;
+  const terms = ['year', 's1', 's2']
+
+  const determineTeachersList = () => {
+    /* The teachersForCourse dictionary has keys corresponding to course with respective array values holding another dictionary of teachers for that course. */
+    let teachersForCourses = {};
+
+    // Loop through all courses the students selects
+    selectedCourses.forEach((course) => {
+      let teachers = {}; // teachers for this course only
+
+      Object.keys(course).forEach((term) => {
+        if (terms.includes(term)) {
+          Object.keys(course[term]).forEach((period) => {
+            course[term][period].forEach((instance) => {
+              if (!(instance.teacher in teachers)) {
+                if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
+                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
+                  // issue: This does not yet work for multiperiod courses.
+                  // issue: Does not save user's answers when switching between tabs if teacherSelectionDefault === true
+                }
+              }
+            })
+          })
+        }
+      })
+      teachersForCourses[course.name] = teachers;
+    })
+    setAvailableTeachers(teachersForCourses);
   };
 
+  const availableTeachersAtLeastOneFor = (course) => {
+    return Object.keys(availableTeachers[course]).some((teacher) => availableTeachers[course][teacher]);
+  };
+
+  const availableTeachersAtLeastOneAll = () => {
+    return Object.keys(availableTeachers).every((course) => availableTeachersAtLeastOneFor(course));
+  };
+
+  const handleChangeTeacher = (event, course) => {
+    setAvailableTeachers({
+      ...availableTeachers,
+      [course]: {
+        ...availableTeachers[course],
+        [event.target.name]: event.target.checked
+      }
+    });
+  };
+
+  // Stepper content
   const getContent = (stepIndex) => {
     switch (stepIndex) {
     case 0:
@@ -137,7 +204,11 @@ function App() {
         onChangeOverride={handleChangeOffOverride}
       /> );
     case 2:
-      return ( <SelectTeachers/> );
+      return ( <SelectTeachers
+        options={availableTeachers}
+        onChange={handleChangeTeacher}
+        error={availableTeachersAtLeastOneFor}
+      /> );
     case 3:
       return ( <GeneratedSchedules/> );
     default:

@@ -107,5 +107,13 @@
 
 .requiredOffOverideForm {
   margin-left: 11.21%;
-  margin-right: 11.21%;
+}
+
+/*|| SelectTeachers */
+.teachersForm {
+  display: 'flex';
+  flex-direction: 'column';
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 11.21%;
 }
