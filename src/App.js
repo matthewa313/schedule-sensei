@@ -158,9 +158,8 @@ function App() {
             course[term][period].forEach((instance) => {
               if (!(instance.teacher in teachers)) {
                 if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
-                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || firstPass;
-                  // issue: This does not yet work for multiperiod courses.
-                  // issue: Does not save user's answers when switching between tabs if teacherSelectionDefault === true
+                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || (firstPass && teacherSelectionDefault);
+                  // issue: does not work for multiperiod courses when checkOffsConflictsInTeachersList is true
                 }
               }
             })
