@@ -35,6 +35,18 @@
   #leftside > button { display: none; }
 }
 
-.chip {
-  margin-bottom: 10px;
+.periodsFormControl {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* We want the periods form group to be centered, but curently it is not centered perfectly... we need better CSS to accomplish that. */
+.periodsFormGroup {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.requiredOffOverideForm {
+  margin-left: 10%;
+  margin-right: 10%;
 }

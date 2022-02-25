@@ -65,12 +65,12 @@ export default function SelectCourses(props) {
             (option) => option.name
           }
           renderInput = {
-            (params) => <TextField {...params} variant='standard' color='secondary' label='Select a course'/>
+            (params) => <TextField {...params} variant='standard' color='primary' label='Select a course'/>
           }
           blurOnSelect
           onChange = {props.onChange}
         />
-        <Button variant='contained' color='secondary' onClick={selectAndRefresh}>Add</Button>
+        <Button variant='contained' color='primary' onClick={selectAndRefresh}>Add</Button>
       </div>
       <div className={classes.courseChipsStack}>
         {props.selectedCourses.map((course) => (

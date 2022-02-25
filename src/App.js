@@ -75,13 +75,24 @@ function App() {
   // Specific to school/school year
   const allCourses = require('./files/creekSchedule2122.json');
   const numberOfPeriods = 8;
-  const requiredOffOverrideOptions = ['4th, 5th, or 6th', '4th or 6th (Recommended for Fr/So)', '5th only (Recommended for Jr/Sr)']
+  const requiredOffOverrideOptions = [
+    ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
+    ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
+    ['Lunch during 5th only (Jr/Sr)', [5] ],
+    ['No lunch periods', [] ],
+  ]
+  const numOverrideOptions = requiredOffOverrideOptions.length;
 
   const [newCourse, setNewCourse] = React.useState();
   const [selectedCourses, setSelectedCourses] = React.useState([]);
 
   const [selectedOffs, setSelectedOffs] = React.useState(Array(numberOfPeriods).fill(false));
-  const [requiredOffOverride, setRequiredOffOverride] = React.useState([true, false, false]);
+  const [requiredOffOverride, setRequiredOffOverride] = React.useState(
+    Array(1).fill(true).concat(
+      Array(numOverrideOptions-1).fill(false)
+    )
+  );
+  {/* Automatically set the first element of the required off over array to true */}
 
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
@@ -125,7 +136,7 @@ function App() {
   };
 
   const handleChangeOffOverride = (event) => {
-    let overrides = Array(3).fill(false);
+    let overrides = Array(numOverrideOptions).fill(false);
     overrides[event.target.name] = event.target.checked;
     setRequiredOffOverride(overrides);
     console.log(requiredOffOverride);
@@ -200,7 +211,7 @@ function App() {
           <Stepper activeStep={activeStep} alternativeLabel className={classes.stepper}>
             {steps.map((label) => (
               <Step key={label}>
-                <StepLabel color='secondary'>{label}</StepLabel>
+                <StepLabel>{label}</StepLabel>
               </Step>
             ))}
           </Stepper>
