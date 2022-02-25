@@ -55,6 +55,9 @@ function App() {
   const numOverrideOptions = requiredOffOverrideOptions.length;
   /* End of specific to school/school year */
 
+  // user variables
+  const [firstPass, setFirstPass] = React.useState(true); // is this the user's first pass through the app?
+
   // variables to be passed to SelectCourses.jsx
   const [newCourse, setNewCourse] = React.useState();
   const [selectedCourses, setSelectedCourses] = React.useState([]);
@@ -81,9 +84,11 @@ function App() {
   // Stepper handlers
   const handleNext = () => {
     if (activeStep === 0) {
+      console.log(firstPass);
       // nothing?
     } else if (activeStep === 1) {
       determineTeachersList();
+      setFirstPass(false);
     } else if (activeStep === 2) {
       // generate schedule
     }
@@ -141,6 +146,7 @@ function App() {
   const determineTeachersList = () => {
     /* The teachersForCourse dictionary has keys corresponding to course with respective array values holding another dictionary of teachers for that course. */
     let teachersForCourses = {};
+    console.log(firstPass);
 
     // Loop through all courses the students selects
     selectedCourses.forEach((course) => {
@@ -152,7 +158,7 @@ function App() {
             course[term][period].forEach((instance) => {
               if (!(instance.teacher in teachers)) {
                 if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
-                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
+                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || firstPass;
                   // issue: This does not yet work for multiperiod courses.
                   // issue: Does not save user's answers when switching between tabs if teacherSelectionDefault === true
                 }
