@@ -140,7 +140,7 @@ function App() {
 
   // Teachers handlers
   const checkOffsConflictsInTeachersList = true;
-  const teacherSelectionDefault = true;
+  const firstPassTeacherSelectionDefault = true;
   const terms = ['year', 's1', 's2']
 
   const determineTeachersList = () => {
@@ -158,8 +158,8 @@ function App() {
             course[term][period].forEach((instance) => {
               if (!(instance.teacher in teachers)) {
                 if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
-                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || (firstPass && teacherSelectionDefault);
-                  // issue: does not work for multiperiod courses when checkOffsConflictsInTeachersList is true
+                  let teacherSelectionDefault = (firstPass && firstPassTeacherSelectionDefault);
+                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
                 }
               }
             })
@@ -215,7 +215,9 @@ function App() {
         error={availableTeachersAtLeastOneFor}
       /> );
     case 3:
-      return ( <GeneratedSchedules/> );
+      return ( <GeneratedSchedules
+        schedules={[1,2,3]}
+      /> );
     default:
       return 'na';
     }
