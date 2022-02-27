@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Backdrop,
   Checkbox,
   CircularProgress,
   FormControl,
@@ -37,9 +38,14 @@ export default function SelectTeachers(props) {
                 />
               ))}
             </FormGroup>
-            {/* <FormHelperText>Select at least one teacher.</FormHelperText>*/}
           </FormControl>
         ))}
+        <Backdrop className='backdrop' open={props.open}>
+          <CircularProgress color='inherit'/>
+          <Typography>
+            Generated {!isNaN(props.progress) && props.progress.toString()}
+          </Typography>
+        </Backdrop>
       </div>
     </div>
   );

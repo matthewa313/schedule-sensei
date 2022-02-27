@@ -1,7 +1,6 @@
 import React from 'react';
 import { AppBar,
   Button,
-  CircularProgress,
   Container,
   IconButton,
   Toolbar,
@@ -21,7 +20,7 @@ import SelectTeachers from './steps/SelectTeachers.jsx';
 import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
 import AboutModal from './modals/AboutModal.jsx';
 import HelpModal from './modals/HelpModal.jsx';
-import generateSchedules from './scheduleGenerator.js';
+import { generateSchedules } from './scheduleGenerator.js';
 
 const theme = createTheme({
   // Blue and red for Cherry Creek HS (red currently not used anywhere)
@@ -77,6 +76,9 @@ function App() {
    */
   const [activeStep, setActiveStep] = React.useState(0);
   // What step is the user currently on (in indices 1-3)
+  const [computingSchedules, setComputingSchedules] = React.useState(false);
+  // True iff the system is in the process of computing schedules
+  const [numOfComputedSchedules, setNumOfComputedSchedules] = React.useState(0);
 
   // Variables to be passed to SelectCourses.jsx
   const [selectedCourses, setSelectedCourses] = React.useState([]);
@@ -125,7 +127,7 @@ function App() {
       setFirstPass(false);
     } else if (activeStep === 2) {
       // Teachers --> generated schedules
-      generateSchedules(selectedCourses,
+      generateAndSetSchedules(selectedCourses,
         selectedOffs,
         requiredOffOverride,
         selectedTeachers);
@@ -262,10 +264,18 @@ function App() {
   };
   // It is possible that the above two functions could be distilled into one with more clever programming.
 
-  /** @function generateSchedules generates a list of schedules using a function exported scheduleGenerator.js and the requirements given by the user.
+  /** @function generateAndSetSchedules generates a list of schedules using a function exported scheduleGenerator.js and the requirements given by the user.
    */
-  const generateSchedules = (courses, offs, offOverride, teachers) => {
+  const generateAndSetSchedules = (courses, offs, offOverride, teachers) => {
+    setComputingSchedules(true);
+    const startTime = Date.now();
+
     const generatedSchedules = generateSchedules(courses, offs, offOverride, teachers);
+
+    const timeElapsed = Date.now() - startTime;
+    console.log('Time elapsed for computation: ' + timeElapsed + 'ms');
+    setComputingSchedules(false);
+
     setSchedules(generatedSchedules);
   }
 
@@ -291,10 +301,12 @@ function App() {
         options={selectedTeachers}
         onChange={handleChangeTeacher}
         error={atLeastOneTeacherSelectedForCourse}
+        open={computingSchedules}
+        progress={numOfComputedSchedules}
       /> );
     case 3:
       return ( <GeneratedSchedules
-        schedules={schedules} // Boilerplate
+        schedules={schedules}
       /> );
     default:
       return 'na';
@@ -368,7 +380,6 @@ function App() {
                 >
                   {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                 </Button>
-                {/* loading && <CircularProgress className='nextButtonProgress' size={24} /> */}
               </div>
             )
             }

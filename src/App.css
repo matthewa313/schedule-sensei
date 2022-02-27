@@ -132,3 +132,10 @@
 @media screen and (min-width: 600px) {
   .teachersForm { margin-left: 32px; }
 }
+
+.backdrop {
+  display: 'flex';
+  flex-direction: 'column';
+  z-index: 2147483647;
+  color: '#fff';
+}
