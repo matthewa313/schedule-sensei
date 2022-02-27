@@ -21,6 +21,7 @@ import SelectTeachers from './steps/SelectTeachers.jsx';
 import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
 import AboutModal from './modals/AboutModal.jsx';
 import HelpModal from './modals/HelpModal.jsx';
+import generateSchedules from './scheduleGenerator.js';
 
 const theme = createTheme({
   // Blue and red for Cherry Creek HS (red currently not used anywhere)
@@ -101,6 +102,9 @@ function App() {
   // Variables to be passed to SelectTeachers.jsx
   const [availableTeachers, setAvailableTeachers] = React.useState('');
 
+  // Variables to be passed to GeneratedSchedules.jsx
+  const [schedules, setSchedules] = React.useState([]);
+
   // Variables to keep track of/handle modal states (About/Help)
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
@@ -124,6 +128,10 @@ function App() {
       setFirstPass(false);
     } else if (activeStep === 2) {
       // Teachers --> generated schedules
+      generateSchedules(selectedCourses,
+        selectedOffs,
+        requiredOffOverride,
+        availableTeachers);
     }
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
@@ -252,6 +260,13 @@ function App() {
   };
   // It is possible that the above two functions could be distilled into one with more clever programming.
 
+  /** @function generateSchedules generates a list of schedules using a function exported scheduleGenerator.js and the requirements given by the user.
+   */
+  const generateSchedules = (courses, offs, offOverride, teachers) => {
+    const generatedSchedules = generateSchedules(courses, offs, offOverride, teachers);
+    setSchedules(generatedSchedules);
+  }
+
   // Stepper content
   const getContent = (stepIndex) => {
     switch (stepIndex) {
@@ -277,7 +292,7 @@ function App() {
       /> );
     case 3:
       return ( <GeneratedSchedules
-        schedules={[1,2,3]} // Boilerplate
+        schedules={schedules} // Boilerplate
       /> );
     default:
       return 'na';
