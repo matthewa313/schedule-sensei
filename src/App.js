@@ -13,7 +13,6 @@ import { AppBar,
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
 import { Help, Info } from '@mui/icons-material';
-import { red, blue } from '@mui/material/colors';
 
 import './App.css';
 import SelectCourses from './steps/SelectCourses.jsx';
