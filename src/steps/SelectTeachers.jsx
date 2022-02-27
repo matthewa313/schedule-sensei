@@ -37,7 +37,7 @@ export default function SelectTeachers(props) {
                 />
               ))}
             </FormGroup>
-            <FormHelperText variant='outlined'>Select at least one teacher. </FormHelperText>
+            {/* <FormHelperText>Select at least one teacher.</FormHelperText>*/}
           </FormControl>
         ))}
       </div>

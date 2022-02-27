@@ -14,8 +14,7 @@ const RESULTS_STRINGS = [
   'After hours of meditation, Schedule Sensei found',
   'After black belt training, Schedule Sensei uncovered',
   'Mr. Miyagi helped Schedule Sensei build',
-  'Before defeating Johnny Lawrence, Schedule Sensei built',
-
+  // 'After defeating Johnny Lawrence, Schedule Sensei built',
 ]
 
 function resultsMessage(numSchedules) {
