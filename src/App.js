@@ -71,8 +71,9 @@ function App() {
   // Variables to describe where user is in the app
   const [firstPass, setFirstPass] = React.useState(true);
   /** Is this the user's first pass through the app?
-   * Starts as true, then turns to false permanently once the user has entered the Teachers step (see @function handleNext)
-   * Resets on page refresh.
+   * Starts as true, then turns to false permanently once the student enters the Teachers step (see @function handleNext).
+   * If the user returns to the courses page AND adds another course, first pass is reset to true (see handleSelectCourse). This allows the new teachers in the new course to be set as true.
+   * Resets to true on page refresh.
    */
   const [activeStep, setActiveStep] = React.useState(0);
   // What step is the user currently on (in indices 1-3)
@@ -162,6 +163,7 @@ function App() {
     if (newCourse != null && !selectedCourses.some((course) => course.name === newCourse.name)) {
       setSelectedCourses(selectedCourses.concat(newCourse));
     }
+    setFirstPass(true);
   };
 
   /** @param removeCourse -- course to be removed.

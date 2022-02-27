@@ -22,7 +22,7 @@ export default function SelectTeachers(props) {
         {Object.keys(props.options).map((course) => (
           <FormControl key={course} error={!props.error(course)}>
             <FormLabel>Teachers for {course}</FormLabel>
-            <FormGroup>
+            <FormGroup className='teachersFormGroup'>
               {Object.keys(props.options[course]).sort().map((teacher) => (
                 <FormControlLabel
                   key={teacher}

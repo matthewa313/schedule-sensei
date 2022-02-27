@@ -16,7 +16,7 @@
 
 .progressButtonsWrapper {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 64px; /* Allow the user to comfortably scroll to the bottom */
 }
 
 .backButton {
@@ -101,19 +101,34 @@
 
 .periodsFormGroup {
   /* We want the periods form group to be centered, but curently it is not centered perfectly... we need better CSS to accomplish that. */
-  margin-left: 11.21%;
-  margin-right: 11.21%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .requiredOffOverideForm {
-  margin-left: 11.21%;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .periodsFormGroup { margin-left: 64px; }
+  .requiredOffOverideForm { margin-left: 64px; }
+  .teachers { margin-left: 0px; }
 }
 
 /*|| SelectTeachers */
 .teachersForm {
-  display: 'flex';
+  display: 'inline';
   flex-direction: 'column';
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 11.21%;
+  margin-left: 0px;
+  margin-right: 32px;
+}
+
+.teachersFormGroup {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .teachersForm { margin-left: 32px; }
 }
