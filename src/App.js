@@ -262,7 +262,6 @@ function App() {
   const atLeastOneTeacherSelectedForAllCourses = () => {
     return Object.keys(selectedTeachers).every((course) => atLeastOneTeacherSelectedForCourse(course));
   };
-  // It is possible that the above two functions could be distilled into one with more clever programming.
 
   /** @function generateAndSetSchedules generates a list of schedules using a function exported scheduleGenerator.js and the requirements given by the user.
    */

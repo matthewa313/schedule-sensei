@@ -139,3 +139,25 @@
   z-index: 2147483647;
   color: '#fff';
 }
+
+/*|| GeneratedSchedules */
+.tableContainer {
+  margin-bottom: 16px;
+}
+
+.periodHeaderCell {
+  min-width: 96px;
+}
+
+.noBorderBottom {
+  border-bottom: 'unset';
+}
+
+.collapsableCell {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.detailTable {
+  margin-bottom: 16px;
+}

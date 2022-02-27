@@ -19,6 +19,12 @@ import {
 
 export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOverride, selectedTeachers) {
   let results = [];
+  let forcedOff = 0;
+
+  let requiredOffOverrideValue = 0;
+  for (let i=0; i<requiredOffOverride.length; i++) {
+    if(requiredOffOverride[i]) requiredOffOverrideValue=i;
+  }
 
   const doublePer = (period) => period + '-' + (period + 1);
 
@@ -54,6 +60,21 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
 
     // If this schedule is complete, add it to the schedule.
     if (period > NUM_PERIODS) {
+      // if (!selectedCourses.every((course) => alreadyContains(schedule, course))) return;
+
+      /** Throw out all schedules which do not have a required off.
+       * If we just do not even consider these schedules in the first place, we would be more efficient.
+       */
+      let requiredOffFulfilled = false || REQUIRED_OFF_OVERRIDE_OPTIONS[requiredOffOverrideValue][1].length === 0;
+      for (let i in REQUIRED_OFF_OVERRIDE_OPTIONS[requiredOffOverrideValue][1]) {
+        let off = REQUIRED_OFF_OVERRIDE_OPTIONS[requiredOffOverrideValue][1][i];
+        if(schedule[off].length === 0) {
+          requiredOffFulfilled = true;
+          break;
+        }
+      }
+      if(!requiredOffFulfilled) return;
+
       schedule.shift(); // For a reason I cannot identify, there is an empty element in the list that we must remove. Fixing this this may nominally improve performance.
       results.push(schedule);
       return;
@@ -124,8 +145,7 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
     }
     // Loop through semester two courses
     selectedCourses.forEach((selectedCourse) => {
-      if (!alreadyContains(schedule, selectedCourse) && selectedCourse.s2
-      && selectedCourse.s2[period] && (s1 === null || s1.name !== selectedCourse.name)) {
+      if (selectedCourse.s2 && selectedCourse.s2[period] && !alreadyContains(schedule, selectedCourse) && (s1 === null || s1.name !== selectedCourse.name)) {
         selectedCourse.s2[period].forEach((s2) => {
           if (selectedTeachers[s2.name][s2.teacher]) {
             let newSchedule = [...schedule];

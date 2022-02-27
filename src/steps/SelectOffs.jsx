@@ -18,7 +18,7 @@ export default function SelectOffs(props) {
   return (
     <div className="SelectOffs">
       <Typography gutterBottom>
-        Select which periods you want off. This will force Schedule Sensei to chop together schedules with these periods free. (If your schedule has space for more offs, Schedule Sensei will add offs when they are available).
+        Select which periods you want off. This will force Schedule Sensei to chop together schedules with these periods free (for the whole year). If your schedule has space for more offs, Schedule Sensei will add offs when they are available)
       </Typography>
       <div className='periodsForm'>
         <FormControl>
