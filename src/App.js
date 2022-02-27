@@ -77,10 +77,6 @@ function App() {
    */
   const [activeStep, setActiveStep] = React.useState(0);
   // What step is the user currently on (in indices 1-3)
-  const [loading, setLoading] = React.useState(false);
-  /** Is the app currently loading?
-   * Right now, this is a dummy variable, and it goes unused. However, we expect to use it later (before the first release) in order to track whether we can go from one page to the next.
-   */
 
   // Variables to be passed to SelectCourses.jsx
   const [selectedCourses, setSelectedCourses] = React.useState([]);
@@ -101,7 +97,7 @@ function App() {
    */
 
   // Variables to be passed to SelectTeachers.jsx
-  const [availableTeachers, setAvailableTeachers] = React.useState('');
+  const [selectedTeachers, setSelectedTeachers] = React.useState('');
 
   // Variables to be passed to GeneratedSchedules.jsx
   const [schedules, setSchedules] = React.useState([]);
@@ -132,7 +128,7 @@ function App() {
       generateSchedules(selectedCourses,
         selectedOffs,
         requiredOffOverride,
-        availableTeachers);
+        selectedTeachers);
     }
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
@@ -146,8 +142,12 @@ function App() {
   };
 
   const isNextDisabled = () => {
-    // This is currently boilerplate code and needs to be extended.
-    return false;
+    /** The next button can be disabled for 2 reasons:
+     * 1. On the course selection page, the user hasn't selected any courses.
+     * 2. On the teacher selection page, the user hasn't selected at least one teacher per course.
+     */
+    return (activeStep === 0 && selectedCourses.length < 1)
+      || (activeStep === 2 && !atLeastOneTeacherSelectedForAllCourses());
   };
 
   /** We have 3 "Course handlers:" handlers to user input to interact with course selection.
@@ -228,7 +228,7 @@ function App() {
               if (!(instance.teacher in teachers)) {
                 if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
                   let teacherSelectionDefault = firstPass && firstPassTeacherSelectionDefault;
-                  teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
+                  teachers[instance.teacher] = (selectedTeachers[course.name] && selectedTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
                 }
               }
             })
@@ -237,28 +237,28 @@ function App() {
       })
       teachersForCourses[course.name] = teachers;
     })
-    setAvailableTeachers(teachersForCourses);
+    setSelectedTeachers(teachersForCourses);
     /** Double period classes complicates determining the teachers list. Consider the following example. The user selects 4th off and taking AP Biology. AP Biology is offered 1-2 with Mr. Bailey and 3-4 with Mr. Smith. If a student enrolls in AP Biology, they have the second half of period 2/4 (usually, but not always, e.g. if a test runs long). Should we give the student Mr. Smith as an option?
      * Currently (and we think it should stay this way, but we aren't sure), the code allows Mr. Smith as an option. In general, we prefer to give the user as many REASONABLE options as possible.
      */
   };
 
   const handleChangeTeacher = (event, course) => {
-    setAvailableTeachers({
-      ...availableTeachers,
+    setSelectedTeachers({
+      ...selectedTeachers,
       [course]: {
-        ...availableTeachers[course],
+        ...selectedTeachers[course],
         [event.target.name]: event.target.checked
       }
     });
   };
 
   const atLeastOneTeacherSelectedForCourse = (course) => {
-    return Object.keys(availableTeachers[course]).some((teacher) => availableTeachers[course][teacher]);
+    return Object.keys(selectedTeachers[course]).some((teacher) => selectedTeachers[course][teacher]);
   };
 
   const atLeastOneTeacherSelectedForAllCourses = () => {
-    return Object.keys(availableTeachers).every((course) => atLeastOneTeacherSelectedForCourse(course));
+    return Object.keys(selectedTeachers).every((course) => atLeastOneTeacherSelectedForCourse(course));
   };
   // It is possible that the above two functions could be distilled into one with more clever programming.
 
@@ -288,7 +288,7 @@ function App() {
       /> );
     case 2:
       return ( <SelectTeachers
-        options={availableTeachers}
+        options={selectedTeachers}
         onChange={handleChangeTeacher}
         error={atLeastOneTeacherSelectedForCourse}
       /> );
@@ -368,7 +368,7 @@ function App() {
                 >
                   {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                 </Button>
-                {loading && <CircularProgress className='nextButtonProgress' size={24} />}
+                {/* loading && <CircularProgress className='nextButtonProgress' size={24} /> */}
               </div>
             )
             }
