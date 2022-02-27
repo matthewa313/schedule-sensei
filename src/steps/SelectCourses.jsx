@@ -1,15 +1,17 @@
 import React from 'react';
-
 import {
+  Autocomplete,
   Button,
   Chip,
   Stack,
   TextField,
   Typography,
 } from '@mui/material';
-import { Autocomplete } from '@mui/material';
 
 import '../App.css';
+import {
+  LIST_OF_COURSES
+} from '../App.js';
 
 export default function SelectCourses(props) {
   const [random, setRandom] = React.useState();
@@ -29,7 +31,7 @@ export default function SelectCourses(props) {
           key = {random}
           id = 'year'
           options = {
-            props.courseOptions
+            LIST_OF_COURSES
               .sort((a, b) => a.name < b.name ? 1 : -1)
               .sort((a, b) => a.type > b.type ? 1 : -1)
           }

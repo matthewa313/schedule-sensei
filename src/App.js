@@ -1,7 +1,4 @@
 import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-
 import { AppBar,
   Button,
   CircularProgress,
@@ -13,13 +10,12 @@ import { AppBar,
   Stepper,
   StepLabel,
 } from '@mui/material';
-
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
 import { Help, Info } from '@mui/icons-material';
 import { red, blue } from '@mui/material/colors';
-import { styled } from '@mui/system';
 
+import './App.css';
 import SelectCourses from './steps/SelectCourses.jsx';
 import SelectOffs from './steps/SelectOffs.jsx';
 import SelectTeachers from './steps/SelectTeachers.jsx';
@@ -27,53 +23,86 @@ import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
 import AboutModal from './modals/AboutModal.jsx';
 import HelpModal from './modals/HelpModal.jsx';
 
-const creekTheme = createTheme({
+const theme = createTheme({
+  // Blue and red for Cherry Creek HS (red currently not used anywhere)
   palette: {
     primary: {
-      main: '#2979ff',
+      main: '#2979ff', // Blue
     },
     secondary: {
-      main: '#f44336'
+      main: '#f44336' // Red
     },
   }
 })
 
+/** The below variables are specific to school/school year.
+ * We also have several environment variables specific to school/school year.
+ */
+export const LIST_OF_COURSES = require('./files/creekSchedule2122.json');
+// .json file link to course selection
+export const NUM_PERIODS = 8;
+/** Number of periods in the school day
+ * This software does not currently support block schedules or periods which go out of order or are lettered
+ * TODO: Support block schedules
+ * TODO: Support out of order/lettered schedules
+ */
+export const REQUIRED_OFF_OVERRIDE_OPTIONS = [
+  ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
+  ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
+  ['Lunch during 5th only (Jr/Sr)', [5] ],
+  ['No lunch periods', [] ],
+]
+/** Off overrides were spawned from the need to honor students' lunch period requirements. Creek requires all students to have a lunch period, either in 4th, 5th, or 6th period. (Typically, the registrar only allows Freshmen/Sophomores to have 4th or 6th lunch and Juniors/Seniors to have 5th lunch.)
+ * We want to make sure that we only give students schedules that have a lunch period in either 4th, 5th, or 6th period, as these are the only schedules the registrar will allow them to have.
+ * Practically, this means we can only generate schedules with an off in at least one of 4, 5, or 6. During the schedule generation process, we will throw out all schedules with not one of 4th, 5th, or 6th lunch.
+ * This criterion would be simple enough to apply, but after conversations with students, it became clear that some wanted more control over the schedule generation process. For instance, Fr/So did not want the system to generate schedules with only 5th off. To honor this, we created the "required off override options."
+ * This is a two-dimensional array where the ith entry represents a singular option. The first element of this entry is a String describing the required off override option. The second element is a list of offs which, if at least one is taken, satisfy the required off override option.
+ * We also have an option "No lunch periods" that will generate all schedules, even if they don't satisfy the lunch period.
+ * Obviously this only solves the lunch period problem, which is not a problem at all schools. There are also other scheduling issues that schools besides Creek face. This code is not especially generalizable and can be complex in areas, so a simpler solution is warmly welcomed.
+ * TODO: Generalize for variety of programming problems
+ */
+const numOverrideOptions = REQUIRED_OFF_OVERRIDE_OPTIONS.length;
+const terms = ['year', 's1', 's2']
+// End of specific to school/school year
+
 function App() {
-  const [activeStep, setActiveStep] = React.useState(0);
-  const [loading, setLoading] = React.useState(false);
   const steps = ['Courses', 'Offs', 'Teachers'];
 
-  /* Specific to school/school year */
-  const allCourses = require('./files/creekSchedule2122.json');
-  const numPeriods = 8;
-  const requiredOffOverrideOptions = [
-    ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
-    ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
-    ['Lunch during 5th only (Jr/Sr)', [5] ],
-    ['No lunch periods', [] ],
-  ]
-  const numOverrideOptions = requiredOffOverrideOptions.length;
-  /* End of specific to school/school year */
+  // Variables to describe where user is in the app
+  const [firstPass, setFirstPass] = React.useState(true);
+  /** Is this the user's first pass through the app?
+   * Starts as true, then turns to false permanently once the user has entered the Teachers step (see @function handleNext)
+   * Resets on page refresh.
+   */
+  const [activeStep, setActiveStep] = React.useState(0);
+  // What step is the user currently on (in indices 1-3)
+  const [loading, setLoading] = React.useState(false);
+  /** Is the app currently loading?
+   * Right now, this is a dummy variable, and it goes unused. However, we expect to use it later (before the first release) in order to track whether we can go from one page to the next.
+   */
 
-  // user variables
-  const [firstPass, setFirstPass] = React.useState(true); // is this the user's first pass through the app?
-
-  // variables to be passed to SelectCourses.jsx
-  const [newCourse, setNewCourse] = React.useState();
+  // Variables to be passed to SelectCourses.jsx
   const [selectedCourses, setSelectedCourses] = React.useState([]);
+  // Array of all courses that the use has selected to be in their schedule
+  const [newCourse, setNewCourse] = React.useState();
+  // Course that the user has currently selected to be added to their schedule
 
-  // variables to be passed to SelectOffs.jsx
-  const [selectedOffs, setSelectedOffs] = React.useState(Array(numPeriods).fill(false));
+  // Variables to be passed to SelectOffs.jsx
+  const [selectedOffs, setSelectedOffs] = React.useState(Array(NUM_PERIODS).fill(false));
+  // The nth value indicates if the user has selected period n+1 to be off.
   const [requiredOffOverride, setRequiredOffOverride] = React.useState(
     Array(1).fill(true).concat(
       Array(numOverrideOptions-1).fill(false)
     )
-  ); // Automatically set first element of the requiredOffOverride array to true
+  );
+  /**
+   * We automatically set first element of the requiredOffOverride array to true because we want the default setting to be initially selected.
+   */
 
-  // variables to be passed to SelectTeachers.jsx
+  // Variables to be passed to SelectTeachers.jsx
   const [availableTeachers, setAvailableTeachers] = React.useState('');
 
-  // Modal variables
+  // Variables to keep track of/handle modal states (About/Help)
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
@@ -81,16 +110,21 @@ function App() {
   const handleHelpModalOpen = () => setHelpModalOpen(true);
   const handleHelpModalClose = () => setHelpModalOpen(false);
 
-  // Stepper handlers
+  /** We have 4 "Stepper handlers:" handlers to user input to move users between different parts of the app.
+   * @function handleNext moves us to the next step, performing all necessary tasks before doing so.
+   * @function handleBack moves us to the previous step.
+   * @function handleReset moves us back to the beginning of the app. This is only accessible to the user from the GeneratedSchedules page.
+   * @function isNextDisabled tells us if Next button should be disabled for the user.
+   */
   const handleNext = () => {
     if (activeStep === 0) {
-      console.log(firstPass);
-      // nothing?
+      // Coures --> offs
     } else if (activeStep === 1) {
-      determineTeachersList();
+      // Offs --> teachers
+      determineTeachersList(); // Based on the offs students selected, determine teachers students can have
       setFirstPass(false);
     } else if (activeStep === 2) {
-      // generate schedule
+      // Teachers --> generated schedules
     }
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
@@ -104,10 +138,15 @@ function App() {
   };
 
   const isNextDisabled = () => {
-    return false; // boilerplate, needs to be extended later
+    // This is currently boilerplate code and needs to be extended.
+    return false;
   };
 
-  // Course handlers
+  /** We have 3 "Course handlers:" handlers to user input to interact with course selection.
+   * @function handleChangeCourse sets the course currently in the Autocomplete interface to be the newCourse variable. This does not add it to the selectedCourses array, merely queuing it to be added.
+   * @function handleSelectCourse adds the course currently selected in the Autocomplete interface (newCourse, which was set by handleChangeCourse).
+   * @function handleDeleteCourse removes the specified course.
+   */
   const handleChangeCourse = (event, value) => {
     setNewCourse(value);
   };
@@ -118,12 +157,21 @@ function App() {
     }
   };
 
+  /** @param removeCourse -- course to be removed.
+   */
   const handleDeleteCourse = (removeCourse) => {
-    setSelectedCourses(selectedCourses.filter((course) => course.name !== removeCourse.name));
+    setSelectedCourses(
+      selectedCourses.filter((course) =>
+        course.name !== removeCourse.name)
+    );
   };
 
-  // Offs handlers
-  const selectsOff = (period) => selectedOffs[period - 1]; // will be used in teacher handling only
+  /** We have 2 "Offs handlers:" handlers to user input to interact with off/off override selection.
+   * @function handleChangeOffs (NOT like change-off) updates the selectedOffs array based on user input.
+   * @function handleChangeOffOverride updates the off override choice (represented as an array of all but) based on user input.
+   */
+  const selectsOff = (period) => selectedOffs[period - 1];
+  // Although this is in the offs handlers, this will not be used by SelectOffs.jsx, only to determine the teachers list and generate schedules.
 
   const handleChangeOffs = (event) => {
     let offs = [...selectedOffs];
@@ -135,22 +183,34 @@ function App() {
     let overrides = Array(numOverrideOptions).fill(false);
     overrides[event.target.name] = event.target.checked;
     setRequiredOffOverride(overrides);
-    console.log(requiredOffOverride);
   };
+  /** One problem we currently have with offs is that the app allows students to select offs for singleton classes. By singleton, we mean a class that is only offered one period (e.g., specialized debate classes, some high level classes, etc.)
+   * TODO: remove offs that overlap with singleton classes as an option.
+   */
 
-  // Teachers handlers
+  /** We have 4 "Teacher handlers:" handlers to user input to interact with teacher selection for various courses.
+   * @function determineTeachersList determines a list of teachers for each course.
+   * @function handleChangeTeacher updates the selected list of teachers based on user input.
+   * @function atLeastOneTeacherSelectedForCourse determines if the user has selected at least one teacher for a given course.
+   * @function atLeastOneTeacherSelectedForAllCourses determines if the user has selected at least one teacher for all courses.
+   */
   const checkOffsConflictsInTeachersList = true;
+  /** When we generate the list of teachers the student can select from, we have two options. First, we can show them all teachers for every course they have selected. The problem with this is that teachers only teach courses in certain periods, and if the user has selected an off period when that teacher is teaching, they won't have the option to take that teacher. Therefore, giving users the opportunity to select all teachers can mislead users about what teachers they are able to take.
+   * Setting checkOffsConflictsInTeachersList to true will not allow students to select teachers who we know are not compatible with their schedule.
+   */
   const firstPassTeacherSelectionDefault = true;
-  const terms = ['year', 's1', 's2']
+  /** When the user first enters the teacher selection page (i.e., on the user's first pass), all teachers can either be selected or unselected.
+   * The value of firstPassTeacherSelectionDefault represents whether teachers will be selected or unselected when the user first enters the teacher selection page.
+   * We think it makes more sense for this value to be true because false requires user input (because, if they have no teachers selected, they will not be able to generate any schedules). Moreover, it seems to be the norm for students to select a plurality of teachers.
+   * After the first pass, this setting is completely disregarded (see teacherSelectionDefault), and user's previous input is preferred.
+   */
 
   const determineTeachersList = () => {
-    /* The teachersForCourse dictionary has keys corresponding to course with respective array values holding another dictionary of teachers for that course. */
     let teachersForCourses = {};
-    console.log(firstPass);
+    // The teachersForCourse dictionary has keys corresponding to course with respective array values holding another dictionary of teachers for that course.
 
-    // Loop through all courses the students selects
-    selectedCourses.forEach((course) => {
-      let teachers = {}; // teachers for this course only
+    selectedCourses.forEach((course) => { // Loop through all courses the students selects
+      let teachers = {}; // Make a list of teachers who the student can take for this course
 
       Object.keys(course).forEach((term) => {
         if (terms.includes(term)) {
@@ -158,7 +218,7 @@ function App() {
             course[term][period].forEach((instance) => {
               if (!(instance.teacher in teachers)) {
                 if(!checkOffsConflictsInTeachersList || !selectsOff(instance.period)) {
-                  let teacherSelectionDefault = (firstPass && firstPassTeacherSelectionDefault);
+                  let teacherSelectionDefault = firstPass && firstPassTeacherSelectionDefault;
                   teachers[instance.teacher] = (availableTeachers[course.name] && availableTeachers[course.name][instance.teacher]) || teacherSelectionDefault;
                 }
               }
@@ -169,14 +229,9 @@ function App() {
       teachersForCourses[course.name] = teachers;
     })
     setAvailableTeachers(teachersForCourses);
-  };
-
-  const availableTeachersAtLeastOneFor = (course) => {
-    return Object.keys(availableTeachers[course]).some((teacher) => availableTeachers[course][teacher]);
-  };
-
-  const availableTeachersAtLeastOneAll = () => {
-    return Object.keys(availableTeachers).every((course) => availableTeachersAtLeastOneFor(course));
+    /** Double period classes complicates determining the teachers list. Consider the following example. The user selects 4th off and taking AP Biology. AP Biology is offered 1-2 with Mr. Bailey and 3-4 with Mr. Smith. If a student enrolls in AP Biology, they have the second half of period 2/4 (usually, but not always, e.g. if a test runs long). Should we give the student Mr. Smith as an option?
+     * Currently (and we think it should stay this way, but we aren't sure), the code allows Mr. Smith as an option. In general, we prefer to give the user as many REASONABLE options as possible.
+     */
   };
 
   const handleChangeTeacher = (event, course) => {
@@ -189,12 +244,20 @@ function App() {
     });
   };
 
+  const atLeastOneTeacherSelectedForCourse = (course) => {
+    return Object.keys(availableTeachers[course]).some((teacher) => availableTeachers[course][teacher]);
+  };
+
+  const atLeastOneTeacherSelectedForAllCourses = () => {
+    return Object.keys(availableTeachers).every((course) => atLeastOneTeacherSelectedForCourse(course));
+  };
+  // It is possible that the above two functions could be distilled into one with more clever programming.
+
   // Stepper content
   const getContent = (stepIndex) => {
     switch (stepIndex) {
     case 0:
       return ( <SelectCourses
-        courseOptions={allCourses}
         selectedCourses={selectedCourses}
         onChange={handleChangeCourse}
         onSelect={handleSelectCourse}
@@ -205,28 +268,27 @@ function App() {
         periods={selectedOffs}
         onChange={handleChangeOffs}
         requiredOffOverride={requiredOffOverride}
-        requiredOffOverrideOptions={requiredOffOverrideOptions}
         onChangeOverride={handleChangeOffOverride}
       /> );
     case 2:
       return ( <SelectTeachers
         options={availableTeachers}
         onChange={handleChangeTeacher}
-        error={availableTeachersAtLeastOneFor}
+        error={atLeastOneTeacherSelectedForCourse}
       /> );
     case 3:
       return ( <GeneratedSchedules
-        schedules={[1,2,3]}
+        schedules={[1,2,3]} // Boilerplate
       /> );
     default:
       return 'na';
     }
   }
 
-
+  // App content
   return (
     <div className='App'>
-      <ThemeProvider theme={creekTheme}>
+      <ThemeProvider theme={theme}>
 
         {/* AppBar container */}
         <AppBar position='static'>
@@ -249,7 +311,6 @@ function App() {
           handleClose={handleHelpModalClose}
           institutionShortName={process.env.REACT_APP_INSTITUTION_SHORT_NAME}
         />
-
         <AboutModal
           isOpen={isAboutModalOpen}
           handleClose={handleAboutModalClose}
@@ -283,7 +344,12 @@ function App() {
               </Button>
             ) : (
               <div className='nextButtonWrapper'>
-                <Button disabled={isNextDisabled()} onClick={handleNext} variant='contained' color='primary'>
+                <Button
+                  disabled={isNextDisabled()}
+                  onClick={handleNext}
+                  variant='contained'
+                  color='primary'
+                >
                   {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                 </Button>
                 {loading && <CircularProgress className='nextButtonProgress' size={24} />}

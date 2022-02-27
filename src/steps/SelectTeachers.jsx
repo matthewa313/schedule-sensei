@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Checkbox,
   CircularProgress,
@@ -10,6 +9,7 @@ import {
   FormLabel,
   Typography,
 } from '@mui/material';
+
 import '../App.css';
 
 export default function SelectTeachers(props) {

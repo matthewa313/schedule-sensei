@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Checkbox,
   FormControl,
@@ -11,6 +10,9 @@ import {
 } from '@mui/material';
 
 import '../App.css';
+import {
+  REQUIRED_OFF_OVERRIDE_OPTIONS
+} from '../App.js';
 
 export default function SelectOffs(props) {
   return (
@@ -51,7 +53,7 @@ export default function SelectOffs(props) {
                   name={'' + index}
                   color='primary'
                 />}
-                label={props.requiredOffOverrideOptions[index][0]}
+                label={REQUIRED_OFF_OVERRIDE_OPTIONS[index][0]}
               />
             ))}
           </FormGroup>
