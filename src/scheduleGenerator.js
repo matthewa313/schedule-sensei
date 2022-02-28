@@ -60,7 +60,7 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
 
     // If this schedule is complete, add it to the schedule.
     if (period > NUM_PERIODS) {
-      // if (!selectedCourses.every((course) => alreadyContains(schedule, course))) return;
+      if (!selectedCourses.every((course) => alreadyContains(schedule, course))) return;
 
       /** Throw out all schedules which do not have a required off.
        * If we just do not even consider these schedules in the first place, we would be more efficient.
