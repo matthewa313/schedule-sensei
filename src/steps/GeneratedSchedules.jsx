@@ -37,7 +37,7 @@ function resultsMessage(numSchedules) {
   let randomString = RESULTS_STRINGS[
     Math.floor(Math.random() * RESULTS_STRINGS.length)
   ];
-  return randomString + ' ' + numSchedules + ' schedules for you...'
+  return randomString + ' ' + numSchedules.toLocaleString() + ' schedules for you...'
 }
 
 const basicCellRep = (period) => {
