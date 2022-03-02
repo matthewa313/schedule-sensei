@@ -9,7 +9,9 @@ import {
   TableBody,
   TableCell,
   TableContainer,
+  TableFooter,
   TableHead,
+  TablePagination,
   TableRow,
   Typography,
 } from '@mui/material';
@@ -27,7 +29,7 @@ const RESULTS_STRINGS = [
   'After hours of meditation, Schedule Sensei found',
   'After black belt training, Schedule Sensei uncovered',
   'Mr. Miyagi helped Schedule Sensei build',
-  // 'After defeating Johnny Lawrence, Schedule Sensei built',
+  'After defeating Johnny Lawrence, Schedule Sensei built',
 ]
 
 function resultsMessage(numSchedules) {
@@ -113,11 +115,11 @@ function ResultsRow(props) {
         ))}
       </TableRow>
       <TableRow>
-        <TableCell className='collapsableCell'></TableCell>
-        <TableCell className='collapsableCell' colSpan={7}>
+        <TableCell></TableCell>
+        <TableCell colSpan={7}>
           <Collapse in={open} timeout='auto' unmountOnExit>
             <Typography variant='h6' gutterBottom>
-              Schedule {props.number}/{props.total}
+              Schedule {(props.page * props.rowsPerPage + props.number).toLocaleString()}/{props.total.toLocaleString()}
             </Typography>
             <Table className='detailTable' size='small'>
               <TableHead>
@@ -135,7 +137,7 @@ function ResultsRow(props) {
             </Table>
           </Collapse>
         </TableCell>
-        <TableCell className='collapsableCell'></TableCell>
+        <TableCell></TableCell>
       </TableRow>
     </React.Fragment>
   )
@@ -143,17 +145,31 @@ function ResultsRow(props) {
 
 export default function GeneratedSchedules(props) {
   const headers = Array(NUM_PERIODS).fill(0).map((v, i) => 'Pd. ' + (i + 1));
+  const [page, setPage] = React.useState(0);
+  const [rowsPerPage, setRowsPerPage] = React.useState(100);
+
+  // Avoid a layout jump when reaching the last page with empty rows.
+  const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - props.schedules.length) : 0;
+
+  const handleChangePage = (event, newPage) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (event) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
 
   return (
     <div className='GeneratedSchedules'>
-      <Container maxWidth='sm'>
+      <Container maxWidth='sm' className='contentContainerSchedules'>
         <Typography gutterBottom>
           {resultsMessage(props.schedules.length)}
         </Typography>
       </Container>
       <Container maxWidth='xl'>
         <TableContainer component={Paper}>
-          <Table size='small'>
+          <Table size='small' padding='none' stickyHeader={true}>
             <TableHead>
               <TableRow>
                 <TableCell></TableCell>
@@ -165,17 +181,39 @@ export default function GeneratedSchedules(props) {
               </TableRow>
             </TableHead>
             <TableBody>
-              {props.schedules.map((schedule, index) => (
+              {props.schedules.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((schedule, index) => (
                 <ResultsRow
                   schedule={schedule}
                   number={index+1}
                   total={props.schedules.length}
+                  page={page}
+                  rowsPerPage={rowsPerPage}
                   key={3}
-                /> // TODO: only display the first n schedules
+                />
               ))}
             </TableBody>
           </Table>
         </TableContainer>
+        <TableFooter>
+          <TablePagination
+            rowsPerPageOptions={[100, 200, 500, { label: 'All', value: -1 }]}
+            colSpan={3}
+            count={props.schedules.length}
+            rowsPerPage={rowsPerPage}
+            page={page}
+            componentsProps={{
+              select: {
+                'aria-label': 'rows per page',
+              },
+              actions: {
+                showFirstButton: true,
+                showLastButton: true,
+              },
+            }}
+            onPageChange={handleChangePage}
+            onRowsPerPageChange={handleChangeRowsPerPage}
+          />
+        </TableFooter>
       </Container>
     </div>
   );

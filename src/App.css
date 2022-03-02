@@ -141,21 +141,20 @@
 }
 
 /*|| GeneratedSchedules */
+.contentContainerSchedules {
+  margin-bottom: 24px;
+}
+
 .tableContainer {
   margin-bottom: 16px;
 }
 
 .periodHeaderCell {
-  min-width: 96px;
+  min-width: 40px;
 }
 
 .noBorderBottom {
   border-bottom: 'unset';
-}
-
-.collapsableCell {
-  padding-bottom: 0px;
-  padding-top: 0px;
 }
 
 .detailTable {
