@@ -45,14 +45,14 @@ function resultsMessage(numSchedules) {
 const basicCellRep = (period) => {
   switch (period.length) {
   case 0: {
-    return 'Off'
+    return '—'
   }
   case 1: {
     return period[0].name
   }
   case 2: {
-    const s1 = (period[0] && period[0].name) || 'Off';
-    const s2 = (period[1] && period[1].name) || 'Off';
+    const s1 = (period[0] && period[0].name) || '—';
+    const s2 = (period[1] && period[1].name) || '—';
     return s1 + ', ' + s2;
   }
   default:
@@ -62,7 +62,7 @@ const basicCellRep = (period) => {
 
 const expandedCellRep = (course) => {
   if (course === null) {
-    return 'Off'
+    return '—'
   } else {
     return course.name + ' — ' + course.teacher + ' — ' + course.room
   }
@@ -70,7 +70,7 @@ const expandedCellRep = (course) => {
 
 function ExpandedRow(props) {
   const expandPeriod = (periodCourses) => {
-    let s1 = 'Off', s2 = 'Off';
+    let s1 = '—', s2 = '—';
     if (periodCourses.length === 1) {
       s1 = expandedCellRep(periodCourses[0]);
       s2 = s1;
@@ -95,7 +95,6 @@ function ExpandedRow(props) {
 }
 
 function ResultsRow(props) {
-  // TODO: make results rows more compact
   // TODO: make results columns evenly spaced
   const [open, setOpen] = React.useState(false);
   const toggleOpen = () => setOpen(!open);

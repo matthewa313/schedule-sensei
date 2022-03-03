@@ -1,9 +1,12 @@
 import React from 'react';
-import { AppBar,
+import {
+  AppBar,
   Button,
+  CircularProgress,
   Container,
   IconButton,
   Toolbar,
+  Tooltip,
   Typography,
   Step,
   Stepper,
@@ -75,10 +78,6 @@ function App() {
    * Resets to true on page refresh.
    */
   const [activeStep, setActiveStep] = React.useState(0);
-  // What step is the user currently on (in indices 1-3)
-  const [computingSchedules, setComputingSchedules] = React.useState(false);
-  // True iff the system is in the process of computing schedules
-  const [numOfComputedSchedules, setNumOfComputedSchedules] = React.useState(0);
 
   // Variables to be passed to SelectCourses.jsx
   const [selectedCourses, setSelectedCourses] = React.useState([]);
@@ -266,15 +265,10 @@ function App() {
   /** @function generateAndSetSchedules generates a list of schedules using a function exported scheduleGenerator.js and the requirements given by the user.
    */
   const generateAndSetSchedules = (courses, offs, offOverride, teachers) => {
-    setComputingSchedules(true);
     const startTime = Date.now();
-
     const generatedSchedules = generateSchedules(courses, offs, offOverride, teachers);
-
     const timeElapsed = Date.now() - startTime;
     console.log('Time elapsed for computation: ' + timeElapsed + 'ms');
-    setComputingSchedules(false);
-
     setSchedules(generatedSchedules);
   }
 
@@ -300,8 +294,6 @@ function App() {
         options={selectedTeachers}
         onChange={handleChangeTeacher}
         error={atLeastOneTeacherSelectedForCourse}
-        open={computingSchedules}
-        progress={numOfComputedSchedules}
       /> );
     case 3:
       return ( <GeneratedSchedules
@@ -320,15 +312,19 @@ function App() {
         {/* AppBar container */}
         <AppBar position='static'>
           <Toolbar>
-            <IconButton onClick={handleHelpModalOpen} color='inherit'>
-              <Help />
-            </IconButton>
+            <Tooltip title='Help'>
+              <IconButton onClick={handleHelpModalOpen} color='inherit'>
+                <Help />
+              </IconButton>
+            </Tooltip>
             <Typography style={{fontFamily: 'Kaushan Script'}} className='title' variant='h4'>
               Schedule Sensei
             </Typography>
-            <IconButton onClick={handleAboutModalOpen} color='inherit'>
-              <Info />
-            </IconButton>
+            <Tooltip title='About'>
+              <IconButton onClick={handleAboutModalOpen} color='inherit'>
+                <Info />
+              </IconButton>
+            </Tooltip>
           </Toolbar>
         </AppBar>
 
@@ -373,7 +369,7 @@ function App() {
               <div className='nextButtonWrapper'>
                 <Button
                   disabled={isNextDisabled()}
-                  onClick={handleNext}
+                  onClick={activeStep === steps.length-1 ? handleNext : handleNext}
                   variant='contained'
                   color='primary'
                 >

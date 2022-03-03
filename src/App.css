@@ -117,16 +117,17 @@
 
 /*|| SelectTeachers */
 .teachersForm {
-  display: 'inline';
-  flex-direction: 'column';
+  display: flex;
+  flex-direction: column;
   margin-top: 16px;
   margin-bottom: 16px;
   margin-left: 0px;
-  margin-right: 32px;
 }
 
 .teachersFormGroup {
   margin-bottom: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 @media screen and (min-width: 600px) {
@@ -134,8 +135,8 @@
 }
 
 .backdrop {
-  display: 'flex';
-  flex-direction: 'column';
+  display: flex;
+  flex-direction: column;
   z-index: 2147483647;
   color: '#fff';
 }
@@ -154,7 +155,7 @@
 }
 
 .noBorderBottom {
-  border-bottom: 'unset';
+  border-bottom: unset;
 }
 
 .detailTable {

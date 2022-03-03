@@ -7,6 +7,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
+import { RemoveCircle } from '@mui/icons-material';
 
 import '../App.css';
 import {
@@ -42,7 +43,11 @@ export default function SelectCourses(props) {
             (option) => option.name
           }
           renderInput = {
-            (params) => <TextField {...params} variant='standard' color='primary' label='Select a course'/>
+            (params) => <TextField {...params}
+              variant='standard'
+              color='primary'
+              label='Select a course'
+            />
           }
           blurOnSelect
           onChange = {props.onChange}
@@ -54,12 +59,13 @@ export default function SelectCourses(props) {
         {props.selectedCourses.map((course) => (
           <Chip
             className='courseChip'
-            variant='filled'
             key={course.name}
             label={course.name}
+            style={{marginTop: '8px'}}
             onDelete={
               () => props.onDelete(course)
             }
+            deleteIcon={<RemoveCircle />}
           />
         ))}
       </div>

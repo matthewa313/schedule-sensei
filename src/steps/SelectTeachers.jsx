@@ -22,8 +22,8 @@ export default function SelectTeachers(props) {
       <div className='teachersForm'>
         {Object.keys(props.options).map((course) => (
           <FormControl key={course} error={!props.error(course)}>
-            <FormLabel>Teachers for {course}</FormLabel>
-            <FormGroup className='teachersFormGroup'>
+            <FormLabel>{course}</FormLabel>
+            <FormGroup className='teachersFormGroup' style={{marginLeft: '16px'}}>
               {Object.keys(props.options[course]).sort().map((teacher) => (
                 <FormControlLabel
                   key={teacher}
@@ -40,12 +40,6 @@ export default function SelectTeachers(props) {
             </FormGroup>
           </FormControl>
         ))}
-        <Backdrop className='backdrop' open={props.open}>
-          <CircularProgress color='inherit'/>
-          <Typography>
-            Generated {!isNaN(props.progress) && props.progress.toString()}
-          </Typography>
-        </Backdrop>
       </div>
     </div>
   );
