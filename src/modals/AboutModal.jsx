@@ -22,7 +22,7 @@ const AboutModal = ({isOpen, handleClose}) => {
 
           To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone (especially Creek computer science students) to contribute (and learn in the process). If you want to help, have any thoughts, or noticed any errors, please contact me at <Link href='mailto:manderson63@cherrycreekschools.org' color='primary'>manderson63@cherrycreekschools.org</Link>.<br/><br/>
 
-          <span style={{marginLeft:'350px'}}><b>Matthew Anderson</b></span>
+          <span style={{float: 'right'}}><b>Matthew Anderson</b></span>
         </DialogContentText>
       </DialogContent>
       <DialogActions>
