@@ -95,7 +95,6 @@ function ExpandedRow(props) {
 }
 
 function ResultsRow(props) {
-  // TODO: make results columns evenly spaced
   const [open, setOpen] = React.useState(false);
   const toggleOpen = () => setOpen(!open);
 

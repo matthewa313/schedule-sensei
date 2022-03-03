@@ -54,7 +54,6 @@ export default function SelectCourses(props) {
         />
         <Button variant='contained' color='primary' onClick={selectAndRefresh}>Add</Button>
       </div>
-      {/* TODO: add spacing between course chips. */}
       <div className='courseChipsStack'>
         {props.selectedCourses.map((course) => (
           <Chip
