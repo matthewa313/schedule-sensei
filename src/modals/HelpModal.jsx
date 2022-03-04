@@ -22,7 +22,7 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
             <DialogContentText>
               <b>{institutionShortName} Students,</b><br/><br/>
 
-              Making your own schedule is difficult. It is hard to know what schedules you can get. On top of that, you want certain off periods and your favorite teachers!<br/><br/>
+              Making your own schedule is difficult. You want certain off periods and your favorite teachers, and it is hard to know what schedules you can get.<br/><br/>
 
               The Schedule Sensei is here to help. Use it to find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 

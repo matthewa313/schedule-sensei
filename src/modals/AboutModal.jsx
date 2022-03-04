@@ -16,7 +16,7 @@ const AboutModal = ({isOpen, handleClose}) => {
       <DialogTitle style={{fontFamily: 'Kaushan Script'}} className='modalTitle' variant='h5'>About Schedule Sensei</DialogTitle>
       <DialogContent>
         <DialogContentText>
-          In 2018, Changyuan Lin built the original <Link href='https://coreball.github.io/schedulestacker-js/' color='primary'>ScheduleStacker</Link>—an app like this one to help Creek students through the self-scheduling process. After he started attending Cornell in 2020, the programming frameworks on which the app was built slowly became deprecated (i.e. outdated).<br/><br/>
+          In 2018, Changyuan Lin built the original <Link href='https://coreball.github.io/schedulestacker-js/' color='primary'>ScheduleStacker</Link>—an app like this one to help Creek students through the self-scheduling process. After he started attending Cornell in 2020, the programming frameworks on which the app was built slowly became deprecated.<br/><br/>
 
           I built Schedule Sensei with the goal of continuing the helpful work of ScheduleStacker with modern coding paradigms and more features. On the coding end, I have made Schedule Sensei more customizable so that students at other schools can replicate this work. However, much of the concept and code in Schedule Sensei comes from straight from Changyuan.<br/><br/>
 
