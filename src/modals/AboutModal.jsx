@@ -20,7 +20,7 @@ const AboutModal = ({isOpen, handleClose}) => {
 
           I built Schedule Sensei with the goal of continuing the helpful work of ScheduleStacker with modern coding paradigms and more features. On the coding end, I have made Schedule Sensei more customizable so that students at other schools can replicate this work. However, much of the concept and code in Schedule Sensei comes from straight from Changyuan.<br/><br/>
 
-          To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone (especially Creek computer science students) to contribute (and learn in the process). If you want to help, have any thoughts, or noticed any errors, please contact me at <Link href='mailto:manderson63@cherrycreekschools.org' color='secondary'>manderson63@cherrycreekschools.org</Link>.<br/><br/>
+          To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone (especially Creek computer science students) to contribute (and learn in the process). If you want to help, have any thoughts, or noticed any errors, please contact me at <Link href='mailto:manderson63@cherrycreekschools.org' color='primary'>manderson63@cherrycreekschools.org</Link>.<br/><br/>
 
           <span style={{float: 'right'}}><b>Matthew Anderson</b></span>
         </DialogContentText>
