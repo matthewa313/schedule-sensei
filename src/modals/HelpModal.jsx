@@ -24,7 +24,7 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
 
               Making your own schedule is difficult. You want certain off periods and your favorite teachers, and it is hard to know what schedules you can get.<br/><br/>
 
-              The Schedule Sensei is here to help. Use it to find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
+              Schedule Sensei is here to help. He will help you find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
               Schedule Sensei works best on a computer.
             </DialogContentText>
