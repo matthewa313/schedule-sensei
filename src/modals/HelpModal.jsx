@@ -10,7 +10,7 @@ import {
   DialogTitle,
 } from '@mui/material';
 
-import bearSensei from '../sensei-art/bearsensei.jpg';
+import bearSensei from '../sensei-art/bearsensei.png';
 
 const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
   return (
@@ -30,7 +30,7 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
             </DialogContentText>
           </div>
           <div className='rightColumn'>
-            <img src={bearSensei} alt='bear sensei'/>
+            <img src={bearSensei} alt='bear sensei' width='100%'/>
           </div>
         </div>
       </DialogContent>

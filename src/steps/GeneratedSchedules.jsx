@@ -29,7 +29,7 @@ const RESULTS_STRINGS = [
   'I sliced together',
   'After hours of meditation, I found',
   'Before black belt training, I uncovered',
-  'Mr. Miyagi helped m4 build',
+  'Mr. Miyagi helped me build',
   'After defeating Johnny Lawrence, I built',
   'With the help of the Buddha Bear, I found',
   'Channeling the power of Barry the Bruin, I discovered',

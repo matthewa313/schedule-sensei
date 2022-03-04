@@ -4,7 +4,7 @@ import {
   Typography,
 } from '@mui/material';
 
-import bearSenseiHead from '../sensei-art/bearsenseihead.jpeg';
+import bearSenseiHead from '../sensei-art/bearsenseihead.png';
 
 
 export default function Bubble(props) { // is right, text
