@@ -10,15 +10,17 @@ import {
   FormLabel,
   Typography,
 } from '@mui/material';
+import Bubble from '../custom_components/Bubble.jsx';
 
 import '../App.css';
 
 export default function SelectTeachers(props) {
   return (
     <div className="SelectTeachers">
-      <Typography gutterBottom>
-        Select the teachers you want included in your schedule. At least one teacher must be selected per course, and selecting two or more teachers will allow either to appear in a schedule. (If no teachers are listed, you have selected offs in every period for which that course is offered).
-      </Typography>
+      <Bubble
+        bearAlign='left'
+        text='Select the teachers you want included in your schedule. At least one teacher must be selected per course, and selecting two or more teachers will allow either to appear in your schedules. (If no teachers are listed, you have selected offs in every period for which that course is offered).'
+      />
       <div className='teachersForm'>
         {Object.keys(props.options).map((course) => (
           <FormControl key={course} error={!props.error(course)}>
@@ -41,6 +43,10 @@ export default function SelectTeachers(props) {
           </FormControl>
         ))}
       </div>
+      <Bubble
+        bearAlign='right'
+        text='When you click finish, I will begin using my powers to find all of your schedules. It may take a while, so be patient while I work...'
+      />
     </div>
   );
 }

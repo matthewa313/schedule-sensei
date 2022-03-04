@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Box,
   Checkbox,
   FormControl,
   FormControlLabel,
@@ -8,6 +9,7 @@ import {
   Radio,
   Typography,
 } from '@mui/material';
+import Bubble from '../custom_components/Bubble.jsx';
 
 import '../App.css';
 import {
@@ -16,10 +18,11 @@ import {
 
 export default function SelectOffs(props) {
   return (
-    <div className="SelectOffs">
-      <Typography gutterBottom>
-        Select which periods you want off. This will force Schedule Sensei to chop together schedules with these periods free (for the whole year). If your schedule has space for more offs, Schedule Sensei will add offs when they are available)
-      </Typography>
+    <div className='SelectOffs'>
+      <Bubble
+        bearAlign='left'
+        text='Select which periods you want off. I will only chop together schedules with these periods free for the whole year.'
+      />
       <div className='periodsForm'>
         <FormControl>
           <FormGroup row={true} className='periodsFormGroup'>
@@ -38,9 +41,10 @@ export default function SelectOffs(props) {
           </FormGroup>
         </FormControl>
       </div>
-      <Typography gutterBottom>
-        By default, the Schedule Sensei only chops together schedules that have a lunch period in one of 4th, 5th, or 6th period. To override the Schedule Sensei, select one of the boxes below:
-      </Typography>
+      <Bubble
+        bearAlign='right'
+        text='By default, I only slice together schedules that have one of 4th, 5th, or 6th off. To override this, select one of the boxes below.'
+      />
       <div className='requiredOffOverideForm'>
         <FormControl>
           <FormGroup>

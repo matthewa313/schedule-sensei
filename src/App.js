@@ -29,11 +29,14 @@ const theme = createTheme({
   // Blue and red for Cherry Creek HS (red currently not used anywhere)
   palette: {
     primary: {
-      main: '#2979ff', // Blue
+      main: '#2962ff', // blue
     },
     secondary: {
-      main: '#f44336' // Red
+      main: '#e53935', // red
     },
+  },
+  typography: {
+    fontFamily: 'Open Sans'
   }
 })
 

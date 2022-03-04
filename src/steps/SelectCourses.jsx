@@ -1,8 +1,10 @@
 import React from 'react';
 import {
   Autocomplete,
+  Box,
   Button,
   Chip,
+  Container,
   Stack,
   TextField,
   Typography,
@@ -13,6 +15,7 @@ import '../App.css';
 import {
   LIST_OF_COURSES
 } from '../App.js';
+import Bubble from '../custom_components/Bubble.jsx'
 
 export default function SelectCourses(props) {
   const [random, setRandom] = React.useState();
@@ -23,9 +26,10 @@ export default function SelectCourses(props) {
 
   return (
     <div className='SelectCourses'>
-      <Typography gutterBottom>
-        Select your courses using the drop down below.
-      </Typography>
+      <Bubble
+        bearAlign='right'
+        text='Select your courses from the dropdown below.'
+      />
       <div className='addCourseInterface'>
         <Autocomplete
           className = 'autocompleteBar'
