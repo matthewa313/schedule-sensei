@@ -15,6 +15,7 @@ import {
   TableRow,
   Typography,
 } from '@mui/material';
+import Bubble from '../custom_components/Bubble.jsx'
 import { KeyboardArrowRight, KeyboardArrowDown } from '@mui/icons-material';
 
 import {
@@ -24,12 +25,19 @@ import {
 // TODO: allow user to export results to pdf/csv/print
 
 const RESULTS_STRINGS = [
-  'Schedule Sensei chopped together',
-  'Schedule Sensei sliced together',
-  'After hours of meditation, Schedule Sensei found',
-  'After black belt training, Schedule Sensei uncovered',
-  'Mr. Miyagi helped Schedule Sensei build',
-  'After defeating Johnny Lawrence, Schedule Sensei built',
+  'I chopped together',
+  'I sliced together',
+  'After hours of meditation, I found',
+  'Before black belt training, I uncovered',
+  'Mr. Miyagi helped m4 build',
+  'After defeating Johnny Lawrence, I built',
+  'With the help of the Buddha Bear, I found',
+  'Channeling the power of Barry the Bruin, I discovered',
+  'Before fighting on for my fame, I discovered',
+  'Holding true to the red, white, and blue, I built',
+  'While at the dojo, I uncovered',
+  'With the help of Chuck Norris, I sliced together',
+  'Before training Dwight Schrute, I chopped together',
 ]
 
 function resultsMessage(numSchedules) {
@@ -161,9 +169,10 @@ export default function GeneratedSchedules(props) {
   return (
     <div className='GeneratedSchedules'>
       <Container maxWidth='sm' className='contentContainerSchedules'>
-        <Typography gutterBottom>
-          {resultsMessage(props.schedules.length)}
-        </Typography>
+        <Bubble
+          bearAlign='left'
+          text={resultsMessage(props.schedules.length)}
+        />
       </Container>
       <Container maxWidth='xl'>
         <TableContainer component={Paper}>
