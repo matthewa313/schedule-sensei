@@ -1,6 +1,6 @@
 /* || Imports */
-/* We import (1) Roboto regular at 300-700 weights for the @mui package and (2) import Kaushan Script for important headers. */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400;500;700&display=swap');
+/* We import (1) Open Sans at 300-700 weights for regular text, (2) Kaushan Script for certain headers, and (3) material icons fonts for @mui icons */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Material+Icons&family=Open+Sans:wght@300;400;500;700&display=swap');
 
 /* || Main app styles */
 .App {
