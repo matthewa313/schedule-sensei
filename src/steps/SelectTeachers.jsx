@@ -19,7 +19,7 @@ export default function SelectTeachers(props) {
     <div className="SelectTeachers">
       <Bubble
         bearAlign='left'
-        text='Select the teachers you want included in your schedule. At least one teacher must be selected per course, and selecting two or more teachers will allow either to appear in your schedules. (If no teachers are listed, you have selected offs in every period for which that course is offered).'
+        text='Select the teachers you want included in your schedule. At least one teacher must be selected per course, and selecting two or more teachers will allow either to appear in your schedules.'
       />
       <div className='teachersForm'>
         {Object.keys(props.options).map((course) => (

@@ -239,7 +239,10 @@ function App() {
           })
         }
       })
-      teachersForCourses[course.name] = teachers;
+      if(Object.keys(teachers).length != 1) {
+        // Do not give the user the option of selecting a teacher if there is only one option. This wastes the user's time.
+        teachersForCourses[course.name] = teachers;
+      }
     })
     setSelectedTeachers(teachersForCourses);
     /** Double period classes complicates determining the teachers list. Consider the following example. The user selects 4th off and taking AP Biology. AP Biology is offered 1-2 with Mr. Bailey and 3-4 with Mr. Smith. If a student enrolls in AP Biology, they have the second half of period 2/4 (usually, but not always, e.g. if a test runs long). Should we give the student Mr. Smith as an option?
