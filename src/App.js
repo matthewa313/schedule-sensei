@@ -15,6 +15,7 @@ import {
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
 import { Help, Info } from '@mui/icons-material';
+import { School, Schedule, Group, Check } from '@mui/icons-material';
 
 import './App.css';
 import SelectCourses from './steps/SelectCourses.jsx';
@@ -71,7 +72,11 @@ const terms = ['year', 's1', 's2']
 // End of specific to school/school year
 
 function App() {
-  const steps = ['Courses', 'Offs', 'Teachers'];
+  const steps = [
+    [1, 'Courses', <School key={1} color='primary'/>],
+    [2, 'Offs', <Schedule key={1} color='primary'/>],
+    [3, 'Teachers', <Group key={1} color='primary'/>],
+  ];
 
   // Variables to describe where user is in the app
   const [firstPass, setFirstPass] = React.useState(true);
@@ -348,9 +353,13 @@ function App() {
         {/* Steps container */}
         <Container maxWidth='sm'>
           <Stepper activeStep={activeStep} alternativeLabel className='stepper'>
-            {steps.map((label) => (
-              <Step key={label}>
-                <StepLabel>{label}</StepLabel>
+            {steps.map((step) => (
+              <Step key={step[0]}>
+                <StepLabel
+                  icon={step[0]>activeStep ? step[2] : <Check color='primary'/>}
+                >
+                  {step[1]}
+                </StepLabel>
               </Step>
             ))}
           </Stepper>
