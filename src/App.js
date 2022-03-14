@@ -49,8 +49,6 @@ export const LIST_OF_COURSES = require('./files/creekSchedule2122.json');
 export const NUM_PERIODS = 8;
 /** Number of periods in the school day
  * This software does not currently support block schedules or periods which go out of order or are lettered
- * TODO: Support block schedules
- * TODO: Support out of order/lettered schedules
  */
 export const REQUIRED_OFF_OVERRIDE_OPTIONS = [
   ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
@@ -65,14 +63,15 @@ export const REQUIRED_OFF_OVERRIDE_OPTIONS = [
  * This is a two-dimensional array where the ith entry represents a singular option. The first element of this entry is a String describing the required off override option. The second element is a list of offs which, if at least one is taken, satisfy the required off override option.
  * We also have an option "No lunch periods" that will generate all schedules, even if they don't satisfy the lunch period.
  * Obviously this only solves the lunch period problem, which is not a problem at all schools. There are also other scheduling issues that schools besides Creek face. This code is not especially generalizable and can be complex in areas, so a simpler solution is warmly welcomed.
- * TODO: Generalize for variety of programming problems
  */
 const numOverrideOptions = REQUIRED_OFF_OVERRIDE_OPTIONS.length;
 const terms = ['year', 's1', 's2']
 // End of specific to school/school year
 
 function App() {
+  // Steps that the user must progress through
   const steps = [
+    // Step number, step name, icon
     [1, 'Courses', <School key={1} color='primary'/>],
     [2, 'Offs', <Schedule key={1} color='primary'/>],
     [3, 'Teachers', <Group key={1} color='primary'/>],
@@ -244,10 +243,10 @@ function App() {
           })
         }
       })
-      if(Object.keys(teachers).length != 1) {
-        // Do not give the user the option of selecting a teacher if there is only one option. This wastes the user's time.
-        teachersForCourses[course.name] = teachers;
-      }
+      // if(Object.keys(teachers).length != 1) {
+      // Do not give the user the option of selecting a teacher if there is only one option. This wastes the user's time.
+      teachersForCourses[course.name] = teachers;
+      // }
     })
     setSelectedTeachers(teachersForCourses);
     /** Double period classes complicates determining the teachers list. Consider the following example. The user selects 4th off and taking AP Biology. AP Biology is offered 1-2 with Mr. Bailey and 3-4 with Mr. Smith. If a student enrolls in AP Biology, they have the second half of period 2/4 (usually, but not always, e.g. if a test runs long). Should we give the student Mr. Smith as an option?

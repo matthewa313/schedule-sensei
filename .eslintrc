@@ -10,6 +10,7 @@
     "linebreak-style": 1,
     "quotes": ["error", "single"],
     "no-unused-vars": "off",
+    "no-useless-escape": "off",
     "spaced-comment": ["warn", "always"],
   },
   "parserOptions": {

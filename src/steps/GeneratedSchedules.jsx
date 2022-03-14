@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {
+  Button,
   Collapse,
   Container,
   IconButton,
@@ -47,7 +48,7 @@ function resultsMessage(numSchedules) {
   let randomString = RESULTS_STRINGS[
     Math.floor(Math.random() * RESULTS_STRINGS.length)
   ];
-  return randomString + ' ' + numSchedules.toLocaleString() + ' schedules for you...'
+  return randomString + ' ' + numSchedules.toLocaleString() + ' schedules for you... click below to download your schedules as a spreadsheet.'
 }
 
 const basicCellRep = (period) => {
@@ -73,6 +74,28 @@ const expandedCellRep = (course) => {
     return '—'
   } else {
     return course.name + ' — ' + course.teacher + ' — ' + course.room
+  }
+};
+
+const csvCellRep = (period) => {
+  switch (period.length) {
+  case 0: {
+    return '—';
+  }
+  case 1: {
+    return period[0].name + ' — ' + period[0].teacher.replace(',','').replace(/ .*/,'');
+  }
+  case 2: {
+    const s1 = (period[0] &&
+      period[0].name + ' — ' + period[0].teacher.replace(',','').replace(/ .*/,'')
+    ) || '—';
+    const s2 = (period[0] &&
+      period[1].name + ' — ' + period[1].teacher.replace(',','').replace(/ .*/,'')
+    ) || '—';
+    return s1 + ', ' + s2;
+  }
+  default:
+    return 'uh-oh!'
   }
 };
 
@@ -149,6 +172,24 @@ function ResultsRow(props) {
   )
 }
 
+function exportSchedulesToCSV(schedules) {
+  let csv = ''
+  for (let i=1; i<=NUM_PERIODS; i++) {
+    csv += 'Period ' + i;
+    if(i != NUM_PERIODS) csv += ',';
+  }
+  csv += '\n';
+  for (let i=0; i<schedules.length; i++) {
+    for (let j=0; j<schedules[i].length; j++) {
+      csv += csvCellRep(schedules[i][j]);
+      if(j != schedules[i].length-1) csv += ',';
+    }
+    csv += '\n';
+  }
+  console.log(csv);
+  return csv;
+}
+
 export default function GeneratedSchedules(props) {
   const headers = Array(NUM_PERIODS).fill(0).map((v, i) => 'Pd. ' + (i + 1));
   const [page, setPage] = React.useState(0);
@@ -166,6 +207,15 @@ export default function GeneratedSchedules(props) {
     setPage(0);
   };
 
+  const downloadTxtFile = () => {
+    const element = document.createElement('a');
+    const file = new Blob([exportSchedulesToCSV(props.schedules)], {type: 'text/plain;charset=utf-8'});
+    element.href = URL.createObjectURL(file);
+    element.download = 'schedule.csv';
+    document.body.appendChild(element);
+    element.click();
+  }
+
   return (
     <div className='GeneratedSchedules'>
       <Container maxWidth='sm' className='contentContainerSchedules'>
@@ -173,6 +223,9 @@ export default function GeneratedSchedules(props) {
           bearAlign='left'
           text={resultsMessage(props.schedules.length)}
         />
+        <center>
+          <Button variant='contained' onClick={downloadTxtFile}>Download</Button>
+        </center>
       </Container>
       <Container maxWidth='xl'>
         <TableContainer component={Paper}>
