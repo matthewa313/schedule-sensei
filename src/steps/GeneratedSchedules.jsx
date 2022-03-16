@@ -23,8 +23,6 @@ import {
   NUM_PERIODS
 } from '../App.js'
 
-// TODO: allow user to export results to pdf/csv/print
-
 const RESULTS_STRINGS = [
   'I chopped together',
   'I sliced together',
