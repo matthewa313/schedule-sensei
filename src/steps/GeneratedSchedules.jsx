@@ -46,6 +46,9 @@ function resultsMessage(numSchedules) {
   let randomString = RESULTS_STRINGS[
     Math.floor(Math.random() * RESULTS_STRINGS.length)
   ];
+  if(numSchedules === 1) {
+    return randomString + ' 1 schedule for you... click below to download your schedules as a spreadsheet.'
+  }
   return randomString + ' ' + numSchedules.toLocaleString() + ' schedules for you... click below to download your schedules as a spreadsheet.'
 }
 
