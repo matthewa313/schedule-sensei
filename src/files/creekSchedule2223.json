@@ -3775,7 +3775,8 @@
           "name": "*AP Computer Science A",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ],
       "7": [
@@ -3783,7 +3784,8 @@
           "name": "*AP Computer Science A",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+          "room": "W431",
         }
       ]
     }
@@ -3914,7 +3916,8 @@
           "name": "*Data Structures and Algorithms",
           "semester": "S1",
           "period": "4",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431",
         }
       ]
     }
@@ -4012,7 +4015,8 @@
           "name": "*IOS Application Development Honors",
           "semester": "S2",
           "period": "4",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ]
     }
@@ -4401,7 +4405,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "2",
-          "teacher": "New Teacher, W434"
+          "teacher": "New Teacher",
+"room": "W434"
         },
         {
           "name": "CP Accelerated Algebra 2",
@@ -4457,7 +4462,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "6",
-          "teacher": "New Teacher, W439"
+          "teacher": "New Teacher",
+"room": "W439"
         }
       ],
       "7": [
@@ -4474,7 +4480,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "8",
-          "teacher": "New Teacher, W433"
+          "teacher": "New Teacher",
+"room": "W433"
         }
       ]
     }
@@ -4608,13 +4615,15 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher, W433"
+          "teacher": "New Teacher",
+"room": "W433"
         },
         {
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher, W306"
+          "teacher": "New Teacher",
+"room": "W306"
         }
       ],
       "2": [
@@ -4647,7 +4656,8 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "5",
-          "teacher": "New Teacher, W439"
+          "teacher": "New Teacher",
+"room": "W439"
         },
         {
           "name": "CP Algebra 1",
@@ -4678,7 +4688,8 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher, W544"
+          "teacher": "New Teacher",
+"room": "W544"
         }
       ]
     }
@@ -4710,7 +4721,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher, W544"
+          "teacher": "New Teacher",
+"room": "W544"
         }
       ],
       "4": [
@@ -4718,7 +4730,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "4",
-          "teacher": "New Teacher, W306"
+          "teacher": "New Teacher",
+"room": "W306"
         }
       ],
       "6": [
@@ -4726,7 +4739,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "6",
-          "teacher": "New Teacher, W544"
+          "teacher": "New Teacher",
+"room": "W544"
         },
         {
           "name": "CP Algebra 2",
@@ -4932,7 +4946,8 @@
           "name": "Intro To Computer Science",
           "semester": "S1",
           "period": "2",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ],
       "3": [
@@ -4967,7 +4982,8 @@
           "name": "Intro To Computer Science",
           "semester": "S1",
           "period": "8",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ]
     },
@@ -4977,7 +4993,8 @@
           "name": "Intro To Computer Science",
           "semester": "S2",
           "period": "2",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ],
       "8": [
@@ -4985,7 +5002,8 @@
           "name": "Intro To Computer Science",
           "semester": "S2",
           "period": "8",
-          "teacher": "New Teacher, W431"
+          "teacher": "New Teacher",
+"room": "W431"
         }
       ]
     }
@@ -6783,7 +6801,8 @@
           "name": "*French 3/4 Honors",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher, W216"
+          "teacher": "New Teacher",
+"room": "W216"
         }
       ]
     }
@@ -7064,7 +7083,8 @@
           "name": "CP French 2",
           "semester": "Year",
           "period": "5",
-          "teacher": "New Teacher, W212"
+          "teacher": "New Teacher",
+"room": "W212"
         }
       ],
       "8": [
@@ -7072,7 +7092,8 @@
           "name": "CP French 2",
           "semester": "Year",
           "period": "8",
-          "teacher": "New Teacher, W216"
+          "teacher": "New Teacher",
+"room": "W216"
         }
       ]
     }
@@ -7086,7 +7107,8 @@
           "name": "CP French 3",
           "semester": "Year",
           "period": "2",
-          "teacher": "New Teacher, W212"
+          "teacher": "New Teacher",
+"room": "W212"
         }
       ],
       "3": [
@@ -7094,7 +7116,8 @@
           "name": "CP French 3",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher, W212"
+          "teacher": "New Teacher",
+"room": "W212"
         }
       ]
     }
