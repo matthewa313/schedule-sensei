@@ -30,12 +30,12 @@
     }
   },
   {
-    "name": "*Advanced Debate Honors (Interp)",
+    "name": "*Advanced Debate Honors (Oratory)",
     "type": "1",
     "year": {
       "3": [
         {
-          "name": "*Advanced Debate Honors (Interp)",
+          "name": "*Advanced Debate Honors (Oratory)",
           "semester": "Year",
           "period": "3",
           "teacher": "Benham, Martha",
@@ -45,12 +45,12 @@
     }
   },
   {
-    "name": "*Advanced Debate Honors (Oratory)",
+    "name": "*Advanced Debate Honors (Interp)",
     "type": "1",
     "year": {
       "3": [
         {
-          "name": "*Advanced Debate Honors (Oratory)",
+          "name": "*Advanced Debate Honors (Interp)",
           "semester": "Year",
           "period": "3",
           "teacher": "Holladay, Carlye",
@@ -3775,8 +3775,8 @@
           "name": "*AP Computer Science A",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ],
       "7": [
@@ -3784,8 +3784,8 @@
           "name": "*AP Computer Science A",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher",
-          "room": "W431",
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ]
     }
@@ -3832,7 +3832,7 @@
           "name": "*AP Statistics",
           "semester": "Year",
           "period": "1",
-          "teacher": "Mimmack, Richard Karl",
+          "teacher": "Mimmack, Richard",
           "room": "W435"
         }
       ],
@@ -3841,7 +3841,7 @@
           "name": "*AP Statistics",
           "semester": "Year",
           "period": "2",
-          "teacher": "Mimmack, Richard Karl",
+          "teacher": "Mimmack, Richard",
           "room": "W435"
         }
       ],
@@ -3850,7 +3850,7 @@
           "name": "*AP Statistics",
           "semester": "Year",
           "period": "3",
-          "teacher": "Mimmack, Richard Karl",
+          "teacher": "Mimmack, Richard",
           "room": "W435"
         }
       ],
@@ -3916,8 +3916,8 @@
           "name": "*Data Structures and Algorithms",
           "semester": "S1",
           "period": "4",
-          "teacher": "New Teacher",
-"room": "W431",
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ]
     }
@@ -4015,8 +4015,8 @@
           "name": "*IOS Application Development Honors",
           "semester": "S2",
           "period": "4",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ]
     }
@@ -4405,8 +4405,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "2",
-          "teacher": "New Teacher",
-"room": "W434"
+          "teacher": "Teacher, New",
+          "room": "W434"
         },
         {
           "name": "CP Accelerated Algebra 2",
@@ -4462,8 +4462,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "6",
-          "teacher": "New Teacher",
-"room": "W439"
+          "teacher": "Teacher, New",
+          "room": "W439"
         }
       ],
       "7": [
@@ -4480,8 +4480,8 @@
           "name": "CP Accelerated Algebra 2",
           "semester": "Year",
           "period": "8",
-          "teacher": "New Teacher",
-"room": "W433"
+          "teacher": "Teacher, New",
+          "room": "W433"
         }
       ]
     }
@@ -4615,15 +4615,15 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher",
-"room": "W433"
+          "teacher": "Teacher, New",
+          "room": "W433"
         },
         {
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher",
-"room": "W306"
+          "teacher": "Teacher, New",
+          "room": "W306"
         }
       ],
       "2": [
@@ -4656,8 +4656,8 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "5",
-          "teacher": "New Teacher",
-"room": "W439"
+          "teacher": "Teacher, New",
+          "room": "W439"
         },
         {
           "name": "CP Algebra 1",
@@ -4688,8 +4688,8 @@
           "name": "CP Algebra 1",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher",
-"room": "W544"
+          "teacher": "Teacher, New",
+          "room": "W544"
         }
       ]
     }
@@ -4721,8 +4721,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher",
-"room": "W544"
+          "teacher": "Teacher, New",
+          "room": "W544"
         }
       ],
       "4": [
@@ -4730,8 +4730,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "4",
-          "teacher": "New Teacher",
-"room": "W306"
+          "teacher": "Teacher, New",
+          "room": "W306"
         }
       ],
       "6": [
@@ -4739,8 +4739,8 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "6",
-          "teacher": "New Teacher",
-"room": "W544"
+          "teacher": "Teacher, New",
+          "room": "W544"
         },
         {
           "name": "CP Algebra 2",
@@ -4762,7 +4762,7 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "7",
-          "teacher": "Mimmack, Richard Karl",
+          "teacher": "Mimmack, Richard",
           "room": "W435"
         }
       ],
@@ -4771,7 +4771,7 @@
           "name": "CP Algebra 2",
           "semester": "Year",
           "period": "8",
-          "teacher": "Mimmack, Richard Karl",
+          "teacher": "Mimmack, Richard",
           "room": "W435"
         },
         {
@@ -4946,8 +4946,8 @@
           "name": "Intro To Computer Science",
           "semester": "S1",
           "period": "2",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ],
       "3": [
@@ -4982,8 +4982,8 @@
           "name": "Intro To Computer Science",
           "semester": "S1",
           "period": "8",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ]
     },
@@ -4993,8 +4993,8 @@
           "name": "Intro To Computer Science",
           "semester": "S2",
           "period": "2",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ],
       "8": [
@@ -5002,8 +5002,8 @@
           "name": "Intro To Computer Science",
           "semester": "S2",
           "period": "8",
-          "teacher": "New Teacher",
-"room": "W431"
+          "teacher": "Teacher, New",
+          "room": "W431"
         }
       ]
     }
@@ -6738,7 +6738,7 @@
           "name": "*AP Spanish Language and Culture",
           "semester": "Year",
           "period": "3",
-          "teacher": "Murillo, Jose",
+          "teacher": "Murillo, José",
           "room": "IC718"
         }
       ],
@@ -6801,8 +6801,8 @@
           "name": "*French 3/4 Honors",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher",
-"room": "W216"
+          "teacher": "Teacher, New",
+          "room": "W216"
         }
       ]
     }
@@ -7083,8 +7083,8 @@
           "name": "CP French 2",
           "semester": "Year",
           "period": "5",
-          "teacher": "New Teacher",
-"room": "W212"
+          "teacher": "Teacher, New",
+          "room": "W212"
         }
       ],
       "8": [
@@ -7092,8 +7092,8 @@
           "name": "CP French 2",
           "semester": "Year",
           "period": "8",
-          "teacher": "New Teacher",
-"room": "W216"
+          "teacher": "Teacher, New",
+          "room": "W216"
         }
       ]
     }
@@ -7107,8 +7107,8 @@
           "name": "CP French 3",
           "semester": "Year",
           "period": "2",
-          "teacher": "New Teacher",
-"room": "W212"
+          "teacher": "Teacher, New",
+          "room": "W212"
         }
       ],
       "3": [
@@ -7116,8 +7116,8 @@
           "name": "CP French 3",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher",
-"room": "W212"
+          "teacher": "Teacher, New",
+          "room": "W212"
         }
       ]
     }
@@ -7478,7 +7478,7 @@
           "name": "CP Spanish 3",
           "semester": "Year",
           "period": "1",
-          "teacher": "Murillo, Jose",
+          "teacher": "Murillo, José",
           "room": "IC718"
         },
         {
@@ -7501,7 +7501,7 @@
           "name": "CP Spanish 3",
           "semester": "Year",
           "period": "2",
-          "teacher": "Murillo, Jose",
+          "teacher": "Murillo, José",
           "room": "IC718"
         }
       ],
@@ -7558,7 +7558,7 @@
           "name": "CP Spanish 3",
           "semester": "Year",
           "period": "6",
-          "teacher": "Murillo, Jose",
+          "teacher": "Murillo, José",
           "room": "IC718"
         }
       ],
@@ -7574,7 +7574,7 @@
           "name": "CP Spanish 3",
           "semester": "Year",
           "period": "7",
-          "teacher": "Murillo, Jose",
+          "teacher": "Murillo, José",
           "room": "IC718"
         }
       ],
@@ -7797,7 +7797,7 @@
           "name": "Advanced Ceramics",
           "semester": "S1",
           "period": "7",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -7808,7 +7808,7 @@
           "name": "Advanced Ceramics",
           "semester": "S2",
           "period": "7",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -7966,7 +7966,7 @@
           "name": "Ceramics 1",
           "semester": "S1",
           "period": "1",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -7975,7 +7975,7 @@
           "name": "Ceramics 1",
           "semester": "S1",
           "period": "2",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -7984,7 +7984,7 @@
           "name": "Ceramics 1",
           "semester": "S1",
           "period": "4",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -7993,7 +7993,7 @@
           "name": "Ceramics 1",
           "semester": "S1",
           "period": "6",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -8004,7 +8004,7 @@
           "name": "Ceramics 1",
           "semester": "S2",
           "period": "2",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -8013,7 +8013,7 @@
           "name": "Ceramics 1",
           "semester": "S2",
           "period": "7",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -8028,7 +8028,7 @@
           "name": "Ceramics 2",
           "semester": "S1",
           "period": "7",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -8039,7 +8039,7 @@
           "name": "Ceramics 2",
           "semester": "S2",
           "period": "1",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -8048,7 +8048,7 @@
           "name": "Ceramics 2",
           "semester": "S2",
           "period": "4",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ],
@@ -8057,7 +8057,7 @@
           "name": "Ceramics 2",
           "semester": "S2",
           "period": "6",
-          "teacher": "Yee, Efong Rose",
+          "teacher": "Yee, Efong",
           "room": "FA600"
         }
       ]
@@ -9396,42 +9396,6 @@
     }
   },
   {
-    "name": "CE Marketing Coop",
-    "type": "9",
-    "year": {
-      "9": [
-        {
-          "name": "CE Marketing Coop",
-          "semester": "Year",
-          "period": "9",
-          "teacher": "Adolphi-Seedorf, Elizabeth",
-          "room": "W213"
-        },
-        {
-          "name": "CE Marketing Coop",
-          "semester": "Year",
-          "period": "9",
-          "teacher": "Padzik, Erica",
-          "room": "W213"
-        },
-        {
-          "name": "CE Marketing Coop",
-          "semester": "Year",
-          "period": "9",
-          "teacher": "Padzik, Erica",
-          "room": "W213"
-        },
-        {
-          "name": "CE Marketing Coop",
-          "semester": "Year",
-          "period": "9",
-          "teacher": "Sheeks, Daniel",
-          "room": "W213"
-        }
-      ]
-    }
-  },
-  {
     "name": "Fashion Design & Merchandising I",
     "type": "9",
     "s1": {
@@ -9558,7 +9522,8 @@
           "name": "Adventure Challenge Course",
           "semester": "S1",
           "period": "5",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "6": [
@@ -9595,7 +9560,8 @@
           "name": "Adventure Challenge Course",
           "semester": "S2",
           "period": "5",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "6": [
@@ -9636,7 +9602,8 @@
           "name": "Adventure Leader",
           "semester": "S1",
           "period": "2",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "3": [
@@ -9644,7 +9611,8 @@
           "name": "Adventure Leader",
           "semester": "S1",
           "period": "3",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "4": [
@@ -9661,7 +9629,8 @@
           "name": "Adventure Leader",
           "semester": "S1",
           "period": "5",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "6": [
@@ -9694,7 +9663,8 @@
           "name": "Adventure Leader",
           "semester": "S1",
           "period": "8",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     },
@@ -9713,7 +9683,8 @@
           "name": "Adventure Leader",
           "semester": "S2",
           "period": "2",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "3": [
@@ -9721,7 +9692,8 @@
           "name": "Adventure Leader",
           "semester": "S2",
           "period": "3",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "4": [
@@ -9738,7 +9710,8 @@
           "name": "Adventure Leader",
           "semester": "S2",
           "period": "5",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "6": [
@@ -9771,7 +9744,8 @@
           "name": "Adventure Leader",
           "semester": "S2",
           "period": "8",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     }
@@ -9811,7 +9785,8 @@
           "name": "Adventure Outdoor Ed",
           "semester": "S1",
           "period": "2",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "3": [
@@ -9819,7 +9794,8 @@
           "name": "Adventure Outdoor Ed",
           "semester": "S1",
           "period": "3",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ]
     },
@@ -9829,7 +9805,8 @@
           "name": "Adventure Outdoor Ed",
           "semester": "S2",
           "period": "2",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ],
       "3": [
@@ -9837,7 +9814,8 @@
           "name": "Adventure Outdoor Ed",
           "semester": "S2",
           "period": "3",
-          "teacher": "New Teacher, W087"
+          "teacher": "Teacher, New",
+          "room": "W087"
         }
       ]
     }
@@ -9851,7 +9829,8 @@
           "name": "Adventure Water Sports",
           "semester": "S1",
           "period": "8",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     },
@@ -9861,7 +9840,8 @@
           "name": "Adventure Water Sports",
           "semester": "S2",
           "period": "8",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     }
@@ -10299,7 +10279,8 @@
           "name": "Swimming Fitness",
           "semester": "S1",
           "period": "7",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     },
@@ -10309,7 +10290,8 @@
           "name": "Swimming Fitness",
           "semester": "S2",
           "period": "7",
-          "teacher": "New Teacher, POOL"
+          "teacher": "Teacher, New",
+          "room": "POOL"
         }
       ]
     }
@@ -10844,7 +10826,8 @@
           "name": "CP English 9 (Teamed)",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher, E404"
+          "teacher": "Teacher, New",
+          "room": "E404"
         }
       ],
       "7": [
@@ -10852,7 +10835,8 @@
           "name": "CP English 9 (Teamed)",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher, E404"
+          "teacher": "Teacher, New",
+          "room": "E404"
         }
       ]
     }
@@ -10911,7 +10895,8 @@
           "name": "Elements of CP English 11",
           "semester": "Year",
           "period": "6",
-          "teacher": "New Teacher, E094"
+          "teacher": "Teacher, New",
+          "room": "E094"
         }
       ]
     }
@@ -10970,7 +10955,8 @@
           "name": "Elements of CP English 9",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher, E094"
+          "teacher": "Teacher, New",
+          "room": "E094"
         }
       ]
     }
@@ -11287,7 +11273,8 @@
           "name": "Elements of World History",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher, E310"
+          "teacher": "Teacher, New",
+          "room": "E310"
         }
       ],
       "7": [
@@ -11295,7 +11282,8 @@
           "name": "Elements of World History",
           "semester": "Year",
           "period": "7",
-          "teacher": "New Teacher, E094"
+          "teacher": "Teacher, New",
+          "room": "E094"
         }
       ]
     }
@@ -11364,7 +11352,8 @@
           "name": "CP Algebra 1 (Teamed)",
           "semester": "Year",
           "period": "3",
-          "teacher": "New Teacher, W548"
+          "teacher": "Teacher, New",
+          "room": "W548"
         }
       ],
       "5": [
@@ -11372,7 +11361,8 @@
           "name": "CP Algebra 1 (Teamed)",
           "semester": "Year",
           "period": "5",
-          "teacher": "New Teacher, W548"
+          "teacher": "Teacher, New",
+          "room": "W548"
         }
       ],
       "6": [
@@ -11419,7 +11409,8 @@
           "name": "Elements Integrated Algebra/Geomtry",
           "semester": "Year",
           "period": "1",
-          "teacher": "New Teacher, W547"
+          "teacher": "Teacher, New",
+          "room": "W547"
         }
       ],
       "2": [
@@ -11427,7 +11418,8 @@
           "name": "Elements Integrated Algebra/Geomtry",
           "semester": "Year",
           "period": "2",
-          "teacher": "New Teacher, W542"
+          "teacher": "Teacher, New",
+          "room": "W542"
         }
       ]
     }
@@ -11886,7 +11878,8 @@
           "name": "Academic Support Lab",
           "semester": "S1",
           "period": "6",
-          "teacher": "New Teacher, E096"
+          "teacher": "Teacher, New",
+          "room": "E096"
         }
       ],
       "8": [
@@ -11894,7 +11887,8 @@
           "name": "Academic Support Lab",
           "semester": "S1",
           "period": "8",
-          "teacher": "New Teacher, E096"
+          "teacher": "Teacher, New",
+          "room": "E096"
         }
       ]
     },
@@ -11922,7 +11916,8 @@
           "name": "Academic Support Lab",
           "semester": "S2",
           "period": "6",
-          "teacher": "New Teacher, E096"
+          "teacher": "Teacher, New",
+          "room": "E096"
         }
       ],
       "8": [
@@ -11930,7 +11925,8 @@
           "name": "Academic Support Lab",
           "semester": "S2",
           "period": "8",
-          "teacher": "New Teacher, E096"
+          "teacher": "Teacher, New",
+          "room": "E096"
         }
       ]
     }
