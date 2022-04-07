@@ -395,7 +395,7 @@ function App() {
           </div>
           <div style={{marginBottom: '16px'}}>
             <Typography style={{fontSize: '12px', color: '#555'}}>
-              {activeStep === steps.length ? 'Disclaimer: If you are taking a repeatable class twice and this class is offered at least two periods, Schedule Sensei may not find all of your schedules.' : ''}
+              {activeStep === steps.length ? 'Disclaimer: If you are taking a class which is repeatable twice and offered at least two periods and you are taking at least two semester classes, Schedule Sensei will find most, but not all, of your schedules.' : ''}
             </Typography>
           </div>
         </Container>
