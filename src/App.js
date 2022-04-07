@@ -393,6 +393,11 @@ function App() {
             )
             }
           </div>
+          <div style={{marginBottom: '16px'}}>
+            <Typography style={{fontSize: '12px', color: '#555'}}>
+              {activeStep === steps.length ? 'Disclaimer: If you are taking a repeatable class twice and this class is offered at least two periods, Schedule Sensei may not find all of your schedules.' : ''}
+            </Typography>
+          </div>
         </Container>
       </ThemeProvider>
     </div>
