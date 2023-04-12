@@ -20,9 +20,7 @@ const AboutModal = ({isOpen, handleClose}) => {
 
           I built Schedule Sensei with the goal of continuing the helpful work of ScheduleStacker with more features. These include lunch period customizability, improved scheduling for PE/ILC/SAS, a mascot, smoother performance for students with large numbers of schedules, and downloadable schedules. I have also made Schedule Sensei more customizable so that students at other schools can replicate this work. However, the concept and much of the code in Schedule Sensei comes from straight from Changyuan.<br/><br/>
 
-          To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone (especially Creek CS students) to contribute (and learn in the process). If you want to help, have any thoughts, or noticed any errors, please contact me at <Link href='mailto:manderson63@cherrycreekschools.org' color='primary'>manderson63@cherrycreekschools.org</Link>.<br/><br/>
-
-          <span style={{float: 'right'}}><b>Matthew Anderson</b></span>
+          To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone (especially Creek CS students) to contribute (and learn in the process). If you want to help, have any thoughts, or noticed any errors, please contact me at <Link href='mailto:manderson63@cherrycreekschools.org' color='primary'>manderson63@cherrycreekschools.org</Link>.<br/><br/> This project is now being updated and maintained by Owen Lennon
         </DialogContentText>
       </DialogContent>
       <DialogActions>
