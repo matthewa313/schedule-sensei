@@ -93,7 +93,7 @@ const csvCellRep = (period) => {
     const s2 = (period[0] &&
       period[1].name + ' — ' + period[1].teacher.replace(',','').replace(/ .*/,'')
     ) || '—';
-    return s1 + ', ' + s2;
+    return s1 + ' | ' + s2;
   }
   default:
     return 'uh-oh!'
