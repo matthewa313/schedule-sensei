@@ -28,7 +28,7 @@ export default function SelectCourses(props) {
     <div className='SelectCourses'>
       <Bubble
         bearAlign='right'
-        text='Select your courses from the dropdown below.'
+        text='Select your courses from the dropdown below. All course names appear exactly as they do in the master schedule.'
       />
       <div className='addCourseInterface'>
         <Autocomplete

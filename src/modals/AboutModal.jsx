@@ -22,7 +22,11 @@ const AboutModal = ({isOpen, handleClose}) => {
 
           To see the code, visit <Link href='https://github.com/matthewa313/schedule-sensei' color='primary'>the Schedule Sensei GitHub Repository</Link>. This project is open source, so I welcome anyone to collaborate as a team. If you want to work together, have any thoughts, or notice any errors, please contact me at <Link href='mailto:umatthew@umich.edu' color='primary'>umatthew@umich.edu</Link>.<br/><br/>
 
-          <span style={{float: 'right'}}><b>Matthew Anderson</b></span>
+          <span style={{ float: 'right' }}><b>Matthew Anderson</b><br />
+            <b>Contributors</b><br />
+            <p>Matthew Anderson</p><br />
+            <p>Owen Lennon</p>
+          </span>
         </DialogContentText>
       </DialogContent>
       <DialogActions>
