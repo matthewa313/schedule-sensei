@@ -27,7 +27,6 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
               Schedule Sensei is here to help. He will help you find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
               Schedule Sensei works best on a computer.
-              2024 - 2025
             </DialogContentText>
           </div>
           <div className='rightColumn'>
