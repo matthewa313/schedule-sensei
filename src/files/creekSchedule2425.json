@@ -1,47 +1,80 @@
-[
+[ 
     {
-        "name": "*Advanced Debate Honors",
+        "name": "*Advanced Debate Honors (Oratory)",
         "type": "1",
         "year": {
-            "1": [
-                {
-                    "name": "*Advanced Debate Honors",
-                    "semester": "Year",
-                    "period": 1,
-                    "teacher": "Benham, Martha",
-                    "room": "FA625"
-                }
-            ],
-            "2": [
-                {
-                    "name": "*Advanced Debate Honors",
-                    "semester": "Year",
-                    "period": 2,
-                    "teacher": "Benham, Martha",
-                    "room": "FA625"
-                }
-            ],
             "3": [
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (Oratory)",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Benham, Martha",
                     "room": "FA625"
                 },
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (Oratory)",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Holladay, Carlye L",
                     "room": "FA624"
                 }
-            ],
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (Extemp.)",
+        "type": "1",
+        "year": {
+            "1": [
+                {
+                    "name": "*Advanced Debate Honors (Extemp.)",
+                    "semester": "Year",
+                    "period": "1",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (L.D.)",
+        "type": "1",
+        "year": {
+            "2": [
+                {
+                    "name": "*Advanced Debate Honors (L.D.)",
+                    "semester": "Year",
+                    "period": "2",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (Interp.)",
+        "type": "1",
+        "year": {
+            "3": [
+                {
+                    "name": "*Advanced Debate Honors (Interp.)",
+                    "semester": "Year",
+                    "period": "3",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (P.F.)",
+        "type": "1",
+        "year": {
             "4": [
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (P.F.)",
                     "semester": "Year",
-                    "period": 4,
+                    "period": "4",
                     "teacher": "Benham, Martha",
                     "room": "FA625"
                 }
