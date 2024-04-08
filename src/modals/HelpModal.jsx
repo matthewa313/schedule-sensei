@@ -20,7 +20,7 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
         <div style={{display: 'flex'}}>
           <div className='leftColumn' >
             <DialogContentText>
-              <b>{institutionShortName} Students,</b><br/><br/>
+              <b>{institutionShortName} 24-25 Students,</b><br/><br/>
 
               Making your own schedule is difficult. You want certain off periods and your favorite teachers, and it is hard to know what schedules you can get.<br/><br/>
 
