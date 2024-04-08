@@ -20,13 +20,14 @@ const HelpModal = ({isOpen, handleClose, institutionShortName}) => {
         <div style={{display: 'flex'}}>
           <div className='leftColumn' >
             <DialogContentText>
-              <b>{institutionShortName} 24-25 Students,</b><br/><br/>
+              <b>{institutionShortName}Students,</b><br/><br/>
 
               Making your own schedule is difficult. You want certain off periods and your favorite teachers, and it is hard to know what schedules you can get.<br/><br/>
 
               Schedule Sensei is here to help. He will help you find a list of all of your possible schedules and filter by off period or your favorite teacher! Then save the list to help during your self scheduling session.<br/><br/>
 
               Schedule Sensei works best on a computer.
+              2024 - 2025
             </DialogContentText>
           </div>
           <div className='rightColumn'>
