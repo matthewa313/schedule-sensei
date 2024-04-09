@@ -5684,12 +5684,12 @@
         }
     },
     {
-        "name": "DE Seminar in Adv Math Topics H",
+        "name": "DE Seminar in Adv Math Topics H / Real Analysis",
         "type": "3",
         "year": {
             "3": [
                 {
-                    "name": "DE Seminar in Adv Math Topics H",
+                    "name": "DE Seminar in Adv Math Topics H / Real Analysis",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Matuschek, Robert J",
