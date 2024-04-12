@@ -370,7 +370,7 @@ function App() {
        
         {/*Timer container */}
         <div className="timerContainer">
-          <Typography variant='standard'>In-person self-scheduling opens in</Typography>
+          <Typography variant='standard'>In-person self-scheduling begins in</Typography>
           <div className="clockContainer">
           
             <div>
