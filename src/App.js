@@ -2,6 +2,7 @@ import React from 'react';
 import {
   AppBar,
   Button,
+  Box,
   CircularProgress,
   Container,
   IconButton,
@@ -313,6 +314,8 @@ function App() {
       return 'na';
     }
   }
+  
+  setInterval(updateTime, 10);
 
   // App content
   return (
@@ -363,12 +366,38 @@ function App() {
             ))}
           </Stepper>
         </Container>
+         
+       
+        {/*Timer container */}
+        <div className="timerContainer">
+          <Typography variant='standard'>In-person self-scheduling opens in</Typography>
+          <div className="clockContainer">
+          
+            <div>
+              <Typography id="hours" variant='h6'></Typography>
+              <Typography className="subText" variant="p">Hours</Typography>
+
+            </div>
+            <div>
+              <Typography id="minutes" variant='h6'></Typography>
+              <Typography className="subText" variant="p">Minutes</Typography>
+            </div> 
+            <div>
+              <Typography id="seconds" variant='h6'></Typography> 
+              <Typography className ="subText" variant="p">Seconds</Typography>
+            </div>
+          </div>
+        </div>
+  
+
+
 
         {/* Content container */}
         <Container maxWidth={activeStep === steps.length ? 'xl' : 'sm'} className='contentContainer'>
           {getContent(activeStep)}
         </Container>
 
+ 
         {/* Button container */}
         <Container maxWidth='sm'>
           <div className='progressButtonsWrapper'>
@@ -403,5 +432,23 @@ function App() {
     </div>
   );
 }
+
+
+function updateTime(){
+   
+  const targetDate = new Date(2024, 4, 15, 0,0,0,0);
+  const datediff = (Date.parse(targetDate) - Date.now());
+
+  const hours = Math.floor(datediff/3600000);                                                                       
+  const minutes = Math.floor(datediff/60000)-hours*60;                                                                 
+  const seconds = Math.floor(datediff/1000)-hours*3600-minutes*60;                                                                                                                                                                                                    
+  document.getElementById('hours').innerHTML = ''+hours; 
+  document.getElementById('minutes').innerHTML = ' : '+minutes;
+  document.getElementById('seconds').innerHTML = ' : '+seconds;
+
+
+}
+
+
 
 export default App;
