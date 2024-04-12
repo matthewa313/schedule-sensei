@@ -14,7 +14,6 @@ export default function Bubble(props) { // is right, text
         <Box
           sx={{
             border:'3px solid #ddd',
-            borderRadius:'6px',
             backgroundColor: '#ddd',
             clipPath: 'polygon(0% 0%, 95% 0, 95% 40%, 100% 50%, 95% 60%, 95% 100%, 0 100%)',
           }}
@@ -33,7 +32,6 @@ export default function Bubble(props) { // is right, text
         <Box
           sx={{
             border:'3px solid #ddd',
-            borderRadius:'6px',
             backgroundColor: '#ddd',
             clipPath: 'polygon(100% 0%, 5% 0, 5% 40%, 0% 50%, 5% 60%, 5% 100%, 100% 100%)',
           }}
