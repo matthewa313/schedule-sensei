@@ -50,11 +50,12 @@ export const NUM_PERIODS = 8;
 /** Number of periods in the school day
  * This software does not currently support block schedules or periods which go out of order or are lettered
  */
+
 export const REQUIRED_OFF_OVERRIDE_OPTIONS = [
-  ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
-  ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
-  ['Lunch during 5th only (Jr/Sr)', [5] ],
-  ['No lunch periods', [] ],
+  ['Lunch during 4th(Freshman)', [4] ],
+  ['Lunch during 6th (Sophmore)', [6] ],
+  ['Lunch during 5th (Jr/Sr)', [5] ],
+  ['No lunch periods', [] ]
 ]
 /** Off overrides were spawned from the need to honor students' lunch period requirements. Creek requires all students to have a lunch period, either in 4th, 5th, or 6th period. (Typically, the registrar only allows Freshmen/Sophomores to have 4th or 6th lunch and Juniors/Seniors to have 5th lunch.)
  * We want to make sure that we only give students schedules that have a lunch period in either 4th, 5th, or 6th period, as these are the only schedules the registrar will allow them to have.
