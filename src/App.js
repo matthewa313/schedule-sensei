@@ -438,14 +438,20 @@ function updateTime(){
    
   const targetDate = new Date('April 15, 2024 0:0:00');
   const datediff = (Date.parse(targetDate) - Date.now());
-
-  const hours = Math.floor(datediff/3600000);                                                                       
-  const minutes = Math.floor(datediff/60000)-hours*60;                                                                 
-  const seconds = Math.floor(datediff/1000)-hours*3600-minutes*60;                                                                                                                                                                                                    
-  document.getElementById('hours').innerHTML = ''+hours; 
-  document.getElementById('minutes').innerHTML = ' : '+minutes;
-  document.getElementById('seconds').innerHTML = ' : '+seconds;
-
+  
+  if(datediff >0){
+    const hours = Math.floor(datediff/3600000);                                                                       
+    const minutes = Math.floor(datediff/60000)-hours*60;                                                                 
+    const seconds = Math.floor(datediff/1000)-hours*3600-minutes*60;                                                                                                                                                                                                    
+    document.getElementById('hours').innerHTML = ''+hours; 
+    document.getElementById('minutes').innerHTML = ' : '+minutes;
+    document.getElementById('seconds').innerHTML = ' : '+seconds;
+  }else{
+    document.getElementById('hours').innerHTML = '0'; 
+    document.getElementById('minutes').innerHTML = ' : 0';
+    document.getElementById('seconds').innerHTML = ' : 0';
+       
+  }
 
 }
 
