@@ -436,7 +436,7 @@ function App() {
 
 function updateTime(){
    
-  const targetDate = new Date(2024, 4, 15, 0,0,0,0);
+  const targetDate = new Date('April 15, 2024 0:0:00');
   const datediff = (Date.parse(targetDate) - Date.now());
 
   const hours = Math.floor(datediff/3600000);                                                                       
