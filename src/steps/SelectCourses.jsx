@@ -28,7 +28,7 @@ export default function SelectCourses(props) {
     <div className='SelectCourses'>
       <Bubble
         bearAlign='right'
-        text='Select your courses from the dropdown below. All course names appear exactly as they do in the master schedule.'
+        text='Select your courses from the dropdown below. All course names appear exactly as they do in the master schedule. For two period classes such as AP Physics C and AP Bio, select the second period as an off period.'
       />
       <div className='addCourseInterface'>
         <Autocomplete

@@ -44,6 +44,7 @@ op = []
 [op.append(x) for x in options if x not in op]
 
 
+
 def getPeriods(course,sem):
     periods = []
     for i in range(1, 9):
