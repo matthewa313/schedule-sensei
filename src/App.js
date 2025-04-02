@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
-import { Help, Info } from '@mui/icons-material';
+import { Help, Info, Timer } from '@mui/icons-material';
 import { School, Schedule, Group, Check } from '@mui/icons-material';
 
 import './App.css';
@@ -23,6 +23,7 @@ import SelectOffs from './steps/SelectOffs.jsx';
 import SelectTeachers from './steps/SelectTeachers.jsx';
 import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
 import AboutModal from './modals/AboutModal.jsx';
+import CountdownModal from './modals/CountdownModal.jsx';
 import HelpModal from './modals/HelpModal.jsx';
 import { generateSchedules } from './scheduleGenerator.js';
 
@@ -113,9 +114,12 @@ function App() {
 
   // Variables to keep track of/handle modal states (About/Help)
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
+  const [isCountdownModalOpen, setCountdownModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
   const handleAboutModalClose = () => setAboutModalOpen(false);
+  const handleCountdownModalOpen = () => setCountdownModalOpen(true);
+  const handleCountdownModalClose = () => setCountdownModalOpen(false);
   const handleHelpModalOpen = () => setHelpModalOpen(true);
   const handleHelpModalClose = () => setHelpModalOpen(false);
 
@@ -331,6 +335,11 @@ function App() {
             <Typography style={{fontFamily: 'Kaushan Script'}} className='title' variant='h4'>
               Schedule Sensei
             </Typography>
+            <Tooltip onClick={handleCountdownModalOpen} title='Countdown'>
+              <IconButton color='inherit'>
+                <Timer />
+              </IconButton>
+            </Tooltip>
             <Tooltip title='About'>
               <IconButton onClick={handleAboutModalOpen} color='inherit'>
                 <Info />
@@ -345,10 +354,16 @@ function App() {
           handleClose={handleHelpModalClose}
           institutionShortName={process.env.REACT_APP_INSTITUTION_SHORT_NAME}
         />
+        <CountdownModal
+          isOpen={isCountdownModalOpen}
+          handleClose={handleCountdownModalClose}
+
+        />
         <AboutModal
           isOpen={isAboutModalOpen}
           handleClose={handleAboutModalClose}
         />
+
 
         {/* Steps container */}
         <Container maxWidth='sm'>

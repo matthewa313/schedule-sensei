@@ -69,6 +69,42 @@
   #leftside > button { display: none; }
 }
 
+/* || Countdown Styles */
+
+.timer{
+  margin:20px;
+  margin-top:0px;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  gap: 5px;
+
+
+}
+
+.timerSection {
+  width:50px;
+  height:70px;
+  padding:10px;
+
+  border-radius:10px;
+  
+  font-size:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+
+
+}
+
+.timerSection .small{
+  
+  font-size:15px;
+
+}
+
+
 /* || SelectCourses Styles */
 .addCourseInterface {
   display: flex;
