@@ -5,7 +5,7 @@ import json
 #possibly ask registrar to provide already formatted excel document next year
 output = {}
 output['o'] = []
-data = pd.read_excel("schedule.xlsx") #change to current years master schedule
+data = pd.read_excel("./excels/25-26_Website_MS.xlsx") #change to current years master schedule
 classes = []
 options = []
 
@@ -28,8 +28,8 @@ class clas:
             "room": room
         }
 
-
 for val in data.values:
+    
     typ = val[0].strip()[0]
     name = val[0].strip()[2:]
     period = int(val[1][0])
@@ -84,5 +84,5 @@ for opt in op:
                 "s2": addPeriods(opt[0], "S2")
             })
 
-with open('data.json', 'w') as outfile:
+with open('../files/creekSchedule2526.json', 'w') as outfile:
     json.dump(output, outfile)
