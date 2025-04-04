@@ -7,14 +7,17 @@ import {
 
 } from '@mui/material';
 
-const CountdownTimer = () => {
+const CountdownTimer = ({ targetUTC }: { targetUTC: number }) => {
   const calculateTimeLeft = () => {
-    const now = new Date().getTime();
-
-    //Change these values based on when MS comes out and when the first wave of scheudling begins 
-    const start = Date.UTC(2025, 3, 2)
-    const target = Date.UTC(2025,3,11)
+    const offset = new Date().getTimezoneOffset() * 60 * 1000;
+    const now = Date.now() - offset //accounting for local timezones;
+    const target = targetUTC;
     const difference = target - now;
+    
+
+    //when Master Schedule comes out; a reference point for progress bar calculations
+    const start = Date.UTC(2025, 3, 2);
+
 
     if (difference <= 0) {
       return { goal:1, days: 0, hours: 0, minutes: 0, seconds: 0 };
@@ -43,7 +46,7 @@ const CountdownTimer = () => {
 
 
     <>
-      <div maxWidth='sm' className='timer'>
+      <div className='timer'>
         <div className='timerSection'>
           <span>
             {timeLeft.days}
@@ -90,7 +93,7 @@ const CountdownTimer = () => {
 
 
       </div>
-
+      
       <LinearProgress variant='determinate' value={timeLeft.goal*100}/>
     </>
 
