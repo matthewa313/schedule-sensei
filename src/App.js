@@ -45,7 +45,7 @@ const theme = createTheme({
 /** The below variables are specific to school/school year.
  * We also have several environment variables specific to school/school year.
  */
-export const LIST_OF_COURSES = require('../src/files/creekSchedule2425.json');
+export const LIST_OF_COURSES = require('../src/files/creekSchedule2526.json');
 // .json file link to course selection
 export const NUM_PERIODS = 8;
 /** Number of periods in the school day
