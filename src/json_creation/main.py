@@ -29,13 +29,12 @@ class clas:
         }
 
 for val in data.values:
-    
-    typ = val[0].strip()[0]
-    name = val[0].strip()[2:]
-    period = int(val[1][0])
-    term = "S1" if val[2] == "S1" else "S2" if val[2] == "S2" else "Year"
-    teacher = val[3]
-    room = val[4]
+    typ = val[1].strip()[0]
+    name = val[1].strip()[2:]
+    period = int(val[2][0])
+    term = "S1" if val[3] == "S1" else "S2" if val[3] == "S2" else "Year"
+    teacher = val[4]
+    room = val[5]
     pp = clas(typ, name, period, term, teacher, room)
     options.append([name, typ, 0 if term == "Year" else 1])
     classes.append(pp.returnJson())
