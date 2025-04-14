@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material';
-import { Help, Info } from '@mui/icons-material';
+import { Help, Info, Timer } from '@mui/icons-material';
 import { School, Schedule, Group, Check } from '@mui/icons-material';
 
 import './App.css';
@@ -23,6 +23,7 @@ import SelectOffs from './steps/SelectOffs.jsx';
 import SelectTeachers from './steps/SelectTeachers.jsx';
 import GeneratedSchedules from './steps/GeneratedSchedules.jsx';
 import AboutModal from './modals/AboutModal.jsx';
+import CountdownModal from './modals/CountdownModal.jsx';
 import HelpModal from './modals/HelpModal.jsx';
 import { generateSchedules } from './scheduleGenerator.js';
 
@@ -44,17 +45,18 @@ const theme = createTheme({
 /** The below variables are specific to school/school year.
  * We also have several environment variables specific to school/school year.
  */
-export const LIST_OF_COURSES = require('./files/creekSchedule2425.json');
+export const LIST_OF_COURSES = require('../src/files/creekSchedule2526.json');
 // .json file link to course selection
 export const NUM_PERIODS = 8;
 /** Number of periods in the school day
  * This software does not currently support block schedules or periods which go out of order or are lettered
  */
+
 export const REQUIRED_OFF_OVERRIDE_OPTIONS = [
-  ['Lunch during 4th, 5th, or 6th', [4,5,6] ],
-  ['Lunch during 4th or 6th (Fr/So)', [4,6] ],
-  ['Lunch during 5th only (Jr/Sr)', [5] ],
-  ['No lunch periods', [] ],
+  ['Lunch during 4th(Freshman)', [4] ],
+  ['Lunch during 6th (Sophmore)', [6] ],
+  ['Lunch during 5th (Jr/Sr)', [5] ],
+  ['No lunch periods', [] ]
 ]
 /** Off overrides were spawned from the need to honor students' lunch period requirements. Creek requires all students to have a lunch period, either in 4th, 5th, or 6th period. (Typically, the registrar only allows Freshmen/Sophomores to have 4th or 6th lunch and Juniors/Seniors to have 5th lunch.)
  * We want to make sure that we only give students schedules that have a lunch period in either 4th, 5th, or 6th period, as these are the only schedules the registrar will allow them to have.
@@ -112,9 +114,12 @@ function App() {
 
   // Variables to keep track of/handle modal states (About/Help)
   const [isAboutModalOpen, setAboutModalOpen] = React.useState(false);
+  const [isCountdownModalOpen, setCountdownModalOpen] = React.useState(false);
   const [isHelpModalOpen, setHelpModalOpen] = React.useState(true);
   const handleAboutModalOpen = () => setAboutModalOpen(true);
   const handleAboutModalClose = () => setAboutModalOpen(false);
+  const handleCountdownModalOpen = () => setCountdownModalOpen(true);
+  const handleCountdownModalClose = () => setCountdownModalOpen(false);
   const handleHelpModalOpen = () => setHelpModalOpen(true);
   const handleHelpModalClose = () => setHelpModalOpen(false);
 
@@ -330,6 +335,11 @@ function App() {
             <Typography style={{fontFamily: 'Kaushan Script'}} className='title' variant='h4'>
               Schedule Sensei
             </Typography>
+            <Tooltip onClick={handleCountdownModalOpen} title='Countdown'>
+              <IconButton color='inherit'>
+                <Timer />
+              </IconButton>
+            </Tooltip>
             <Tooltip title='About'>
               <IconButton onClick={handleAboutModalOpen} color='inherit'>
                 <Info />
@@ -344,10 +354,16 @@ function App() {
           handleClose={handleHelpModalClose}
           institutionShortName={process.env.REACT_APP_INSTITUTION_SHORT_NAME}
         />
+        <CountdownModal
+          isOpen={isCountdownModalOpen}
+          handleClose={handleCountdownModalClose}
+
+        />
         <AboutModal
           isOpen={isAboutModalOpen}
           handleClose={handleAboutModalClose}
         />
+
 
         {/* Steps container */}
         <Container maxWidth='sm'>
