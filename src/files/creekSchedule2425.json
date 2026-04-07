@@ -1,47 +1,80 @@
-[
+[ 
     {
-        "name": "*Advanced Debate Honors",
+        "name": "*Advanced Debate Honors (Oratory)",
         "type": "1",
         "year": {
-            "1": [
-                {
-                    "name": "*Advanced Debate Honors",
-                    "semester": "Year",
-                    "period": 1,
-                    "teacher": "Benham, Martha",
-                    "room": "FA625"
-                }
-            ],
-            "2": [
-                {
-                    "name": "*Advanced Debate Honors",
-                    "semester": "Year",
-                    "period": 2,
-                    "teacher": "Benham, Martha",
-                    "room": "FA625"
-                }
-            ],
             "3": [
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (Oratory)",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Benham, Martha",
                     "room": "FA625"
                 },
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (Oratory)",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Holladay, Carlye L",
                     "room": "FA624"
                 }
-            ],
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (Extemp.)",
+        "type": "1",
+        "year": {
+            "1": [
+                {
+                    "name": "*Advanced Debate Honors (Extemp.)",
+                    "semester": "Year",
+                    "period": "1",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (L.D.)",
+        "type": "1",
+        "year": {
+            "2": [
+                {
+                    "name": "*Advanced Debate Honors (L.D.)",
+                    "semester": "Year",
+                    "period": "2",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (Interp.)",
+        "type": "1",
+        "year": {
+            "3": [
+                {
+                    "name": "*Advanced Debate Honors (Interp.)",
+                    "semester": "Year",
+                    "period": "3",
+                    "teacher": "Benham, Martha",
+                    "room": "FA625"
+                }
+            ]
+        }
+    },
+    {
+        "name": "*Advanced Debate Honors (P.F.)",
+        "type": "1",
+        "year": {
             "4": [
                 {
-                    "name": "*Advanced Debate Honors",
+                    "name": "*Advanced Debate Honors (P.F.)",
                     "semester": "Year",
-                    "period": 4,
+                    "period": "4",
                     "teacher": "Benham, Martha",
                     "room": "FA625"
                 }
@@ -5651,12 +5684,12 @@
         }
     },
     {
-        "name": "DE Seminar in Adv Math Topics H",
+        "name": "DE Seminar in Adv Math Topics H / Real Analysis",
         "type": "3",
         "year": {
             "3": [
                 {
-                    "name": "DE Seminar in Adv Math Topics H",
+                    "name": "DE Seminar in Adv Math Topics H / Real Analysis",
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Matuschek, Robert J",
@@ -6113,7 +6146,7 @@
                     "semester": "Year",
                     "period": 4,
                     "teacher": "Staff, CCHS",
-                    "room":" NaN"
+                    "room": " NaN"
                 }
             ]
         }
@@ -11454,7 +11487,6 @@
     {
         "name": "*AP Macroeconomics",
         "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11522,7 +11554,6 @@
     {
         "name": "International Relations",
         "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11538,7 +11569,6 @@
     {
         "name": "Elements of Sociology 2",
         "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11554,7 +11584,6 @@
     {
         "name": "*AP Computer Science Principles",
         "type": "3",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11606,7 +11635,6 @@
     {
         "name": "CP Biochemistry",
         "type": "4",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11622,7 +11650,6 @@
     {
         "name": "Environmental Science 2",
         "type": "4",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11638,7 +11665,6 @@
     {
         "name": "PHYSICS",
         "type": "4",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11695,7 +11721,6 @@
     {
         "name": "Advanced Painting",
         "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11711,7 +11736,6 @@
     {
         "name": "CE Intro to Early Childhood Ed.",
         "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11727,7 +11751,6 @@
     {
         "name": "Ceramics 2",
         "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11761,7 +11784,6 @@
     {
         "name": "Jewelry/Metal 2",
         "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11786,7 +11808,6 @@
     {
         "name": "Newcomer English Language Support 2",
         "type": "8",
-        "s1": {},
         "s2": {
             "1": [
                 {
@@ -11811,7 +11832,6 @@
     {
         "name": "Elements Of Lit/Film",
         "type": "1",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11827,7 +11847,6 @@
     {
         "name": "CP US History 11-12 Sem 2",
         "type": "2",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11861,7 +11880,6 @@
     {
         "name": "*DE Differential Equations Honors",
         "type": "3",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11886,7 +11904,6 @@
     {
         "name": "DE College Trigonometry",
         "type": "3",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11927,7 +11944,6 @@
     {
         "name": "Photography II",
         "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11952,7 +11968,6 @@
     {
         "name": "Interpersonal Relationships",
         "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -11977,7 +11992,6 @@
     {
         "name": "Video Production 2",
         "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
@@ -12002,7 +12016,6 @@
     {
         "name": "CP Shakespeare",
         "type": "1",
-        "s1": {},
         "s2": {
             "3": [
                 {
@@ -12018,7 +12031,6 @@
     {
         "name": "*Intro to AI/Machine Learning",
         "type": "3",
-        "s1": {},
         "s2": {
             "3": [
                 {
@@ -12043,7 +12055,6 @@
     {
         "name": "Business Calculus",
         "type": "3",
-        "s1": {},
         "s2": {
             "4": [
                 {
@@ -12059,7 +12070,6 @@
     {
         "name": "Broadcast Journalism/TV Prod 2",
         "type": "6",
-        "s1": {},
         "s2": {
             "4": [
                 {
@@ -12075,7 +12085,6 @@
     {
         "name": "Adv Drawing/Design",
         "type": "6",
-        "s1": {},
         "s2": {
             "4": [
                 {
@@ -12091,7 +12100,6 @@
     {
         "name": "Fashion Design & Merchandising I",
         "type": "9",
-        "s1": {},
         "s2": {
             "8": [
                 {
@@ -12116,7 +12124,6 @@
     {
         "name": "CE Introduction to College Literature",
         "type": "1",
-        "s1": {},
         "s2": {
             "6": [
                 {
@@ -12141,7 +12148,6 @@
     {
         "name": "CP Survey of Poetry",
         "type": "1",
-        "s1": {},
         "s2": {
             "6": [
                 {
@@ -12157,7 +12163,6 @@
     {
         "name": "MAL Science 2",
         "type": "4",
-        "s1": {},
         "s2": {
             "6": [
                 {
@@ -12173,7 +12178,6 @@
     {
         "name": "Live Figure Drawing",
         "type": "6",
-        "s1": {},
         "s2": {
             "6": [
                 {
@@ -12189,7 +12193,6 @@
     {
         "name": "Practical Health",
         "type": "7",
-        "s1": {},
         "s2": {
             "6": [
                 {
@@ -12219,7 +12222,6 @@
     {
         "name": "Technical Theatre 2",
         "type": "6",
-        "s1": {},
         "s2": {
             "8": [
                 {
@@ -12235,7 +12237,6 @@
     {
         "name": "Elements of Physical Education",
         "type": "7",
-        "s1": {},
         "s2": {
             "8": [
                 {
