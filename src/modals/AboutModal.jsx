@@ -24,7 +24,7 @@ const AboutModal = ({isOpen, handleClose}) => {
 
           <span style={{ float: 'right' }}><b>Matthew Anderson</b> <br /><br />
             <b>Contributors</b>
-            <p>Matthew Anderson <br /> Owen Lennon</p>
+            <p>Matthew Anderson <br /> Owen Lennon <br /> Cooper Shine</p>
           </span>
         </DialogContentText>
       </DialogContent>

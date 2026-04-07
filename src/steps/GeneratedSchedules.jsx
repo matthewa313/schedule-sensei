@@ -146,7 +146,7 @@ function ResultsRow(props) {
       </TableRow>
       <TableRow>
         <TableCell></TableCell>
-        <TableCell colSpan={7}>
+        <TableCell colSpan={NUM_PERIODS - 1}>
           <Collapse in={open} timeout='auto' unmountOnExit>
             <Typography variant='h6' gutterBottom>
               Schedule {(props.page * props.rowsPerPage + props.number).toLocaleString()}/{props.total.toLocaleString()}

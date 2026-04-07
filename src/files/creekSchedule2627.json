@@ -285,12 +285,12 @@
         }
     },
     {
-        "name": "*CE English Composition 1 S1",
+        "name": "*CE English Composition 1",
         "type": "1",
         "s1": {
             "4": [
                 {
-                    "name": "*CE English Composition 1 S1",
+                    "name": "*CE English Composition 1",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Maupin, Sheela T",
@@ -299,7 +299,7 @@
             ],
             "7": [
                 {
-                    "name": "*CE English Composition 1 S1",
+                    "name": "*CE English Composition 1",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Maupin, Sheela T",
@@ -307,16 +307,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*CE English Composition 1 S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "*CE English Composition 1 S2",
+                    "name": "*CE English Composition 1",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Maupin, Sheela T",
@@ -325,7 +319,7 @@
             ],
             "7": [
                 {
-                    "name": "*CE English Composition 1 S2",
+                    "name": "*CE English Composition 1",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Maupin, Sheela T",
@@ -335,12 +329,12 @@
         }
     },
     {
-        "name": "*CE Introduction to Literature 1 S1",
+        "name": "*CE Introduction to Literature 1",
         "type": "1",
         "s1": {
             "3": [
                 {
-                    "name": "*CE Introduction to Literature 1 S1",
+                    "name": "*CE Introduction to Literature 1",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Raycraft, Brandon",
@@ -349,7 +343,7 @@
             ],
             "7": [
                 {
-                    "name": "*CE Introduction to Literature 1 S1",
+                    "name": "*CE Introduction to Literature 1",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Raycraft, Brandon",
@@ -357,16 +351,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*CE Introduction to Literature 1 S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "*CE Introduction to Literature 1 S2",
+                    "name": "*CE Introduction to Literature 1",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Raycraft, Brandon",
@@ -375,7 +363,7 @@
             ],
             "7": [
                 {
-                    "name": "*CE Introduction to Literature 1 S2",
+                    "name": "*CE Introduction to Literature 1",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Raycraft, Brandon",
@@ -400,12 +388,12 @@
         }
     },
     {
-        "name": "*DE Narrative Art in Lit and Film S1",
+        "name": "*DE Narrative Art in Lit and Film",
         "type": "1",
         "s1": {
             "1": [
                 {
-                    "name": "*DE Narrative Art in Lit and Film S1",
+                    "name": "*DE Narrative Art in Lit and Film",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Holladay, Carlye L",
@@ -413,16 +401,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*DE Narrative Art in Lit and Film S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*DE Narrative Art in Lit and Film S2",
+                    "name": "*DE Narrative Art in Lit and Film",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Holladay, Carlye L",
@@ -771,12 +753,12 @@
         }
     },
     {
-        "name": "CP African-American Literature S1",
+        "name": "CP African-American Literature",
         "type": "1",
         "s1": {
             "6": [
                 {
-                    "name": "CP African-American Literature S1",
+                    "name": "CP African-American Literature",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "DeShay Lowenkron, Erika P",
@@ -787,12 +769,12 @@
         "s2": {}
     },
     {
-        "name": "CP Contemporary Award Winners S1",
+        "name": "CP Contemporary Award Winners",
         "type": "1",
         "s1": {
             "1": [
                 {
-                    "name": "CP Contemporary Award Winners S1",
+                    "name": "CP Contemporary Award Winners",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Voss, Marissa",
@@ -801,7 +783,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Contemporary Award Winners S1",
+                    "name": "CP Contemporary Award Winners",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Pope, Christina M",
@@ -809,16 +791,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Contemporary Award Winners S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "CP Contemporary Award Winners S2",
+                    "name": "CP Contemporary Award Winners",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Pope, Christina M",
@@ -828,12 +804,12 @@
         }
     },
     {
-        "name": "CP Creative Writing S1",
+        "name": "CP Creative Writing",
         "type": "1",
         "s1": {
             "3": [
                 {
-                    "name": "CP Creative Writing S1",
+                    "name": "CP Creative Writing",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Voss, Marissa",
@@ -842,7 +818,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Creative Writing S1",
+                    "name": "CP Creative Writing",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Voss, Marissa",
@@ -850,16 +826,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Creative Writing S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "CP Creative Writing S2",
+                    "name": "CP Creative Writing",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Voss, Marissa",
@@ -868,7 +838,7 @@
             ],
             "3": [
                 {
-                    "name": "CP Creative Writing S2",
+                    "name": "CP Creative Writing",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Voss, Marissa",
@@ -877,7 +847,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Creative Writing S2",
+                    "name": "CP Creative Writing",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Voss, Marissa",
@@ -1305,12 +1275,12 @@
         }
     },
     {
-        "name": "CP Journalism Leadership Workshop S1",
+        "name": "CP Journalism Leadership Workshop",
         "type": "1",
         "s1": {
             "8": [
                 {
-                    "name": "CP Journalism Leadership Workshop S1",
+                    "name": "CP Journalism Leadership Workshop",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Haskin, Joya Macey",
@@ -1318,16 +1288,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Journalism Leadership Workshop S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "CP Journalism Leadership Workshop S2",
+                    "name": "CP Journalism Leadership Workshop",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Haskin, Joya Macey",
@@ -1337,12 +1301,12 @@
         }
     },
     {
-        "name": "CP Multi-Cultural Literature S1",
+        "name": "CP Multi-Cultural Literature",
         "type": "1",
         "s1": {
             "4": [
                 {
-                    "name": "CP Multi-Cultural Literature S1",
+                    "name": "CP Multi-Cultural Literature",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Park, Yoon",
@@ -1350,16 +1314,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Multi-Cultural Literature S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "CP Multi-Cultural Literature S2",
+                    "name": "CP Multi-Cultural Literature",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Park, Yoon",
@@ -1369,12 +1327,12 @@
         }
     },
     {
-        "name": "CP Mythology/Folklore-Oral Trad. S1",
+        "name": "CP Mythology/Folklore-Oral Trad.",
         "type": "1",
         "s1": {
             "2": [
                 {
-                    "name": "CP Mythology/Folklore-Oral Trad. S1",
+                    "name": "CP Mythology/Folklore-Oral Trad.",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Foster, Jason",
@@ -1383,7 +1341,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Mythology/Folklore-Oral Trad. S1",
+                    "name": "CP Mythology/Folklore-Oral Trad.",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Foster, Jason",
@@ -1391,16 +1349,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Mythology/Folklore-Oral Trad. S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CP Mythology/Folklore-Oral Trad. S2",
+                    "name": "CP Mythology/Folklore-Oral Trad.",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Foster, Jason",
@@ -1409,7 +1361,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Mythology/Folklore-Oral Trad. S2",
+                    "name": "CP Mythology/Folklore-Oral Trad.",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Foster, Jason",
@@ -1419,12 +1371,12 @@
         }
     },
     {
-        "name": "CP Science Fiction S1",
+        "name": "CP Science Fiction",
         "type": "1",
         "s1": {
             "7": [
                 {
-                    "name": "CP Science Fiction S1",
+                    "name": "CP Science Fiction",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Foster, Jason",
@@ -1432,16 +1384,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Science Fiction S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "CP Science Fiction S2",
+                    "name": "CP Science Fiction",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Foster, Jason",
@@ -1562,12 +1508,12 @@
         }
     },
     {
-        "name": "CP Shakespeare S1",
+        "name": "CP Shakespeare",
         "type": "1",
         "s1": {
             "6": [
                 {
-                    "name": "CP Shakespeare S1",
+                    "name": "CP Shakespeare",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Doyle, Mhari C",
@@ -1575,16 +1521,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Shakespeare S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "CP Shakespeare S2",
+                    "name": "CP Shakespeare",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Doyle, Mhari C",
@@ -1594,12 +1534,12 @@
         }
     },
     {
-        "name": "CP Survey of Composition S1",
+        "name": "CP Survey of Composition",
         "type": "1",
         "s1": {
             "6": [
                 {
-                    "name": "CP Survey of Composition S1",
+                    "name": "CP Survey of Composition",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Swanson, Timothy",
@@ -1610,13 +1550,13 @@
         "s2": {}
     },
     {
-        "name": "CP Survey of Poetry S2",
+        "name": "CP Survey of Poetry",
         "type": "1",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "CP Survey of Poetry S2",
+                    "name": "CP Survey of Poetry",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "DeShay Lowenkron, Erika P",
@@ -1626,12 +1566,12 @@
         }
     },
     {
-        "name": "CP Writing on Film S1",
+        "name": "CP Writing on Film",
         "type": "1",
         "s1": {
             "3": [
                 {
-                    "name": "CP Writing on Film S1",
+                    "name": "CP Writing on Film",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Swanson, Timothy",
@@ -1639,16 +1579,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Writing on Film S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP Writing on Film S2",
+                    "name": "CP Writing on Film",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Swanson, Timothy",
@@ -1657,7 +1591,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Writing on Film S2",
+                    "name": "CP Writing on Film",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Swanson, Timothy",
@@ -1667,12 +1601,12 @@
         }
     },
     {
-        "name": "Reading Essentials S1",
+        "name": "Reading Essentials",
         "type": "1",
         "s1": {
             "5": [
                 {
-                    "name": "Reading Essentials S1",
+                    "name": "Reading Essentials",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Piechota, Amy M",
@@ -1680,16 +1614,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Reading Essentials S2",
-        "type": "1",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Reading Essentials S2",
+                    "name": "Reading Essentials",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Piechota, Amy M",
@@ -1738,13 +1666,13 @@
         }
     },
     {
-        "name": "*AP Comparative Government/Politics S2",
+        "name": "*AP Comparative Government/Politics",
         "type": "2",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*AP Comparative Government/Politics S2",
+                    "name": "*AP Comparative Government/Politics",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Woolsey, Fletcher",
@@ -1753,7 +1681,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP Comparative Government/Politics S2",
+                    "name": "*AP Comparative Government/Politics",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Michel, Thomas",
@@ -1762,7 +1690,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP Comparative Government/Politics S2",
+                    "name": "*AP Comparative Government/Politics",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Michel, Thomas",
@@ -1771,7 +1699,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Comparative Government/Politics S2",
+                    "name": "*AP Comparative Government/Politics",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Woolsey, Fletcher",
@@ -1805,12 +1733,12 @@
         }
     },
     {
-        "name": "*AP Human Geography S1",
+        "name": "*AP Human Geography",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "*AP Human Geography S1",
+                    "name": "*AP Human Geography",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Gallagher, Eric M",
@@ -1819,7 +1747,7 @@
             ],
             "2": [
                 {
-                    "name": "*AP Human Geography S1",
+                    "name": "*AP Human Geography",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1828,7 +1756,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP Human Geography S1",
+                    "name": "*AP Human Geography",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1837,7 +1765,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP Human Geography S1",
+                    "name": "*AP Human Geography",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Gallagher, Eric M",
@@ -1846,7 +1774,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Human Geography S1",
+                    "name": "*AP Human Geography",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1854,16 +1782,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*AP Human Geography S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*AP Human Geography S2",
+                    "name": "*AP Human Geography",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Gallagher, Eric M",
@@ -1872,7 +1794,7 @@
             ],
             "2": [
                 {
-                    "name": "*AP Human Geography S2",
+                    "name": "*AP Human Geography",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1881,7 +1803,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP Human Geography S2",
+                    "name": "*AP Human Geography",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1890,7 +1812,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP Human Geography S2",
+                    "name": "*AP Human Geography",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Gallagher, Eric M",
@@ -1899,7 +1821,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Human Geography S2",
+                    "name": "*AP Human Geography",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Snyder, Kevin Thomas",
@@ -1909,13 +1831,13 @@
         }
     },
     {
-        "name": "*AP Macroeconomics S2",
+        "name": "*AP Macroeconomics",
         "type": "2",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Knoeckel, David",
@@ -1924,7 +1846,7 @@
             ],
             "2": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Knoeckel, David",
@@ -1933,7 +1855,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Woolsey, Fletcher",
@@ -1942,7 +1864,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Woolsey, Fletcher",
@@ -1951,7 +1873,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Woolsey, Fletcher",
@@ -1960,7 +1882,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Macroeconomics S2",
+                    "name": "*AP Macroeconomics",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Knoeckel, David",
@@ -1970,12 +1892,12 @@
         }
     },
     {
-        "name": "*AP Microeconomics S1",
+        "name": "*AP Microeconomics",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Knoeckel, David",
@@ -1984,7 +1906,7 @@
             ],
             "2": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Knoeckel, David",
@@ -1993,7 +1915,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Woolsey, Fletcher",
@@ -2002,7 +1924,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Woolsey, Fletcher",
@@ -2011,7 +1933,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Woolsey, Fletcher",
@@ -2020,7 +1942,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Microeconomics S1",
+                    "name": "*AP Microeconomics",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Knoeckel, David",
@@ -2089,19 +2011,19 @@
         }
     },
     {
-        "name": "*AP US Government And Politics S1",
+        "name": "*AP US Government And Politics",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Michel, Thomas",
                     "room": "E111"
                 },
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Woolsey, Fletcher",
@@ -2110,14 +2032,14 @@
             ],
             "2": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Michel, Thomas",
                     "room": "E111"
                 },
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Nance, Adam",
@@ -2126,7 +2048,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Michel, Thomas",
@@ -2135,7 +2057,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Kirkpatrick, Timothy",
@@ -2144,7 +2066,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Michel, Thomas",
@@ -2153,7 +2075,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Woolsey, Fletcher",
@@ -2162,7 +2084,7 @@
             ],
             "8": [
                 {
-                    "name": "*AP US Government And Politics S1",
+                    "name": "*AP US Government And Politics",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Kirkpatrick, Timothy",
@@ -2170,16 +2092,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*AP US Government And Politics S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Michel, Thomas",
@@ -2188,14 +2104,14 @@
             ],
             "2": [
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Michel, Thomas",
                     "room": "E111"
                 },
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Nance, Adam",
@@ -2204,7 +2120,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Kirkpatrick, Timothy",
@@ -2213,7 +2129,7 @@
             ],
             "4": [
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Kirkpatrick, Timothy",
@@ -2222,7 +2138,7 @@
             ],
             "6": [
                 {
-                    "name": "*AP US Government And Politics S2",
+                    "name": "*AP US Government And Politics",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Nance, Adam",
@@ -2366,12 +2282,12 @@
         }
     },
     {
-        "name": "CP American Government S1",
+        "name": "CP American Government",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Bybee, Kristina J",
@@ -2380,7 +2296,7 @@
             ],
             "2": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Bybee, Kristina J",
@@ -2389,7 +2305,7 @@
             ],
             "3": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Kirkpatrick, Timothy",
@@ -2398,14 +2314,14 @@
             ],
             "4": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Johnson, Abigail Louise",
                     "room": "E312"
                 },
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Johnson, Karen L",
@@ -2414,7 +2330,7 @@
             ],
             "6": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Moyer, Kerry",
@@ -2423,7 +2339,7 @@
             ],
             "7": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Moyer, Kerry",
@@ -2432,7 +2348,7 @@
             ],
             "8": [
                 {
-                    "name": "CP American Government S1",
+                    "name": "CP American Government",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Bybee, Kristina J",
@@ -2440,16 +2356,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP American Government S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Bybee, Kristina J",
@@ -2458,14 +2368,14 @@
             ],
             "2": [
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Bybee, Kristina J",
                     "room": "E116"
                 },
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Johnson, Karen L",
@@ -2474,14 +2384,14 @@
             ],
             "4": [
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Johnson, Abigail Louise",
                     "room": "E312"
                 },
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Johnson, Karen L",
@@ -2490,14 +2400,14 @@
             ],
             "6": [
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "DeVore, Colin Louis",
                     "room": "E118"
                 },
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Moyer, Kerry",
@@ -2506,14 +2416,14 @@
             ],
             "7": [
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Kirkpatrick, Timothy",
                     "room": "E306"
                 },
                 {
-                    "name": "CP American Government S2",
+                    "name": "CP American Government",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Moyer, Kerry",
@@ -2523,12 +2433,12 @@
         }
     },
     {
-        "name": "CP American History Through Music S1",
+        "name": "CP American History Through Music",
         "type": "2",
         "s1": {
             "7": [
                 {
-                    "name": "CP American History Through Music S1",
+                    "name": "CP American History Through Music",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Michel, Thomas",
@@ -2539,12 +2449,12 @@
         "s2": {}
     },
     {
-        "name": "CP Economics S1",
+        "name": "CP Economics",
         "type": "2",
         "s1": {
             "2": [
                 {
-                    "name": "CP Economics S1",
+                    "name": "CP Economics",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Johnson, Karen L",
@@ -2553,7 +2463,7 @@
             ],
             "3": [
                 {
-                    "name": "CP Economics S1",
+                    "name": "CP Economics",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Johnson, Karen L",
@@ -2562,7 +2472,7 @@
             ],
             "4": [
                 {
-                    "name": "CP Economics S1",
+                    "name": "CP Economics",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Weiss, Matthew W",
@@ -2570,16 +2480,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Economics S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP Economics S2",
+                    "name": "CP Economics",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Johnson, Karen L",
@@ -2588,7 +2492,7 @@
             ],
             "4": [
                 {
-                    "name": "CP Economics S2",
+                    "name": "CP Economics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Weiss, Matthew W",
@@ -2597,7 +2501,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Economics S2",
+                    "name": "CP Economics",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Weiss, Matthew W",
@@ -2607,12 +2511,12 @@
         }
     },
     {
-        "name": "CP History and Sports S1",
+        "name": "CP History and Sports",
         "type": "2",
         "s1": {
             "3": [
                 {
-                    "name": "CP History and Sports S1",
+                    "name": "CP History and Sports",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Smith, Joseph C",
@@ -2621,7 +2525,7 @@
             ],
             "6": [
                 {
-                    "name": "CP History and Sports S1",
+                    "name": "CP History and Sports",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Weiss, Matthew W",
@@ -2629,16 +2533,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP History and Sports S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP History and Sports S2",
+                    "name": "CP History and Sports",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Smith, Joseph C",
@@ -2647,7 +2545,7 @@
             ],
             "6": [
                 {
-                    "name": "CP History and Sports S2",
+                    "name": "CP History and Sports",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Weiss, Matthew W",
@@ -2657,12 +2555,12 @@
         }
     },
     {
-        "name": "CP History of Ancient Rome S1",
+        "name": "CP History of Ancient Rome",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "CP History of Ancient Rome S1",
+                    "name": "CP History of Ancient Rome",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "DeVore, Colin Louis",
@@ -2671,7 +2569,7 @@
             ],
             "4": [
                 {
-                    "name": "CP History of Ancient Rome S1",
+                    "name": "CP History of Ancient Rome",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "DeVore, Colin Louis",
@@ -2680,7 +2578,7 @@
             ],
             "6": [
                 {
-                    "name": "CP History of Ancient Rome S1",
+                    "name": "CP History of Ancient Rome",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "DeVore, Colin Louis",
@@ -2688,16 +2586,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP History of Ancient Rome S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "CP History of Ancient Rome S2",
+                    "name": "CP History of Ancient Rome",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "DeVore, Colin Louis",
@@ -2706,7 +2598,7 @@
             ],
             "4": [
                 {
-                    "name": "CP History of Ancient Rome S2",
+                    "name": "CP History of Ancient Rome",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "DeVore, Colin Louis",
@@ -2716,12 +2608,12 @@
         }
     },
     {
-        "name": "CP International Relations S1",
+        "name": "CP International Relations",
         "type": "2",
         "s1": {
             "6": [
                 {
-                    "name": "CP International Relations S1",
+                    "name": "CP International Relations",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Bybee, Kristina J",
@@ -2732,12 +2624,12 @@
         "s2": {}
     },
     {
-        "name": "CP Psychology S1",
+        "name": "CP Psychology",
         "type": "2",
         "s1": {
             "1": [
                 {
-                    "name": "CP Psychology S1",
+                    "name": "CP Psychology",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Isenhart, Jill E",
@@ -2746,7 +2638,7 @@
             ],
             "3": [
                 {
-                    "name": "CP Psychology S1",
+                    "name": "CP Psychology",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Isenhart, Jill E",
@@ -2755,7 +2647,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Psychology S1",
+                    "name": "CP Psychology",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Smith, Ganelle G",
@@ -2764,7 +2656,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Psychology S1",
+                    "name": "CP Psychology",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Smith, Ganelle G",
@@ -2773,7 +2665,7 @@
             ],
             "8": [
                 {
-                    "name": "CP Psychology S1",
+                    "name": "CP Psychology",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Isenhart, Jill E",
@@ -2781,16 +2673,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Psychology S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "CP Psychology S2",
+                    "name": "CP Psychology",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Isenhart, Jill E",
@@ -2799,7 +2685,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Psychology S2",
+                    "name": "CP Psychology",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Smith, Ganelle G",
@@ -2808,7 +2694,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Psychology S2",
+                    "name": "CP Psychology",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Smith, Ganelle G",
@@ -2817,7 +2703,7 @@
             ],
             "8": [
                 {
-                    "name": "CP Psychology S2",
+                    "name": "CP Psychology",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Isenhart, Jill E",
@@ -2827,12 +2713,12 @@
         }
     },
     {
-        "name": "CP Sociology S1",
+        "name": "CP Sociology",
         "type": "2",
         "s1": {
             "2": [
                 {
-                    "name": "CP Sociology S1",
+                    "name": "CP Sociology",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Ingles, Julie R",
@@ -2841,7 +2727,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Sociology S1",
+                    "name": "CP Sociology",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Bybee, Kristina J",
@@ -2849,16 +2735,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Sociology S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CP Sociology S2",
+                    "name": "CP Sociology",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Ingles, Julie R",
@@ -2868,12 +2748,12 @@
         }
     },
     {
-        "name": "CP Street Law S1",
+        "name": "CP Street Law",
         "type": "2",
         "s1": {
             "2": [
                 {
-                    "name": "CP Street Law S1",
+                    "name": "CP Street Law",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Erickson, Cari S.",
@@ -2882,7 +2762,7 @@
             ],
             "3": [
                 {
-                    "name": "CP Street Law S1",
+                    "name": "CP Street Law",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Erickson, Cari S.",
@@ -2891,7 +2771,7 @@
             ],
             "4": [
                 {
-                    "name": "CP Street Law S1",
+                    "name": "CP Street Law",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Nance, Adam",
@@ -2900,7 +2780,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Street Law S1",
+                    "name": "CP Street Law",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Nance, Adam",
@@ -2908,16 +2788,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Street Law S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CP Street Law S2",
+                    "name": "CP Street Law",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Erickson, Cari S.",
@@ -2926,7 +2800,7 @@
             ],
             "4": [
                 {
-                    "name": "CP Street Law S2",
+                    "name": "CP Street Law",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Nance, Adam",
@@ -2935,7 +2809,7 @@
             ],
             "6": [
                 {
-                    "name": "CP Street Law S2",
+                    "name": "CP Street Law",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Johnson, Jonathan S",
@@ -3222,12 +3096,12 @@
         }
     },
     {
-        "name": "CP Western Philosophy and Ethics S1",
+        "name": "CP Western Philosophy and Ethics",
         "type": "2",
         "s1": {
             "7": [
                 {
-                    "name": "CP Western Philosophy and Ethics S1",
+                    "name": "CP Western Philosophy and Ethics",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Zepelin, Noah",
@@ -3235,16 +3109,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Western Philosophy and Ethics S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "CP Western Philosophy and Ethics S2",
+                    "name": "CP Western Philosophy and Ethics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Zepelin, Noah",
@@ -3254,12 +3122,12 @@
         }
     },
     {
-        "name": "CP World Geography S1",
+        "name": "CP World Geography",
         "type": "2",
         "s1": {
             "3": [
                 {
-                    "name": "CP World Geography S1",
+                    "name": "CP World Geography",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Gallagher, Eric M",
@@ -3268,7 +3136,7 @@
             ],
             "7": [
                 {
-                    "name": "CP World Geography S1",
+                    "name": "CP World Geography",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Gallagher, Eric M",
@@ -3276,16 +3144,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP World Geography S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP World Geography S2",
+                    "name": "CP World Geography",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Gallagher, Eric M",
@@ -3294,7 +3156,7 @@
             ],
             "7": [
                 {
-                    "name": "CP World Geography S2",
+                    "name": "CP World Geography",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Gallagher, Eric M",
@@ -3464,12 +3326,12 @@
         }
     },
     {
-        "name": "CP World Religions S1",
+        "name": "CP World Religions",
         "type": "2",
         "s1": {
             "4": [
                 {
-                    "name": "CP World Religions S1",
+                    "name": "CP World Religions",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Zepelin, Noah",
@@ -3477,16 +3339,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP World Religions S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "CP World Religions S2",
+                    "name": "CP World Religions",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Zepelin, Noah",
@@ -3496,12 +3352,12 @@
         }
     },
     {
-        "name": "CP World War 1 and 2 S1",
+        "name": "CP World War 1 and 2",
         "type": "2",
         "s1": {
             "4": [
                 {
-                    "name": "CP World War 1 and 2 S1",
+                    "name": "CP World War 1 and 2",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Decesare, Virginia",
@@ -3509,16 +3365,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP World War 1 and 2 S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP World War 1 and 2 S2",
+                    "name": "CP World War 1 and 2",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Erickson, Cari S.",
@@ -3527,7 +3377,7 @@
             ],
             "4": [
                 {
-                    "name": "CP World War 1 and 2 S2",
+                    "name": "CP World War 1 and 2",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Decesare, Virginia",
@@ -3805,13 +3655,13 @@
         }
     },
     {
-        "name": "*AP Computer Science Principles S2",
+        "name": "*AP Computer Science Principles",
         "type": "3",
         "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "*AP Computer Science Principles S2",
+                    "name": "*AP Computer Science Principles",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Tomcej, Igor",
@@ -3820,7 +3670,7 @@
             ],
             "3": [
                 {
-                    "name": "*AP Computer Science Principles S2",
+                    "name": "*AP Computer Science Principles",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Mth Tch A, A",
@@ -3829,7 +3679,7 @@
             ],
             "5": [
                 {
-                    "name": "*AP Computer Science Principles S2",
+                    "name": "*AP Computer Science Principles",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Tomcej, Igor",
@@ -3838,7 +3688,7 @@
             ],
             "7": [
                 {
-                    "name": "*AP Computer Science Principles S2",
+                    "name": "*AP Computer Science Principles",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Tomcej, Igor",
@@ -3962,12 +3812,12 @@
         }
     },
     {
-        "name": "*Data Structures and Algorithms S1",
+        "name": "*Data Structures and Algorithms",
         "type": "3",
         "s1": {
             "1": [
                 {
-                    "name": "*Data Structures and Algorithms S1",
+                    "name": "*Data Structures and Algorithms",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Mth Tch A, A",
@@ -3976,7 +3826,7 @@
             ],
             "7": [
                 {
-                    "name": "*Data Structures and Algorithms S1",
+                    "name": "*Data Structures and Algorithms",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Mth Tch A, A",
@@ -4002,12 +3852,12 @@
         }
     },
     {
-        "name": "*DE Calculus 3 Honors S1",
+        "name": "*DE Calculus 3 Honors",
         "type": "3",
         "s1": {
             "2": [
                 {
-                    "name": "*DE Calculus 3 Honors S1",
+                    "name": "*DE Calculus 3 Honors",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Matuschek, Robert J",
@@ -4016,7 +3866,7 @@
             ],
             "7": [
                 {
-                    "name": "*DE Calculus 3 Honors S1",
+                    "name": "*DE Calculus 3 Honors",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Matuschek, Robert J",
@@ -4027,12 +3877,12 @@
         "s2": {}
     },
     {
-        "name": "*DE College Algebra S1",
+        "name": "*DE College Algebra",
         "type": "3",
         "s1": {
             "1": [
                 {
-                    "name": "*DE College Algebra S1",
+                    "name": "*DE College Algebra",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Rosengren, Neal A",
@@ -4041,7 +3891,7 @@
             ],
             "2": [
                 {
-                    "name": "*DE College Algebra S1",
+                    "name": "*DE College Algebra",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Stewart, Adam Joseph",
@@ -4050,7 +3900,7 @@
             ],
             "3": [
                 {
-                    "name": "*DE College Algebra S1",
+                    "name": "*DE College Algebra",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Stewart, Adam Joseph",
@@ -4059,7 +3909,7 @@
             ],
             "4": [
                 {
-                    "name": "*DE College Algebra S1",
+                    "name": "*DE College Algebra",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Haupert, Eric",
@@ -4068,7 +3918,7 @@
             ],
             "7": [
                 {
-                    "name": "*DE College Algebra S1",
+                    "name": "*DE College Algebra",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Rosengren, Neal A",
@@ -4079,13 +3929,13 @@
         "s2": {}
     },
     {
-        "name": "*DE College Trigonometry S2",
+        "name": "*DE College Trigonometry",
         "type": "3",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*DE College Trigonometry S2",
+                    "name": "*DE College Trigonometry",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Rosengren, Neal A",
@@ -4094,7 +3944,7 @@
             ],
             "2": [
                 {
-                    "name": "*DE College Trigonometry S2",
+                    "name": "*DE College Trigonometry",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Stewart, Adam Joseph",
@@ -4103,7 +3953,7 @@
             ],
             "3": [
                 {
-                    "name": "*DE College Trigonometry S2",
+                    "name": "*DE College Trigonometry",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Stewart, Adam Joseph",
@@ -4112,7 +3962,7 @@
             ],
             "4": [
                 {
-                    "name": "*DE College Trigonometry S2",
+                    "name": "*DE College Trigonometry",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Haupert, Eric",
@@ -4121,7 +3971,7 @@
             ],
             "7": [
                 {
-                    "name": "*DE College Trigonometry S2",
+                    "name": "*DE College Trigonometry",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Rosengren, Neal A",
@@ -4131,13 +3981,13 @@
         }
     },
     {
-        "name": "*DE Differential Equations Honors S2",
+        "name": "*DE Differential Equations Honors",
         "type": "3",
         "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "*DE Differential Equations Honors S2",
+                    "name": "*DE Differential Equations Honors",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Matuschek, Robert J",
@@ -4146,7 +3996,7 @@
             ],
             "7": [
                 {
-                    "name": "*DE Differential Equations Honors S2",
+                    "name": "*DE Differential Equations Honors",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Matuschek, Robert J",
@@ -4279,13 +4129,13 @@
         }
     },
     {
-        "name": "*Intro to AI/Machine Learning S2",
+        "name": "*Intro to AI/Machine Learning",
         "type": "3",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*Intro to AI/Machine Learning S2",
+                    "name": "*Intro to AI/Machine Learning",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Mth Tch A, A",
@@ -4294,7 +4144,7 @@
             ],
             "7": [
                 {
-                    "name": "*Intro to AI/Machine Learning S2",
+                    "name": "*Intro to AI/Machine Learning",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Mth Tch A, A",
@@ -4386,13 +4236,13 @@
         }
     },
     {
-        "name": "Business Calculus S2",
+        "name": "Business Calculus",
         "type": "3",
         "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "Business Calculus S2",
+                    "name": "Business Calculus",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Stirrup, Christopher R",
@@ -5031,12 +4881,12 @@
         }
     },
     {
-        "name": "Intro To Computer Science S1",
+        "name": "Intro To Computer Science",
         "type": "3",
         "s1": {
             "2": [
                 {
-                    "name": "Intro To Computer Science S1",
+                    "name": "Intro To Computer Science",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Tomcej, Igor",
@@ -5045,7 +4895,7 @@
             ],
             "3": [
                 {
-                    "name": "Intro To Computer Science S1",
+                    "name": "Intro To Computer Science",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Mth Tch B, B",
@@ -5054,7 +4904,7 @@
             ],
             "5": [
                 {
-                    "name": "Intro To Computer Science S1",
+                    "name": "Intro To Computer Science",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Tomcej, Igor",
@@ -5063,7 +4913,7 @@
             ],
             "7": [
                 {
-                    "name": "Intro To Computer Science S1",
+                    "name": "Intro To Computer Science",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Tomcej, Igor",
@@ -5074,12 +4924,12 @@
         "s2": {}
     },
     {
-        "name": "Probability And Statistics S1",
+        "name": "Probability And Statistics",
         "type": "3",
         "s1": {
             "4": [
                 {
-                    "name": "Probability And Statistics S1",
+                    "name": "Probability And Statistics",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Stirrup, Christopher R",
@@ -5087,16 +4937,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Probability And Statistics S2",
-        "type": "3",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Probability And Statistics S2",
+                    "name": "Probability And Statistics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Stirrup, Christopher R",
@@ -5166,38 +5010,38 @@
         "name": "*AP Biology",
         "type": "4",
         "year": {
-            "1": [
+            "1-2": [
                 {
                     "name": "*AP Biology",
                     "semester": "Year",
-                    "period": 1,
+                    "period": "1-2",
                     "teacher": "Bailey, Carl",
                     "room": "W427"
                 }
             ],
-            "3": [
+            "3-4": [
                 {
                     "name": "*AP Biology",
                     "semester": "Year",
-                    "period": 3,
+                    "period": "3-4",
                     "teacher": "Bailey, Carl",
                     "room": "W427"
                 }
             ],
-            "6": [
+            "6-7": [
                 {
                     "name": "*AP Biology",
                     "semester": "Year",
-                    "period": 6,
+                    "period": "6-7",
                     "teacher": "Bailey, Carl",
                     "room": "W427"
                 }
             ],
-            "7": [
+            "7-8": [
                 {
                     "name": "*AP Biology",
                     "semester": "Year",
-                    "period": 7,
+                    "period": "7-8",
                     "teacher": "Smith, Stephen",
                     "room": "W427"
                 }
@@ -5366,20 +5210,20 @@
         "name": "*AP Physics C",
         "type": "4",
         "year": {
-            "1": [
+            "1-2": [
                 {
                     "name": "*AP Physics C",
                     "semester": "Year",
-                    "period": 1,
+                    "period": "1-2",
                     "teacher": "Harrison, Keith P",
                     "room": "W070"
                 }
             ],
-            "6": [
+            "6-7": [
                 {
                     "name": "*AP Physics C",
                     "semester": "Year",
-                    "period": 6,
+                    "period": "6-7",
                     "teacher": "Harrison, Keith P",
                     "room": "W070"
                 }
@@ -5468,12 +5312,12 @@
         }
     },
     {
-        "name": "*CE Astronomy S1",
+        "name": "*CE Astronomy",
         "type": "4",
         "s1": {
             "1": [
                 {
-                    "name": "*CE Astronomy S1",
+                    "name": "*CE Astronomy",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Olsen, Jessica",
@@ -5481,16 +5325,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*CE Astronomy S2",
-        "type": "4",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "*CE Astronomy S2",
+                    "name": "*CE Astronomy",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Olsen, Jessica",
@@ -5500,12 +5338,12 @@
         }
     },
     {
-        "name": "*CE Natural Disasters S1",
+        "name": "*CE Natural Disasters",
         "type": "4",
         "s1": {
             "3": [
                 {
-                    "name": "*CE Natural Disasters S1",
+                    "name": "*CE Natural Disasters",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Worden, Nicole M",
@@ -5513,16 +5351,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "*CE Natural Disasters S2",
-        "type": "4",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "*CE Natural Disasters S2",
+                    "name": "*CE Natural Disasters",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Worden, Nicole M",
@@ -5748,12 +5580,12 @@
         }
     },
     {
-        "name": "Chemistry S1",
+        "name": "Chemistry",
         "type": "4",
         "s1": {
             "2": [
                 {
-                    "name": "Chemistry S1",
+                    "name": "Chemistry",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Wallace, Barbara A",
@@ -5762,7 +5594,7 @@
             ],
             "3": [
                 {
-                    "name": "Chemistry S1",
+                    "name": "Chemistry",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Wallace, Barbara A",
@@ -5771,7 +5603,7 @@
             ],
             "4": [
                 {
-                    "name": "Chemistry S1",
+                    "name": "Chemistry",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Wallace, Barbara A",
@@ -6140,12 +5972,12 @@
         }
     },
     {
-        "name": "CP Geology S1",
+        "name": "CP Geology",
         "type": "4",
         "s1": {
             "4": [
                 {
-                    "name": "CP Geology S1",
+                    "name": "CP Geology",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Worden, Nicole M",
@@ -6156,12 +5988,12 @@
         "s2": {}
     },
     {
-        "name": "CP Horticulture S1",
+        "name": "CP Horticulture",
         "type": "4",
         "s1": {
             "4": [
                 {
-                    "name": "CP Horticulture S1",
+                    "name": "CP Horticulture",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Hanson, Benjamin L",
@@ -6169,16 +6001,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Horticulture S2",
-        "type": "4",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "CP Horticulture S2",
+                    "name": "CP Horticulture",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Hanson, Benjamin L",
@@ -6188,12 +6014,12 @@
         }
     },
     {
-        "name": "CP Marine Biology S1",
+        "name": "CP Marine Biology",
         "type": "4",
         "s1": {
             "2": [
                 {
-                    "name": "CP Marine Biology S1",
+                    "name": "CP Marine Biology",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Berry, Heather M",
@@ -6202,7 +6028,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Marine Biology S1",
+                    "name": "CP Marine Biology",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Berry, Heather M",
@@ -6210,16 +6036,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Marine Biology S2",
-        "type": "4",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CP Marine Biology S2",
+                    "name": "CP Marine Biology",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Berry, Heather M",
@@ -6228,7 +6048,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Marine Biology S2",
+                    "name": "CP Marine Biology",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Berry, Heather M",
@@ -6447,12 +6267,12 @@
         }
     },
     {
-        "name": "CP Zoology S1",
+        "name": "CP Zoology",
         "type": "4",
         "s1": {
             "6": [
                 {
-                    "name": "CP Zoology S1",
+                    "name": "CP Zoology",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Bak, Alexandra K",
@@ -6461,7 +6281,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Zoology S1",
+                    "name": "CP Zoology",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Bak, Alexandra K",
@@ -6469,16 +6289,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP Zoology S2",
-        "type": "4",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "CP Zoology S2",
+                    "name": "CP Zoology",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Bak, Alexandra K",
@@ -6487,7 +6301,7 @@
             ],
             "7": [
                 {
-                    "name": "CP Zoology S2",
+                    "name": "CP Zoology",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Bak, Alexandra K",
@@ -6497,12 +6311,12 @@
         }
     },
     {
-        "name": "Environmental Science 1 S1",
+        "name": "Environmental Science 1",
         "type": "4",
         "s1": {
             "1": [
                 {
-                    "name": "Environmental Science 1 S1",
+                    "name": "Environmental Science 1",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Huyink, Amy J",
@@ -6511,7 +6325,7 @@
             ],
             "2": [
                 {
-                    "name": "Environmental Science 1 S1",
+                    "name": "Environmental Science 1",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Huyink, Amy J",
@@ -6522,13 +6336,13 @@
         "s2": {}
     },
     {
-        "name": "Environmental Science 2 S2",
+        "name": "Environmental Science 2",
         "type": "4",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Environmental Science 2 S2",
+                    "name": "Environmental Science 2",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Huyink, Amy J",
@@ -6537,7 +6351,7 @@
             ],
             "2": [
                 {
-                    "name": "Environmental Science 2 S2",
+                    "name": "Environmental Science 2",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Huyink, Amy J",
@@ -6547,12 +6361,12 @@
         }
     },
     {
-        "name": "MAL Science 1 S1",
+        "name": "MAL Science 1",
         "type": "4",
         "s1": {
             "6": [
                 {
-                    "name": "MAL Science 1 S1",
+                    "name": "MAL Science 1",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Baranek, Dawn",
@@ -6563,13 +6377,13 @@
         "s2": {}
     },
     {
-        "name": "MAL Science 2 S2",
+        "name": "MAL Science 2",
         "type": "4",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "MAL Science 2 S2",
+                    "name": "MAL Science 2",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Baranek, Dawn",
@@ -6621,13 +6435,13 @@
         }
     },
     {
-        "name": "Physics S2",
+        "name": "Physics",
         "type": "4",
         "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Physics S2",
+                    "name": "Physics",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Wallace, Barbara A",
@@ -6636,7 +6450,7 @@
             ],
             "3": [
                 {
-                    "name": "Physics S2",
+                    "name": "Physics",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Wallace, Barbara A",
@@ -6645,7 +6459,7 @@
             ],
             "4": [
                 {
-                    "name": "Physics S2",
+                    "name": "Physics",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Wallace, Barbara A",
@@ -7700,13 +7514,13 @@
         }
     },
     {
-        "name": "Adv Drawing/Design S2",
+        "name": "Adv Drawing/Design",
         "type": "6",
         "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Adv Drawing/Design S2",
+                    "name": "Adv Drawing/Design",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "DeStefano, Alexandra D",
@@ -7761,12 +7575,12 @@
         }
     },
     {
-        "name": "Advanced Ceramics S1",
+        "name": "Advanced Ceramics",
         "type": "6",
         "s1": {
             "7": [
                 {
-                    "name": "Advanced Ceramics S1",
+                    "name": "Advanced Ceramics",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Yee, Efong Rose",
@@ -7774,16 +7588,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Advanced Ceramics S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "Advanced Ceramics S2",
+                    "name": "Advanced Ceramics",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Yee, Efong Rose",
@@ -7793,13 +7601,13 @@
         }
     },
     {
-        "name": "Advanced Painting S2",
+        "name": "Advanced Painting",
         "type": "6",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Advanced Painting S2",
+                    "name": "Advanced Painting",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "DeStefano, Alexandra D",
@@ -7809,12 +7617,12 @@
         }
     },
     {
-        "name": "Advanced Studio Art S1",
+        "name": "Advanced Studio Art",
         "type": "6",
         "s1": {
             "3": [
                 {
-                    "name": "Advanced Studio Art S1",
+                    "name": "Advanced Studio Art",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "DeStefano, Alexandra D",
@@ -7822,16 +7630,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Advanced Studio Art S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "Advanced Studio Art S2",
+                    "name": "Advanced Studio Art",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "DeStefano, Alexandra D",
@@ -7841,12 +7643,12 @@
         }
     },
     {
-        "name": "Beginning Acting S1",
+        "name": "Beginning Acting",
         "type": "6",
         "s1": {
             "2": [
                 {
-                    "name": "Beginning Acting S1",
+                    "name": "Beginning Acting",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Burkart, Alex P",
@@ -7854,16 +7656,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Beginning Acting S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Beginning Acting S2",
+                    "name": "Beginning Acting",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Burkart, Alex P",
@@ -7872,7 +7668,7 @@
             ],
             "6": [
                 {
-                    "name": "Beginning Acting S2",
+                    "name": "Beginning Acting",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Burkart, Alex P",
@@ -7882,12 +7678,12 @@
         }
     },
     {
-        "name": "BRD Sports Media/CCSN S1",
+        "name": "BRD Sports Media/CCSN",
         "type": "6",
         "s1": {
             "6": [
                 {
-                    "name": "BRD Sports Media/CCSN S1",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "FA Tch A, A",
@@ -7896,14 +7692,14 @@
             ],
             "7": [
                 {
-                    "name": "BRD Sports Media/CCSN S1",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Johnson, Jonathan S",
                     "room": "IC715"
                 },
                 {
-                    "name": "BRD Sports Media/CCSN S1",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Weiss, Matthew W",
@@ -7911,16 +7707,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "BRD Sports Media/CCSN S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "BRD Sports Media/CCSN S2",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Johnson, Jonathan S",
@@ -7929,14 +7719,14 @@
             ],
             "7": [
                 {
-                    "name": "BRD Sports Media/CCSN S2",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "FA Tch A, A",
                     "room": "IC715"
                 },
                 {
-                    "name": "BRD Sports Media/CCSN S2",
+                    "name": "BRD Sports Media/CCSN",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Weiss, Matthew W",
@@ -7946,12 +7736,12 @@
         }
     },
     {
-        "name": "Broadcast Journalism/TV Prod S1",
+        "name": "Broadcast Journalism/TV Prod",
         "type": "6",
         "s1": {
             "4": [
                 {
-                    "name": "Broadcast Journalism/TV Prod S1",
+                    "name": "Broadcast Journalism/TV Prod",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "FA Tch A, A",
@@ -7962,13 +7752,13 @@
         "s2": {}
     },
     {
-        "name": "Broadcast Journalism/TV Prod 2 S2",
+        "name": "Broadcast Journalism/TV Prod 2",
         "type": "6",
         "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Broadcast Journalism/TV Prod 2 S2",
+                    "name": "Broadcast Journalism/TV Prod 2",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "FA Tch A, A",
@@ -7978,12 +7768,12 @@
         }
     },
     {
-        "name": "Ceramics 1 S1",
+        "name": "Ceramics 1",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Ceramics 1 S1",
+                    "name": "Ceramics 1",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Yee, Efong Rose",
@@ -7992,7 +7782,7 @@
             ],
             "2": [
                 {
-                    "name": "Ceramics 1 S1",
+                    "name": "Ceramics 1",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Yee, Efong Rose",
@@ -8001,7 +7791,7 @@
             ],
             "4": [
                 {
-                    "name": "Ceramics 1 S1",
+                    "name": "Ceramics 1",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Yee, Efong Rose",
@@ -8010,7 +7800,7 @@
             ],
             "6": [
                 {
-                    "name": "Ceramics 1 S1",
+                    "name": "Ceramics 1",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Yee, Efong Rose",
@@ -8018,16 +7808,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Ceramics 1 S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Ceramics 1 S2",
+                    "name": "Ceramics 1",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Yee, Efong Rose",
@@ -8036,7 +7820,7 @@
             ],
             "7": [
                 {
-                    "name": "Ceramics 1 S2",
+                    "name": "Ceramics 1",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Yee, Efong Rose",
@@ -8046,12 +7830,12 @@
         }
     },
     {
-        "name": "Ceramics 2 S1",
+        "name": "Ceramics 2",
         "type": "6",
         "s1": {
             "7": [
                 {
-                    "name": "Ceramics 2 S1",
+                    "name": "Ceramics 2",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Yee, Efong Rose",
@@ -8059,16 +7843,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Ceramics 2 S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Ceramics 2 S2",
+                    "name": "Ceramics 2",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Yee, Efong Rose",
@@ -8077,7 +7855,7 @@
             ],
             "4": [
                 {
-                    "name": "Ceramics 2 S2",
+                    "name": "Ceramics 2",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Yee, Efong Rose",
@@ -8086,7 +7864,7 @@
             ],
             "6": [
                 {
-                    "name": "Ceramics 2 S2",
+                    "name": "Ceramics 2",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Yee, Efong Rose",
@@ -8187,13 +7965,13 @@
         }
     },
     {
-        "name": "Digital Art and Design S2",
+        "name": "Digital Art and Design",
         "type": "6",
         "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Digital Art and Design S2",
+                    "name": "Digital Art and Design",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "DeStefano, Alexandra D",
@@ -8218,12 +7996,12 @@
         }
     },
     {
-        "name": "Drawing 1: Foundations S1",
+        "name": "Drawing 1: Foundations",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Jones, Christopher M",
@@ -8232,7 +8010,7 @@
             ],
             "2": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Scott, Michelle A",
@@ -8241,7 +8019,7 @@
             ],
             "3": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Jones, Christopher M",
@@ -8250,7 +8028,7 @@
             ],
             "4": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Scott, Michelle A",
@@ -8259,7 +8037,7 @@
             ],
             "5": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Aldridge, Erin",
@@ -8268,7 +8046,7 @@
             ],
             "6": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "DeStefano, Alexandra D",
@@ -8277,7 +8055,7 @@
             ],
             "8": [
                 {
-                    "name": "Drawing 1: Foundations S1",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "DeStefano, Alexandra D",
@@ -8285,16 +8063,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Drawing 1: Foundations S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Drawing 1: Foundations S2",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Scott, Michelle A",
@@ -8303,7 +8075,7 @@
             ],
             "4": [
                 {
-                    "name": "Drawing 1: Foundations S2",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Scott, Michelle A",
@@ -8312,7 +8084,7 @@
             ],
             "5": [
                 {
-                    "name": "Drawing 1: Foundations S2",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Aldridge, Erin",
@@ -8321,7 +8093,7 @@
             ],
             "8": [
                 {
-                    "name": "Drawing 1: Foundations S2",
+                    "name": "Drawing 1: Foundations",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "DeStefano, Alexandra D",
@@ -8331,12 +8103,12 @@
         }
     },
     {
-        "name": "Drawing 2: Multimedia S1",
+        "name": "Drawing 2: Multimedia",
         "type": "6",
         "s1": {
             "4": [
                 {
-                    "name": "Drawing 2: Multimedia S1",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "DeStefano, Alexandra D",
@@ -8345,7 +8117,7 @@
             ],
             "6": [
                 {
-                    "name": "Drawing 2: Multimedia S1",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Jones, Christopher M",
@@ -8353,16 +8125,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Drawing 2: Multimedia S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Drawing 2: Multimedia S2",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Jones, Christopher M",
@@ -8371,7 +8137,7 @@
             ],
             "3": [
                 {
-                    "name": "Drawing 2: Multimedia S2",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Jones, Christopher M",
@@ -8380,7 +8146,7 @@
             ],
             "6": [
                 {
-                    "name": "Drawing 2: Multimedia S2",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "DeStefano, Alexandra D",
@@ -8389,7 +8155,7 @@
             ],
             "7": [
                 {
-                    "name": "Drawing 2: Multimedia S2",
+                    "name": "Drawing 2: Multimedia",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Jones, Christopher M",
@@ -8459,12 +8225,12 @@
         }
     },
     {
-        "name": "Jewelry/Metal 1 S1",
+        "name": "Jewelry/Metal 1",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Jewelry/Metal 1 S1",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Aldridge, Erin",
@@ -8473,7 +8239,7 @@
             ],
             "2": [
                 {
-                    "name": "Jewelry/Metal 1 S1",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Aldridge, Erin",
@@ -8482,7 +8248,7 @@
             ],
             "3": [
                 {
-                    "name": "Jewelry/Metal 1 S1",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Aldridge, Erin",
@@ -8491,7 +8257,7 @@
             ],
             "5": [
                 {
-                    "name": "Jewelry/Metal 1 S1",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Scott, Michelle A",
@@ -8500,7 +8266,7 @@
             ],
             "6": [
                 {
-                    "name": "Jewelry/Metal 1 S1",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Scott, Michelle A",
@@ -8508,16 +8274,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Jewelry/Metal 1 S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Jewelry/Metal 1 S2",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Scott, Michelle A",
@@ -8526,7 +8286,7 @@
             ],
             "6": [
                 {
-                    "name": "Jewelry/Metal 1 S2",
+                    "name": "Jewelry/Metal 1",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Scott, Michelle A",
@@ -8536,13 +8296,13 @@
         }
     },
     {
-        "name": "Jewelry/Metal 2 S2",
+        "name": "Jewelry/Metal 2",
         "type": "6",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Jewelry/Metal 2 S2",
+                    "name": "Jewelry/Metal 2",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Aldridge, Erin",
@@ -8551,7 +8311,7 @@
             ],
             "2": [
                 {
-                    "name": "Jewelry/Metal 2 S2",
+                    "name": "Jewelry/Metal 2",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Aldridge, Erin",
@@ -8560,7 +8320,7 @@
             ],
             "3": [
                 {
-                    "name": "Jewelry/Metal 2 S2",
+                    "name": "Jewelry/Metal 2",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Aldridge, Erin",
@@ -8570,12 +8330,12 @@
         }
     },
     {
-        "name": "Jewelry/Metal Workshop S1",
+        "name": "Jewelry/Metal Workshop",
         "type": "6",
         "s1": {
             "2": [
                 {
-                    "name": "Jewelry/Metal Workshop S1",
+                    "name": "Jewelry/Metal Workshop",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Aldridge, Erin",
@@ -8584,7 +8344,7 @@
             ],
             "3": [
                 {
-                    "name": "Jewelry/Metal Workshop S1",
+                    "name": "Jewelry/Metal Workshop",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Aldridge, Erin",
@@ -8592,16 +8352,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Jewelry/Metal Workshop S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Jewelry/Metal Workshop S2",
+                    "name": "Jewelry/Metal Workshop",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Aldridge, Erin",
@@ -8610,7 +8364,7 @@
             ],
             "3": [
                 {
-                    "name": "Jewelry/Metal Workshop S2",
+                    "name": "Jewelry/Metal Workshop",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Aldridge, Erin",
@@ -8620,13 +8374,13 @@
         }
     },
     {
-        "name": "Live Figure Drawing S2",
+        "name": "Live Figure Drawing",
         "type": "6",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Live Figure Drawing S2",
+                    "name": "Live Figure Drawing",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Jones, Christopher M",
@@ -8651,12 +8405,12 @@
         }
     },
     {
-        "name": "Painting S1",
+        "name": "Painting",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Painting S1",
+                    "name": "Painting",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "DeStefano, Alexandra D",
@@ -8665,7 +8419,7 @@
             ],
             "4": [
                 {
-                    "name": "Painting S1",
+                    "name": "Painting",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Jones, Christopher M",
@@ -8674,7 +8428,7 @@
             ],
             "7": [
                 {
-                    "name": "Painting S1",
+                    "name": "Painting",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Jones, Christopher M",
@@ -8682,16 +8436,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Painting S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Painting S2",
+                    "name": "Painting",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Jones, Christopher M",
@@ -8701,12 +8449,12 @@
         }
     },
     {
-        "name": "Photography I S1",
+        "name": "Photography I",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Photography I S1",
+                    "name": "Photography I",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Adams, Todd",
@@ -8715,7 +8463,7 @@
             ],
             "2": [
                 {
-                    "name": "Photography I S1",
+                    "name": "Photography I",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Adams, Todd",
@@ -8724,7 +8472,7 @@
             ],
             "3": [
                 {
-                    "name": "Photography I S1",
+                    "name": "Photography I",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Adams, Todd",
@@ -8733,7 +8481,7 @@
             ],
             "5": [
                 {
-                    "name": "Photography I S1",
+                    "name": "Photography I",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Adams, Todd",
@@ -8741,16 +8489,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Photography I S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Photography I S2",
+                    "name": "Photography I",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Adams, Todd",
@@ -8759,7 +8501,7 @@
             ],
             "5": [
                 {
-                    "name": "Photography I S2",
+                    "name": "Photography I",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Adams, Todd",
@@ -8769,13 +8511,13 @@
         }
     },
     {
-        "name": "Photography II S2",
+        "name": "Photography II",
         "type": "6",
         "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Photography II S2",
+                    "name": "Photography II",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Adams, Todd",
@@ -8784,7 +8526,7 @@
             ],
             "3": [
                 {
-                    "name": "Photography II S2",
+                    "name": "Photography II",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Adams, Todd",
@@ -8900,12 +8642,12 @@
         }
     },
     {
-        "name": "Technical Theatre 1 S1",
+        "name": "Technical Theatre 1",
         "type": "6",
         "s1": {
             "8": [
                 {
-                    "name": "Technical Theatre 1 S1",
+                    "name": "Technical Theatre 1",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "FA Tch B, B",
@@ -8916,13 +8658,13 @@
         "s2": {}
     },
     {
-        "name": "Technical Theatre 2 S2",
+        "name": "Technical Theatre 2",
         "type": "6",
         "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Technical Theatre 2 S2",
+                    "name": "Technical Theatre 2",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "FA Tch B, B",
@@ -8947,12 +8689,12 @@
         }
     },
     {
-        "name": "Unified Peer Mentor Theater S1",
+        "name": "Unified Peer Mentor Theater",
         "type": "6",
         "s1": {
             "6": [
                 {
-                    "name": "Unified Peer Mentor Theater S1",
+                    "name": "Unified Peer Mentor Theater",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Burkart, Alex P",
@@ -8963,13 +8705,13 @@
         "s2": {}
     },
     {
-        "name": "Unified Peer Mentor Visual Arts S2",
+        "name": "Unified Peer Mentor Visual Arts",
         "type": "6",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Unified Peer Mentor Visual Arts S2",
+                    "name": "Unified Peer Mentor Visual Arts",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Watson, Lindsey",
@@ -8994,12 +8736,12 @@
         }
     },
     {
-        "name": "Video Production 1 S1",
+        "name": "Video Production 1",
         "type": "6",
         "s1": {
             "7": [
                 {
-                    "name": "Video Production 1 S1",
+                    "name": "Video Production 1",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "FA Tch A, A",
@@ -9008,7 +8750,7 @@
             ],
             "8": [
                 {
-                    "name": "Video Production 1 S1",
+                    "name": "Video Production 1",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "FA Tch A, A",
@@ -9016,16 +8758,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Video Production 1 S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Video Production 1 S2",
+                    "name": "Video Production 1",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "FA Tch A, A",
@@ -9035,13 +8771,13 @@
         }
     },
     {
-        "name": "Video Production 2 S2",
+        "name": "Video Production 2",
         "type": "6",
         "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Video Production 2 S2",
+                    "name": "Video Production 2",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "FA Tch A, A",
@@ -9111,12 +8847,12 @@
         }
     },
     {
-        "name": "CE Entreprenuerial Operations S1",
+        "name": "CE Entreprenuerial Operations",
         "type": "6",
         "s1": {
             "6": [
                 {
-                    "name": "CE Entreprenuerial Operations S1",
+                    "name": "CE Entreprenuerial Operations",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Sheets, Jennifer E",
@@ -9124,16 +8860,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Entreprenuerial Operations S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "CE Entreprenuerial Operations S2",
+                    "name": "CE Entreprenuerial Operations",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Sheets, Jennifer E",
@@ -9143,12 +8873,12 @@
         }
     },
     {
-        "name": "CE Intro to Business S1",
+        "name": "CE Intro to Business",
         "type": "6",
         "s1": {
             "2": [
                 {
-                    "name": "CE Intro to Business S1",
+                    "name": "CE Intro to Business",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Sheets, Jennifer E",
@@ -9157,7 +8887,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Intro to Business S1",
+                    "name": "CE Intro to Business",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Sheets, Jennifer E",
@@ -9166,7 +8896,7 @@
             ],
             "5": [
                 {
-                    "name": "CE Intro to Business S1",
+                    "name": "CE Intro to Business",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Sheets, Jennifer E",
@@ -9174,16 +8904,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Intro to Business S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CE Intro to Business S2",
+                    "name": "CE Intro to Business",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Sheets, Jennifer E",
@@ -9192,7 +8916,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Intro to Business S2",
+                    "name": "CE Intro to Business",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Sheets, Jennifer E",
@@ -9201,7 +8925,7 @@
             ],
             "5": [
                 {
-                    "name": "CE Intro to Business S2",
+                    "name": "CE Intro to Business",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "BUS Tch A, A",
@@ -9210,7 +8934,7 @@
             ],
             "7": [
                 {
-                    "name": "CE Intro to Business S2",
+                    "name": "CE Intro to Business",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "BUS Tch A, A",
@@ -9219,7 +8943,7 @@
             ],
             "8": [
                 {
-                    "name": "CE Intro to Business S2",
+                    "name": "CE Intro to Business",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Sheets, Jennifer E",
@@ -9229,12 +8953,12 @@
         }
     },
     {
-        "name": "CE Introduction to Entrepreneurship S1",
+        "name": "CE Introduction to Entrepreneurship",
         "type": "6",
         "s1": {
             "6": [
                 {
-                    "name": "CE Introduction to Entrepreneurship S1",
+                    "name": "CE Introduction to Entrepreneurship",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Sheets, Jennifer E",
@@ -9242,16 +8966,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Introduction to Entrepreneurship S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "CE Introduction to Entrepreneurship S2",
+                    "name": "CE Introduction to Entrepreneurship",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Sheets, Jennifer E",
@@ -9261,12 +8979,12 @@
         }
     },
     {
-        "name": "CE Personal Finance S1",
+        "name": "CE Personal Finance",
         "type": "6",
         "s1": {
             "2": [
                 {
-                    "name": "CE Personal Finance S1",
+                    "name": "CE Personal Finance",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "BUS Tch A, A",
@@ -9275,7 +8993,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Personal Finance S1",
+                    "name": "CE Personal Finance",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "BUS Tch A, A",
@@ -9284,7 +9002,7 @@
             ],
             "4": [
                 {
-                    "name": "CE Personal Finance S1",
+                    "name": "CE Personal Finance",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "BUS Tch A, A",
@@ -9293,7 +9011,7 @@
             ],
             "6": [
                 {
-                    "name": "CE Personal Finance S1",
+                    "name": "CE Personal Finance",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "BUS Tch A, A",
@@ -9302,7 +9020,7 @@
             ],
             "7": [
                 {
-                    "name": "CE Personal Finance S1",
+                    "name": "CE Personal Finance",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "BUS Tch A, A",
@@ -9310,16 +9028,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Personal Finance S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "CE Personal Finance S2",
+                    "name": "CE Personal Finance",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "BUS Tch A, A",
@@ -9328,7 +9040,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Personal Finance S2",
+                    "name": "CE Personal Finance",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "BUS Tch A, A",
@@ -9337,7 +9049,7 @@
             ],
             "4": [
                 {
-                    "name": "CE Personal Finance S2",
+                    "name": "CE Personal Finance",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "BUS Tch A, A",
@@ -9346,7 +9058,7 @@
             ],
             "7": [
                 {
-                    "name": "CE Personal Finance S2",
+                    "name": "CE Personal Finance",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Cleveland, Mallory J",
@@ -9356,12 +9068,12 @@
         }
     },
     {
-        "name": "Child and Adolescent Development S1",
+        "name": "Child and Adolescent Development",
         "type": "6",
         "s1": {
             "1": [
                 {
-                    "name": "Child and Adolescent Development S1",
+                    "name": "Child and Adolescent Development",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Irwin, Amy A",
@@ -9369,16 +9081,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Child and Adolescent Development S2",
-        "type": "6",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Child and Adolescent Development S2",
+                    "name": "Child and Adolescent Development",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Irwin, Amy A",
@@ -9388,12 +9094,12 @@
         }
     },
     {
-        "name": "Design Seminar S1",
+        "name": "Design Seminar",
         "type": "6",
         "s1": {
             "2": [
                 {
-                    "name": "Design Seminar S1",
+                    "name": "Design Seminar",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Irwin, Amy A",
@@ -9402,7 +9108,7 @@
             ],
             "3": [
                 {
-                    "name": "Design Seminar S1",
+                    "name": "Design Seminar",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Irwin, Amy A",
@@ -9413,13 +9119,13 @@
         "s2": {}
     },
     {
-        "name": "Interior Design 1 Residential S2",
+        "name": "Interior Design 1 Residential",
         "type": "6",
         "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Interior Design 1 Residential S2",
+                    "name": "Interior Design 1 Residential",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Irwin, Amy A",
@@ -9429,13 +9135,13 @@
         }
     },
     {
-        "name": "Interpersonal Relationships S2",
+        "name": "Interpersonal Relationships",
         "type": "6",
         "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Interpersonal Relationships S2",
+                    "name": "Interpersonal Relationships",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Irwin, Amy A",
@@ -9444,7 +9150,7 @@
             ],
             "6": [
                 {
-                    "name": "Interpersonal Relationships S2",
+                    "name": "Interpersonal Relationships",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Irwin, Amy A",
@@ -9469,13 +9175,13 @@
         }
     },
     {
-        "name": "CE Introduction to PC Applications S2",
+        "name": "CE Introduction to PC Applications",
         "type": "9",
         "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "CE Introduction to PC Applications S2",
+                    "name": "CE Introduction to PC Applications",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Sheets, Jennifer E",
@@ -9560,41 +9266,12 @@
         }
     },
     {
-        "name": "Marketing Coop",
-        "type": "6",
-        "year": {
-            "9": [
-                {
-                    "name": "Marketing Coop",
-                    "semester": "Year",
-                    "period": 9,
-                    "teacher": "Cleveland, Mallory J",
-                    "room": "W220"
-                },
-                {
-                    "name": "Marketing Coop",
-                    "semester": "Year",
-                    "period": 9,
-                    "teacher": "Adolphi-Seedorf, Elizabeth",
-                    "room": "W220"
-                },
-                {
-                    "name": "Marketing Coop",
-                    "semester": "Year",
-                    "period": 9,
-                    "teacher": "Adolphi-Seedorf, Elizabeth",
-                    "room": "W214"
-                }
-            ]
-        }
-    },
-    {
-        "name": "Culinary Nutrition S1",
+        "name": "Culinary Nutrition",
         "type": "9",
         "s1": {
             "1": [
                 {
-                    "name": "Culinary Nutrition S1",
+                    "name": "Culinary Nutrition",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Mulligan, Lauren A",
@@ -9603,7 +9280,7 @@
             ],
             "4": [
                 {
-                    "name": "Culinary Nutrition S1",
+                    "name": "Culinary Nutrition",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Mulligan, Lauren A",
@@ -9612,7 +9289,7 @@
             ],
             "5": [
                 {
-                    "name": "Culinary Nutrition S1",
+                    "name": "Culinary Nutrition",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Irwin, Amy A",
@@ -9621,7 +9298,7 @@
             ],
             "7": [
                 {
-                    "name": "Culinary Nutrition S1",
+                    "name": "Culinary Nutrition",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Mulligan, Lauren A",
@@ -9630,7 +9307,7 @@
             ],
             "8": [
                 {
-                    "name": "Culinary Nutrition S1",
+                    "name": "Culinary Nutrition",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Mulligan, Lauren A",
@@ -9638,16 +9315,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Culinary Nutrition S2",
-        "type": "9",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Culinary Nutrition S2",
+                    "name": "Culinary Nutrition",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Mulligan, Lauren A",
@@ -9656,7 +9327,7 @@
             ],
             "5": [
                 {
-                    "name": "Culinary Nutrition S2",
+                    "name": "Culinary Nutrition",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Mulligan, Lauren A",
@@ -9665,7 +9336,7 @@
             ],
             "7": [
                 {
-                    "name": "Culinary Nutrition S2",
+                    "name": "Culinary Nutrition",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Mulligan, Lauren A",
@@ -9674,7 +9345,7 @@
             ],
             "8": [
                 {
-                    "name": "Culinary Nutrition S2",
+                    "name": "Culinary Nutrition",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Mulligan, Lauren A",
@@ -9684,12 +9355,12 @@
         }
     },
     {
-        "name": "Fashion Design & Merchandising I S1",
+        "name": "Fashion Design & Merchandising I",
         "type": "9",
         "s1": {
             "6": [
                 {
-                    "name": "Fashion Design & Merchandising I S1",
+                    "name": "Fashion Design & Merchandising I",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Irwin, Amy A",
@@ -9697,16 +9368,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Fashion Design & Merchandising I S2",
-        "type": "9",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "Fashion Design & Merchandising I S2",
+                    "name": "Fashion Design & Merchandising I",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Irwin, Amy A",
@@ -9716,19 +9381,19 @@
         }
     },
     {
-        "name": "Advanced Fitness S1",
+        "name": "Advanced Fitness",
         "type": "7",
         "s1": {
             "1": [
                 {
-                    "name": "Advanced Fitness S1",
+                    "name": "Advanced Fitness",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Betti, Benedetto",
                     "room": "W085"
                 },
                 {
-                    "name": "Advanced Fitness S1",
+                    "name": "Advanced Fitness",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Luhring, Michael",
@@ -9737,7 +9402,7 @@
             ],
             "2": [
                 {
-                    "name": "Advanced Fitness S1",
+                    "name": "Advanced Fitness",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Betti, Benedetto",
@@ -9746,14 +9411,14 @@
             ],
             "7": [
                 {
-                    "name": "Advanced Fitness S1",
+                    "name": "Advanced Fitness",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Betti, Benedetto",
                     "room": "W085"
                 },
                 {
-                    "name": "Advanced Fitness S1",
+                    "name": "Advanced Fitness",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Luhring, Michael",
@@ -9761,23 +9426,17 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Advanced Fitness S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Advanced Fitness S2",
+                    "name": "Advanced Fitness",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Betti, Benedetto",
                     "room": "W085"
                 },
                 {
-                    "name": "Advanced Fitness S2",
+                    "name": "Advanced Fitness",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Luhring, Michael",
@@ -9786,7 +9445,7 @@
             ],
             "3": [
                 {
-                    "name": "Advanced Fitness S2",
+                    "name": "Advanced Fitness",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Betti, Benedetto",
@@ -9795,7 +9454,7 @@
             ],
             "7": [
                 {
-                    "name": "Advanced Fitness S2",
+                    "name": "Advanced Fitness",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Betti, Benedetto",
@@ -9805,12 +9464,12 @@
         }
     },
     {
-        "name": "Adventure Challenge Course S1",
+        "name": "Adventure Challenge Course",
         "type": "7",
         "s1": {
             "2": [
                 {
-                    "name": "Adventure Challenge Course S1",
+                    "name": "Adventure Challenge Course",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Goeglein, Michael",
@@ -9819,7 +9478,7 @@
             ],
             "3": [
                 {
-                    "name": "Adventure Challenge Course S1",
+                    "name": "Adventure Challenge Course",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Goeglein, Michael",
@@ -9828,7 +9487,7 @@
             ],
             "5": [
                 {
-                    "name": "Adventure Challenge Course S1",
+                    "name": "Adventure Challenge Course",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Opp, Savannah C",
@@ -9837,7 +9496,7 @@
             ],
             "7": [
                 {
-                    "name": "Adventure Challenge Course S1",
+                    "name": "Adventure Challenge Course",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Goeglein, Michael",
@@ -9845,16 +9504,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Adventure Challenge Course S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Adventure Challenge Course S2",
+                    "name": "Adventure Challenge Course",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Goeglein, Michael",
@@ -9863,7 +9516,7 @@
             ],
             "3": [
                 {
-                    "name": "Adventure Challenge Course S2",
+                    "name": "Adventure Challenge Course",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Goeglein, Michael",
@@ -9872,7 +9525,7 @@
             ],
             "5": [
                 {
-                    "name": "Adventure Challenge Course S2",
+                    "name": "Adventure Challenge Course",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Opp, Savannah C",
@@ -9881,7 +9534,7 @@
             ],
             "7": [
                 {
-                    "name": "Adventure Challenge Course S2",
+                    "name": "Adventure Challenge Course",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Goeglein, Michael",
@@ -9891,12 +9544,12 @@
         }
     },
     {
-        "name": "Adventure Outdoor Ed S1",
+        "name": "Adventure Outdoor Ed",
         "type": "7",
         "s1": {
             "6": [
                 {
-                    "name": "Adventure Outdoor Ed S1",
+                    "name": "Adventure Outdoor Ed",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Opp, Savannah C",
@@ -9905,7 +9558,7 @@
             ],
             "7": [
                 {
-                    "name": "Adventure Outdoor Ed S1",
+                    "name": "Adventure Outdoor Ed",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Opp, Savannah C",
@@ -9913,16 +9566,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Adventure Outdoor Ed S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Adventure Outdoor Ed S2",
+                    "name": "Adventure Outdoor Ed",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Opp, Savannah C",
@@ -9932,13 +9579,13 @@
         }
     },
     {
-        "name": "Adventure Water Sports S2",
+        "name": "Adventure Water Sports",
         "type": "7",
         "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Adventure Water Sports S2",
+                    "name": "Adventure Water Sports",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Opp, Savannah C",
@@ -9948,12 +9595,12 @@
         }
     },
     {
-        "name": "Body Works S1",
+        "name": "Body Works",
         "type": "7",
         "s1": {
             "4": [
                 {
-                    "name": "Body Works S1",
+                    "name": "Body Works",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Lagrange, Sarah C",
@@ -9961,16 +9608,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Body Works S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Body Works S2",
+                    "name": "Body Works",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Lagrange, Sarah C",
@@ -9979,7 +9620,7 @@
             ],
             "4": [
                 {
-                    "name": "Body Works S2",
+                    "name": "Body Works",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Lagrange, Sarah C",
@@ -9989,12 +9630,12 @@
         }
     },
     {
-        "name": "CE Adventure Leader S1",
+        "name": "CE Adventure Leader",
         "type": "7",
         "s1": {
             "1": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Goeglein, Michael",
@@ -10003,7 +9644,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Goeglein, Michael",
@@ -10012,7 +9653,7 @@
             ],
             "5": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Opp, Savannah C",
@@ -10021,7 +9662,7 @@
             ],
             "6": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Opp, Savannah C",
@@ -10030,14 +9671,14 @@
             ],
             "7": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Goeglein, Michael",
                     "room": "W087"
                 },
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Opp, Savannah C",
@@ -10046,7 +9687,7 @@
             ],
             "8": [
                 {
-                    "name": "CE Adventure Leader S1",
+                    "name": "CE Adventure Leader",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Goeglein, Michael",
@@ -10054,16 +9695,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Adventure Leader S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Goeglein, Michael",
@@ -10072,7 +9707,7 @@
             ],
             "2": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Goeglein, Michael",
@@ -10081,7 +9716,7 @@
             ],
             "3": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Goeglein, Michael",
@@ -10090,7 +9725,7 @@
             ],
             "5": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Opp, Savannah C",
@@ -10099,7 +9734,7 @@
             ],
             "6": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Opp, Savannah C",
@@ -10108,7 +9743,7 @@
             ],
             "7": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Goeglein, Michael",
@@ -10117,14 +9752,14 @@
             ],
             "8": [
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Goeglein, Michael",
                     "room": "W087"
                 },
                 {
-                    "name": "CE Adventure Leader S2",
+                    "name": "CE Adventure Leader",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Opp, Savannah C",
@@ -10134,12 +9769,12 @@
         }
     },
     {
-        "name": "CE Adventure Leader Training S1",
+        "name": "CE Adventure Leader Training",
         "type": "7",
         "s1": {
             "8": [
                 {
-                    "name": "CE Adventure Leader Training S1",
+                    "name": "CE Adventure Leader Training",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Goeglein, Michael",
@@ -10147,16 +9782,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CE Adventure Leader Training S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "CE Adventure Leader Training S2",
+                    "name": "CE Adventure Leader Training",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Goeglein, Michael",
@@ -10166,12 +9795,12 @@
         }
     },
     {
-        "name": "Dance S1",
+        "name": "Dance",
         "type": "7",
         "s1": {
             "1": [
                 {
-                    "name": "Dance S1",
+                    "name": "Dance",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Lagrange, Sarah C",
@@ -10180,7 +9809,7 @@
             ],
             "2": [
                 {
-                    "name": "Dance S1",
+                    "name": "Dance",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Lagrange, Sarah C",
@@ -10189,7 +9818,7 @@
             ],
             "5": [
                 {
-                    "name": "Dance S1",
+                    "name": "Dance",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Lagrange, Sarah C",
@@ -10197,16 +9826,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Dance S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Dance S2",
+                    "name": "Dance",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Lagrange, Sarah C",
@@ -10215,7 +9838,7 @@
             ],
             "7": [
                 {
-                    "name": "Dance S2",
+                    "name": "Dance",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Lagrange, Sarah C",
@@ -10224,7 +9847,7 @@
             ],
             "8": [
                 {
-                    "name": "Dance S2",
+                    "name": "Dance",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Lagrange, Sarah C",
@@ -10234,19 +9857,19 @@
         }
     },
     {
-        "name": "Health S1",
+        "name": "Health",
         "type": "7",
         "s1": {
             "1": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Holmes, Seneca",
                     "room": "W203"
                 },
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Shively, Luke James",
@@ -10255,7 +9878,7 @@
             ],
             "2": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Allen, Tyson",
@@ -10264,7 +9887,7 @@
             ],
             "3": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Holmes, Seneca",
@@ -10273,7 +9896,7 @@
             ],
             "4": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Allen, Tyson",
@@ -10282,7 +9905,7 @@
             ],
             "5": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Shively, Luke James",
@@ -10291,7 +9914,7 @@
             ],
             "6": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Shively, Luke James",
@@ -10300,7 +9923,7 @@
             ],
             "7": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Lane, Holly",
@@ -10309,7 +9932,7 @@
             ],
             "8": [
                 {
-                    "name": "Health S1",
+                    "name": "Health",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Lane, Holly",
@@ -10317,16 +9940,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Health S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Holmes, Seneca",
@@ -10335,7 +9952,7 @@
             ],
             "2": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Allen, Tyson",
@@ -10344,7 +9961,7 @@
             ],
             "3": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Holmes, Seneca",
@@ -10353,7 +9970,7 @@
             ],
             "4": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "McKean, Allison J",
@@ -10362,7 +9979,7 @@
             ],
             "6": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Lane, Holly",
@@ -10371,7 +9988,7 @@
             ],
             "7": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Allen, Tyson",
@@ -10380,7 +9997,7 @@
             ],
             "8": [
                 {
-                    "name": "Health S2",
+                    "name": "Health",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Shively, Luke James",
@@ -10390,12 +10007,12 @@
         }
     },
     {
-        "name": "Health Hybrid S1",
+        "name": "Health Hybrid",
         "type": "7",
         "s1": {
             "5": [
                 {
-                    "name": "Health Hybrid S1",
+                    "name": "Health Hybrid",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "McKean, Allison J",
@@ -10403,16 +10020,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Health Hybrid S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Health Hybrid S2",
+                    "name": "Health Hybrid",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "McKean, Allison J",
@@ -10422,12 +10033,12 @@
         }
     },
     {
-        "name": "Individual Sports S1",
+        "name": "Individual Sports",
         "type": "7",
         "s1": {
             "2": [
                 {
-                    "name": "Individual Sports S1",
+                    "name": "Individual Sports",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Luhring, Michael",
@@ -10436,7 +10047,7 @@
             ],
             "3": [
                 {
-                    "name": "Individual Sports S1",
+                    "name": "Individual Sports",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Luhring, Michael",
@@ -10445,7 +10056,7 @@
             ],
             "6": [
                 {
-                    "name": "Individual Sports S1",
+                    "name": "Individual Sports",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Luhring, Michael",
@@ -10453,16 +10064,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Individual Sports S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Individual Sports S2",
+                    "name": "Individual Sports",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Luhring, Michael",
@@ -10471,7 +10076,7 @@
             ],
             "3": [
                 {
-                    "name": "Individual Sports S2",
+                    "name": "Individual Sports",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Luhring, Michael",
@@ -10481,12 +10086,12 @@
         }
     },
     {
-        "name": "Personal Fitness S1",
+        "name": "Personal Fitness",
         "type": "7",
         "s1": {
             "5": [
                 {
-                    "name": "Personal Fitness S1",
+                    "name": "Personal Fitness",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Allen, Tyson",
@@ -10494,16 +10099,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Personal Fitness S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Personal Fitness S2",
+                    "name": "Personal Fitness",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Allen, Tyson",
@@ -10513,12 +10112,12 @@
         }
     },
     {
-        "name": "Sports and Activity for Life S1",
+        "name": "Sports and Activity for Life",
         "type": "7",
         "s1": {
             "1": [
                 {
-                    "name": "Sports and Activity for Life S1",
+                    "name": "Sports and Activity for Life",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Allen, Tyson",
@@ -10526,16 +10125,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Sports and Activity for Life S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Sports and Activity for Life S2",
+                    "name": "Sports and Activity for Life",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Allen, Tyson",
@@ -10544,7 +10137,7 @@
             ],
             "4": [
                 {
-                    "name": "Sports and Activity for Life S2",
+                    "name": "Sports and Activity for Life",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Allen, Tyson",
@@ -10554,12 +10147,12 @@
         }
     },
     {
-        "name": "Team Sports S1",
+        "name": "Team Sports",
         "type": "7",
         "s1": {
             "2": [
                 {
-                    "name": "Team Sports S1",
+                    "name": "Team Sports",
                     "semester": "S1",
                     "period": 2,
                     "teacher": "Shively, Luke James",
@@ -10568,7 +10161,7 @@
             ],
             "3": [
                 {
-                    "name": "Team Sports S1",
+                    "name": "Team Sports",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Shively, Luke James",
@@ -10577,7 +10170,7 @@
             ],
             "7": [
                 {
-                    "name": "Team Sports S1",
+                    "name": "Team Sports",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Allen, Tyson",
@@ -10586,7 +10179,7 @@
             ],
             "8": [
                 {
-                    "name": "Team Sports S1",
+                    "name": "Team Sports",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Kinsey, Robert C",
@@ -10594,16 +10187,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Team Sports S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Shively, Luke James",
@@ -10612,7 +10199,7 @@
             ],
             "3": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Shively, Luke James",
@@ -10621,7 +10208,7 @@
             ],
             "5": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Shively, Luke James",
@@ -10630,7 +10217,7 @@
             ],
             "6": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Luhring, Michael",
@@ -10639,7 +10226,7 @@
             ],
             "7": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Luhring, Michael",
@@ -10648,7 +10235,7 @@
             ],
             "8": [
                 {
-                    "name": "Team Sports S2",
+                    "name": "Team Sports",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Kinsey, Robert C",
@@ -10658,19 +10245,19 @@
         }
     },
     {
-        "name": "Unified Peer Mentor PE S1",
+        "name": "Unified Peer Mentor PE",
         "type": "7",
         "s1": {
             "7": [
                 {
-                    "name": "Unified Peer Mentor PE S1",
+                    "name": "Unified Peer Mentor PE",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Holmes, Seneca",
                     "room": "E GYM"
                 },
                 {
-                    "name": "Unified Peer Mentor PE S1",
+                    "name": "Unified Peer Mentor PE",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Lagrange, Sarah C",
@@ -10678,16 +10265,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Unified Peer Mentor PE S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "Unified Peer Mentor PE S2",
+                    "name": "Unified Peer Mentor PE",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Holmes, Seneca",
@@ -10697,19 +10278,19 @@
         }
     },
     {
-        "name": "Unified Peer Mentor Swim Fitness S1",
+        "name": "Unified Peer Mentor Swim Fitness",
         "type": "7",
         "s1": {
             "5": [
                 {
-                    "name": "Unified Peer Mentor Swim Fitness S1",
+                    "name": "Unified Peer Mentor Swim Fitness",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Ostedgaard, Garrett J",
                     "room": "POOL"
                 },
                 {
-                    "name": "Unified Peer Mentor Swim Fitness S1",
+                    "name": "Unified Peer Mentor Swim Fitness",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Shapiro, Carolyn S",
@@ -10717,23 +10298,17 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Unified Peer Mentor Swim Fitness S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Unified Peer Mentor Swim Fitness S2",
+                    "name": "Unified Peer Mentor Swim Fitness",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Ostedgaard, Garrett J",
                     "room": "POOL"
                 },
                 {
-                    "name": "Unified Peer Mentor Swim Fitness S2",
+                    "name": "Unified Peer Mentor Swim Fitness",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Shapiro, Carolyn S",
@@ -10743,12 +10318,12 @@
         }
     },
     {
-        "name": "Weight Training S1",
+        "name": "Weight Training",
         "type": "7",
         "s1": {
             "4": [
                 {
-                    "name": "Weight Training S1",
+                    "name": "Weight Training",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "Betti, Benedetto",
@@ -10757,7 +10332,7 @@
             ],
             "5": [
                 {
-                    "name": "Weight Training S1",
+                    "name": "Weight Training",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Holmes, Seneca",
@@ -10766,7 +10341,7 @@
             ],
             "6": [
                 {
-                    "name": "Weight Training S1",
+                    "name": "Weight Training",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Betti, Benedetto",
@@ -10774,16 +10349,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Weight Training S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Weight Training S2",
+                    "name": "Weight Training",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Betti, Benedetto",
@@ -10792,7 +10361,7 @@
             ],
             "6": [
                 {
-                    "name": "Weight Training S2",
+                    "name": "Weight Training",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Betti, Benedetto",
@@ -10801,7 +10370,7 @@
             ],
             "8": [
                 {
-                    "name": "Weight Training S2",
+                    "name": "Weight Training",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Holmes, Seneca",
@@ -10811,12 +10380,12 @@
         }
     },
     {
-        "name": "Weight Training for Women S1",
+        "name": "Weight Training for Women",
         "type": "7",
         "s1": {
             "3": [
                 {
-                    "name": "Weight Training for Women S1",
+                    "name": "Weight Training for Women",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "McKean, Allison J",
@@ -10825,7 +10394,7 @@
             ],
             "8": [
                 {
-                    "name": "Weight Training for Women S1",
+                    "name": "Weight Training for Women",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "McKean, Allison J",
@@ -10833,23 +10402,17 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Weight Training for Women S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "2": [
                 {
-                    "name": "Weight Training for Women S2",
+                    "name": "Weight Training for Women",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "Lane, Holly",
                     "room": "W085"
                 },
                 {
-                    "name": "Weight Training for Women S2",
+                    "name": "Weight Training for Women",
                     "semester": "S2",
                     "period": 2,
                     "teacher": "McKean, Allison J",
@@ -10859,12 +10422,12 @@
         }
     },
     {
-        "name": "Yoga S1",
+        "name": "Yoga",
         "type": "7",
         "s1": {
             "3": [
                 {
-                    "name": "Yoga S1",
+                    "name": "Yoga",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Lane, Holly",
@@ -10873,7 +10436,7 @@
             ],
             "4": [
                 {
-                    "name": "Yoga S1",
+                    "name": "Yoga",
                     "semester": "S1",
                     "period": 4,
                     "teacher": "McKean, Allison J",
@@ -10882,7 +10445,7 @@
             ],
             "6": [
                 {
-                    "name": "Yoga S1",
+                    "name": "Yoga",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Lane, Holly",
@@ -10891,7 +10454,7 @@
             ],
             "7": [
                 {
-                    "name": "Yoga S1",
+                    "name": "Yoga",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "McKean, Allison J",
@@ -10899,16 +10462,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Yoga S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Yoga S2",
+                    "name": "Yoga",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "McKean, Allison J",
@@ -10917,7 +10474,7 @@
             ],
             "3": [
                 {
-                    "name": "Yoga S2",
+                    "name": "Yoga",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Lane, Holly",
@@ -10926,7 +10483,7 @@
             ],
             "4": [
                 {
-                    "name": "Yoga S2",
+                    "name": "Yoga",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Lane, Holly",
@@ -10935,7 +10492,7 @@
             ],
             "6": [
                 {
-                    "name": "Yoga S2",
+                    "name": "Yoga",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "McKean, Allison J",
@@ -10945,12 +10502,12 @@
         }
     },
     {
-        "name": "Student English Tutor S1",
+        "name": "Student English Tutor",
         "type": "8",
         "s1": {
             "6": [
                 {
-                    "name": "Student English Tutor S1",
+                    "name": "Student English Tutor",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Morris, Joel",
@@ -10958,16 +10515,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Student English Tutor S2",
-        "type": "8",
-        "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Student English Tutor S2",
+                    "name": "Student English Tutor",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Morris, Joel",
@@ -10992,13 +10543,13 @@
         }
     },
     {
-        "name": "Study Hall S2",
+        "name": "Study Hall",
         "type": "8",
         "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Study Hall S2",
+                    "name": "Study Hall",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Colehower, Alyssa Leigh",
@@ -11026,7 +10577,7 @@
                     "semester": "Year",
                     "period": 3,
                     "teacher": "Aldridge, Andrea L",
-                    "room": "E305"
+                    "room": "E304"
                 },
                 {
                     "name": "CP Senior Seminar: Lit and Writing (Teamed)",
@@ -11042,7 +10593,7 @@
                     "semester": "Year",
                     "period": 7,
                     "teacher": "Aldridge, Andrea L",
-                    "room": "E304"
+                    "room": "E305"
                 },
                 {
                     "name": "CP Senior Seminar: Lit and Writing (Teamed)",
@@ -11445,6 +10996,64 @@
         }
     },
     {
+        "name": "CP Algebra 1 (Teamed)",
+        "type": "3",
+        "year": {
+            "1": [
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 1,
+                    "teacher": "DeWolf, Jennifer Susan",
+                    "room": ""
+                },
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 1,
+                    "teacher": "Hamilton, Kari L",
+                    "room": "W306"
+                }
+            ],
+            "2": [
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 2,
+                    "teacher": "Hamilton, Kari L",
+                    "room": "W306"
+                }
+            ],
+            "3": [
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 3,
+                    "teacher": "DeWolf, Jennifer Susan",
+                    "room": ""
+                }
+            ],
+            "5": [
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 5,
+                    "teacher": "Robinson, Christopher A",
+                    "room": "W547"
+                }
+            ],
+            "7": [
+                {
+                    "name": "CP Algebra 1 (Teamed)",
+                    "semester": "Year",
+                    "period": 7,
+                    "teacher": "Robinson, Christopher A",
+                    "room": "W548"
+                }
+            ]
+        }
+    },
+    {
         "name": "CP Biology (Teamed)",
         "type": "4",
         "year": {
@@ -11559,13 +11168,13 @@
         }
     },
     {
-        "name": "Elements Of Lit/Film (REACH) S2",
+        "name": "Elements Of Lit/Film (REACH)",
         "type": "1",
         "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "Elements Of Lit/Film (REACH) S2",
+                    "name": "Elements Of Lit/Film (REACH)",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Harper, Molli",
@@ -11575,12 +11184,12 @@
         }
     },
     {
-        "name": "Elements Of Multi Cultural Lit (REACH) S1",
+        "name": "Elements Of Multi Cultural Lit (REACH)",
         "type": "1",
         "s1": {
             "7": [
                 {
-                    "name": "Elements Of Multi Cultural Lit (REACH) S1",
+                    "name": "Elements Of Multi Cultural Lit (REACH)",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Tanski, Monica D",
@@ -11666,12 +11275,12 @@
         }
     },
     {
-        "name": "CP American Government (Teamed) S1",
+        "name": "CP American Government (Teamed)",
         "type": "2",
         "s1": {
             "7": [
                 {
-                    "name": "CP American Government (Teamed) S1",
+                    "name": "CP American Government (Teamed)",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Masoni, Mark D",
@@ -11679,16 +11288,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP American Government (Teamed) S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "CP American Government (Teamed) S2",
+                    "name": "CP American Government (Teamed)",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Masoni, Mark D",
@@ -11698,12 +11301,12 @@
         }
     },
     {
-        "name": "CP World Geography (Teamed) S1",
+        "name": "CP World Geography (Teamed)",
         "type": "2",
         "s1": {
             "3": [
                 {
-                    "name": "CP World Geography (Teamed) S1",
+                    "name": "CP World Geography (Teamed)",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Carpenter, Shiloh",
@@ -11711,16 +11314,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "CP World Geography (Teamed) S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "CP World Geography (Teamed) S2",
+                    "name": "CP World Geography (Teamed)",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Carpenter, Shiloh",
@@ -11730,12 +11327,12 @@
         }
     },
     {
-        "name": "Elements of American Government S1",
+        "name": "Elements of American Government",
         "type": "2",
         "s1": {
             "7": [
                 {
-                    "name": "Elements of American Government S1",
+                    "name": "Elements of American Government",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Masoni, Mark D",
@@ -11743,16 +11340,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Elements of American Government S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "Elements of American Government S2",
+                    "name": "Elements of American Government",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Masoni, Mark D",
@@ -11762,13 +11353,13 @@
         }
     },
     {
-        "name": "Elements of Sociology (REACH) S2",
+        "name": "Elements of Sociology (REACH)",
         "type": "2",
         "s1": {},
         "s2": {
             "4": [
                 {
-                    "name": "Elements of Sociology (REACH) S2",
+                    "name": "Elements of Sociology (REACH)",
                     "semester": "S2",
                     "period": 4,
                     "teacher": "Harper, Molli",
@@ -11838,12 +11429,12 @@
         }
     },
     {
-        "name": "Practical American Government S1",
+        "name": "Practical American Government",
         "type": "2",
         "s1": {
             "6": [
                 {
-                    "name": "Practical American Government S1",
+                    "name": "Practical American Government",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Shapiro, Carolyn S",
@@ -11852,7 +11443,7 @@
             ],
             "8": [
                 {
-                    "name": "Practical American Government S1",
+                    "name": "Practical American Government",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Watson, Lindsey",
@@ -11860,16 +11451,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Practical American Government S2",
-        "type": "2",
-        "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Practical American Government S2",
+                    "name": "Practical American Government",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Watson, Lindsey",
@@ -11916,64 +11501,6 @@
         }
     },
     {
-        "name": "CP Algebra 1 (Teamed)",
-        "type": "3",
-        "year": {
-            "1": [
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 1,
-                    "teacher": "Hamilton, Kari L",
-                    "room": "W306"
-                },
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 1,
-                    "teacher": "DeWolf, Jennifer Susan",
-                    "room": "W551"
-                }
-            ],
-            "2": [
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 2,
-                    "teacher": "Hamilton, Kari L",
-                    "room": "W306"
-                }
-            ],
-            "3": [
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 3,
-                    "teacher": "DeWolf, Jennifer Susan",
-                    "room": "W551"
-                }
-            ],
-            "5": [
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 5,
-                    "teacher": "Robinson, Christopher A",
-                    "room": "W547"
-                }
-            ],
-            "7": [
-                {
-                    "name": "CP Algebra 1 (Teamed)",
-                    "semester": "Year",
-                    "period": 7,
-                    "teacher": "Robinson, Christopher A",
-                    "room": "W548"
-                }
-            ]
-        }
-    },
-    {
         "name": "CP Algebra 2 (Teamed)",
         "type": "3",
         "year": {
@@ -12006,7 +11533,16 @@
                     "name": "CP Geometry (Teamed)",
                     "semester": "Year",
                     "period": 2,
-                    "teacher": "Vanecko, Jaime W433 3 CP Geometry (Teamed) 3(A-E) 26-27 Vanecko, Jaime",
+                    "teacher": "Vanecko, Jaime",
+                    "room": "W433"
+                }
+            ],
+            "3": [
+                {
+                    "name": "CP Geometry (Teamed)",
+                    "semester": "Year",
+                    "period": 3,
+                    "teacher": "Vanecko, Jaime",
                     "room": "W433"
                 }
             ],
@@ -12177,12 +11713,12 @@
         }
     },
     {
-        "name": "Chemistry (Teamed) S1",
+        "name": "Chemistry (Teamed)",
         "type": "4",
         "s1": {
             "3": [
                 {
-                    "name": "Chemistry (Teamed) S1",
+                    "name": "Chemistry (Teamed)",
                     "semester": "S1",
                     "period": 3,
                     "teacher": "Cerva, Margaret J",
@@ -12254,13 +11790,13 @@
         }
     },
     {
-        "name": "Physics (Teamed) S2",
+        "name": "Physics (Teamed)",
         "type": "4",
         "s1": {},
         "s2": {
             "3": [
                 {
-                    "name": "Physics (Teamed) S2",
+                    "name": "Physics (Teamed)",
                     "semester": "S2",
                     "period": 3,
                     "teacher": "Cerva, Margaret J",
@@ -12303,12 +11839,12 @@
         }
     },
     {
-        "name": "Unified Theater S1",
+        "name": "Unified Theater",
         "type": "6",
         "s1": {
             "6": [
                 {
-                    "name": "Unified Theater S1",
+                    "name": "Unified Theater",
                     "semester": "S1",
                     "period": 6,
                     "teacher": "Burkart, Alex P",
@@ -12319,13 +11855,13 @@
         "s2": {}
     },
     {
-        "name": "Unified Visual Arts S2",
+        "name": "Unified Visual Arts",
         "type": "6",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Unified Visual Arts S2",
+                    "name": "Unified Visual Arts",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Watson, Lindsey",
@@ -12335,12 +11871,12 @@
         }
     },
     {
-        "name": "Elements of Health S1",
+        "name": "Elements of Health",
         "type": "7",
         "s1": {
             "8": [
                 {
-                    "name": "Elements of Health S1",
+                    "name": "Elements of Health",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Ortiz Lopez, Homero",
@@ -12351,20 +11887,20 @@
         "s2": {}
     },
     {
-        "name": "Elements of Physical Education S2",
+        "name": "Elements of Physical Education",
         "type": "7",
         "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Elements of Physical Education S2",
+                    "name": "Elements of Physical Education",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Ortiz Lopez, Homero",
                     "room": "E GYM"
                 },
                 {
-                    "name": "Elements of Physical Education S2",
+                    "name": "Elements of Physical Education",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Tanski, Monica D",
@@ -12374,20 +11910,20 @@
         }
     },
     {
-        "name": "Practical Health S2",
+        "name": "Practical Health",
         "type": "7",
         "s1": {},
         "s2": {
             "6": [
                 {
-                    "name": "Practical Health S2",
+                    "name": "Practical Health",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Chirico, Caitlin K",
                     "room": "E093"
                 },
                 {
-                    "name": "Practical Health S2",
+                    "name": "Practical Health",
                     "semester": "S2",
                     "period": 6,
                     "teacher": "Shapiro, Carolyn S",
@@ -12397,19 +11933,19 @@
         }
     },
     {
-        "name": "Unified PE S1",
+        "name": "Unified PE",
         "type": "7",
         "s1": {
             "7": [
                 {
-                    "name": "Unified PE S1",
+                    "name": "Unified PE",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Holmes, Seneca",
                     "room": "E GYM"
                 },
                 {
-                    "name": "Unified PE S1",
+                    "name": "Unified PE",
                     "semester": "S1",
                     "period": 7,
                     "teacher": "Lagrange, Sarah C",
@@ -12417,16 +11953,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Unified PE S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "7": [
                 {
-                    "name": "Unified PE S2",
+                    "name": "Unified PE",
                     "semester": "S2",
                     "period": 7,
                     "teacher": "Holmes, Seneca",
@@ -12436,19 +11966,19 @@
         }
     },
     {
-        "name": "Unified Swim Fitness S1",
+        "name": "Unified Swim Fitness",
         "type": "7",
         "s1": {
             "5": [
                 {
-                    "name": "Unified Swim Fitness S1",
+                    "name": "Unified Swim Fitness",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Ostedgaard, Garrett J",
                     "room": "POOL"
                 },
                 {
-                    "name": "Unified Swim Fitness S1",
+                    "name": "Unified Swim Fitness",
                     "semester": "S1",
                     "period": 5,
                     "teacher": "Shapiro, Carolyn S",
@@ -12456,23 +11986,17 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Unified Swim Fitness S2",
-        "type": "7",
-        "s1": {},
         "s2": {
             "5": [
                 {
-                    "name": "Unified Swim Fitness S2",
+                    "name": "Unified Swim Fitness",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Ostedgaard, Garrett J",
                     "room": "POOL"
                 },
                 {
-                    "name": "Unified Swim Fitness S2",
+                    "name": "Unified Swim Fitness",
                     "semester": "S2",
                     "period": 5,
                     "teacher": "Shapiro, Carolyn S",
@@ -12482,26 +12006,26 @@
         }
     },
     {
-        "name": "Academic Support Lab S1",
+        "name": "Academic Support Lab",
         "type": "8",
         "s1": {
             "8": [
                 {
-                    "name": "Academic Support Lab S1",
+                    "name": "Academic Support Lab",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Canham, Kathryn E",
                     "room": "E094"
                 },
                 {
-                    "name": "Academic Support Lab S1",
+                    "name": "Academic Support Lab",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Orzak, Blake",
                     "room": "E096"
                 },
                 {
-                    "name": "Academic Support Lab S1",
+                    "name": "Academic Support Lab",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Watson, Lindsey",
@@ -12509,30 +12033,24 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Academic Support Lab S2",
-        "type": "8",
-        "s1": {},
         "s2": {
             "8": [
                 {
-                    "name": "Academic Support Lab S2",
+                    "name": "Academic Support Lab",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Canham, Kathryn E",
                     "room": "E094"
                 },
                 {
-                    "name": "Academic Support Lab S2",
+                    "name": "Academic Support Lab",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Orzak, Blake",
                     "room": "E096"
                 },
                 {
-                    "name": "Academic Support Lab S2",
+                    "name": "Academic Support Lab",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Watson, Lindsey",
@@ -12542,12 +12060,12 @@
         }
     },
     {
-        "name": "Academic Support Lab (REACH) S1",
+        "name": "Academic Support Lab (REACH)",
         "type": "8",
         "s1": {
             "1": [
                 {
-                    "name": "Academic Support Lab (REACH) S1",
+                    "name": "Academic Support Lab (REACH)",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Harper, Molli",
@@ -12556,7 +12074,7 @@
             ],
             "8": [
                 {
-                    "name": "Academic Support Lab (REACH) S1",
+                    "name": "Academic Support Lab (REACH)",
                     "semester": "S1",
                     "period": 8,
                     "teacher": "Cullen, Tara J",
@@ -12564,16 +12082,10 @@
                 }
             ]
         },
-        "s2": {}
-    },
-    {
-        "name": "Academic Support Lab (REACH) S2",
-        "type": "8",
-        "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "Academic Support Lab (REACH) S2",
+                    "name": "Academic Support Lab (REACH)",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Harper, Molli",
@@ -12582,7 +12094,7 @@
             ],
             "8": [
                 {
-                    "name": "Academic Support Lab (REACH) S2",
+                    "name": "Academic Support Lab (REACH)",
                     "semester": "S2",
                     "period": 8,
                     "teacher": "Cullen, Tara J",
@@ -12592,12 +12104,12 @@
         }
     },
     {
-        "name": "CD I ACE Career Development S1",
+        "name": "CD I ACE Career Development",
         "type": "9",
         "s1": {
             "1": [
                 {
-                    "name": "CD I ACE Career Development S1",
+                    "name": "CD I ACE Career Development",
                     "semester": "S1",
                     "period": 1,
                     "teacher": "Carpenter, Shiloh",
@@ -12608,13 +12120,13 @@
         "s2": {}
     },
     {
-        "name": "FL I - ACE Financial Literacy S2",
+        "name": "FL I - ACE Financial Literacy",
         "type": "9",
         "s1": {},
         "s2": {
             "1": [
                 {
-                    "name": "FL I - ACE Financial Literacy S2",
+                    "name": "FL I - ACE Financial Literacy",
                     "semester": "S2",
                     "period": 1,
                     "teacher": "Carpenter, Shiloh",

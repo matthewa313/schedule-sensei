@@ -30,6 +30,10 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
 
   const selectsOff = (period) => selectedOffs[period - 1];
 
+  const doublePeriodConflictsWithSelectedOffs = (period) => (
+    selectsOff(period) || selectsOff(period + 1)
+  );
+
   const alreadyContains = (schedule, course) => (
     schedule.some((period) =>
       period.some((instance) =>
@@ -110,8 +114,8 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
               }
             });
           }
-          else if (selectedCourse.year[doublePer(period)]) { // is it 2 periods?
-            // Historically, two period courses have only been offered 1-2, 3-4, and 6-7.
+          else if (selectedCourse.year[doublePer(period)] && !doublePeriodConflictsWithSelectedOffs(period)) { // is it 2 periods?
+            // Consecutive double period offerings occupy both slots in the generated schedule.
             selectedCourse.year[doublePer(period)].forEach((course) => {
               if (selectedTeachers[course.name][course.teacher]) {
                 let newSchedule = [...schedule];
@@ -122,9 +126,6 @@ export function generateSchedules(selectedCourses, selectedOffs,  requiredOffOve
             });
           }
         }
-        /** When it comes to double period courses, we have an interesting question. Consider AP Physics C in periods 1-2. If the user wants period 2 off, should the system AP Physics C in periods 1-2 from the schedule?
-         * We prefer to give students too many schedules over not enough, so we do not bother to remove it.
-         */
         else if (selectedCourse.s1 && selectedCourse.s1[period]) {
           selectedCourse.s1[period].forEach((s1) => {
             if (selectedTeachers[s1.name][s1.teacher]) {
