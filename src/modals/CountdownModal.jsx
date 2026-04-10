@@ -36,14 +36,14 @@ const CountdownModal = ({isOpen, handleClose}) => {
 
         {value === 0 && (
           <div>
-            <CountdownTimer targetUTC={Date.UTC(2025,3,11)}/>
+            <CountdownTimer targetUTC={Date.UTC(2026,3,11)}/>
 
           </div>)}
 
 
         {value === 1 && (
           <div>
-            <CountdownTimer targetUTC={Date.UTC(2025,3,23)}/>
+            <CountdownTimer targetUTC={Date.UTC(2026,3,23)}/>
 
           </div>)}
 

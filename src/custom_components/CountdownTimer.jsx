@@ -7,16 +7,16 @@ import {
 
 } from '@mui/material';
 
-const CountdownTimer = ({ targetUTC }: { targetUTC: number }) => {
+const CountdownTimer = ({ targetUTC }) => {
   const calculateTimeLeft = () => {
     const offset = new Date().getTimezoneOffset() * 60 * 1000;
-    const now = Date.now() - offset //accounting for local timezones;
+    const now = Date.now() - offset; // accounting for local timezones
     const target = targetUTC;
     const difference = target - now;
     
 
-    //when Master Schedule comes out; a reference point for progress bar calculations
-    const start = Date.UTC(2025, 3, 2);
+    // when Master Schedule comes out; a reference point for progress bar calculations
+    const start = Date.UTC(2026, 3, 2);
 
 
     if (difference <= 0) {
