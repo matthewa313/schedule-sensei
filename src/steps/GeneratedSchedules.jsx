@@ -90,7 +90,7 @@ const csvCellRep = (period) => {
     const s1 = (period[0] &&
       period[0].name + ' — ' + period[0].teacher.replace(',','').replace(/ .*/,'')
     ) || '—';
-    const s2 = (period[0] &&
+    const s2 = (period[1] &&
       period[1].name + ' — ' + period[1].teacher.replace(',','').replace(/ .*/,'')
     ) || '—';
     return s1 + ' | ' + s2;
@@ -138,8 +138,8 @@ function ResultsRow(props) {
             {open ? <KeyboardArrowDown /> : <KeyboardArrowRight />}
           </IconButton>
         </TableCell>
-        {props.schedule.map((period) => (
-          <TableCell className='noBorderBottom' key={3}>
+        {props.schedule.map((period, i) => (
+          <TableCell className='noBorderBottom' key={i}>
             {basicCellRep(period)}
           </TableCell>
         ))}
@@ -161,7 +161,7 @@ function ResultsRow(props) {
               </TableHead>
               <TableBody>
                 {props.schedule.map((periodCourses, periodNum) => (
-                  <ExpandedRow periodCourses={periodCourses} periodNum={periodNum} key={3}/>
+                  <ExpandedRow periodCourses={periodCourses} periodNum={periodNum} key={periodNum}/>
                 ))}
               </TableBody>
             </Table>
@@ -249,7 +249,7 @@ export default function GeneratedSchedules(props) {
                   total={props.schedules.length}
                   page={page}
                   rowsPerPage={rowsPerPage}
-                  key={3}
+                  key={index}
                 />
               ))}
             </TableBody>
